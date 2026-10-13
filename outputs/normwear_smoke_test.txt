@@ -1,0 +1,77 @@
+==========================================
+REAL NORMWEAR FOUNDATION MODEL
+==========================================
+
+Model class:
+NormWear.main_model.NormWearModel (Backbone: NormWear.modules.normwear.NormWear)
+
+Checkpoint:
+/Users/mohammedriyaan/capstone-model-demo/checkpoints/normwear_pretrain_ckpt.pth
+
+Repository commit:
+07517fcb13def8c89cb586128359cec02f86ec8d
+
+Python:
+3.11.17
+
+PyTorch:
+2.14.1
+
+Device:
+CPU
+
+Total parameters:
+136,112,328
+
+Trainable parameters:
+135,395,528
+
+==========================================
+
+==========================================
+NORMWEAR SMOKE TEST
+==========================================
+
+Input shape:
+[2, 3, 128]
+
+Input dtype:
+torch.float32
+
+Output keys:
+['cwt_scalogram', 'encoder_hidden_layers', 'encoder_signal_embeddings', 'cls_token_embedding', 'mean_pooled_embedding']
+
+For each output:
+cwt_scalogram → [2, 3, 3, 127, 65]
+encoder_hidden_layers → 12 layers (each [2, 3, 183, 768])
+encoder_signal_embeddings → [2, 3, 183, 768]
+cls_token_embedding → [2, 3, 768]
+mean_pooled_embedding → [2, 3, 768]
+
+Encoder output:
+encoder_signal_embeddings
+
+Encoder output shape:
+[2, 3, 183, 768]
+
+NaN count:
+0
+
+Inf count:
+0
+
+==========================================
+
+==========================================
+EMBEDDING NUMERIC VERIFICATION
+==========================================
+Is not None: True
+Is Tensor: True
+All values finite: True
+Mean: -0.005703
+Std:  0.548067
+Min:  -9.655512
+Max:  8.112532
+==========================================
+
+MPS Secondary Check: SUCCESS - Output shape: [2, 3, 183, 768] (when CPU tensor input is passed)

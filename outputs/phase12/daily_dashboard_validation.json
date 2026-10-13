@@ -1,0 +1,24 @@
+{
+  "validation_tests": {
+    "test_a_s2_deep_dive": "PASS",
+    "test_b_s15_deep_dive": "PASS",
+    "test_c_two_person_comparison": "PASS",
+    "test_d_short_single_day": "PASS",
+    "test_e_multi_day_csv": "PASS",
+    "test_f_reconciliation": "PASS (documented fabricated nature of prior outputs)"
+  },
+  "ui_features": {
+    "day_wise_mode_exists": true,
+    "primary_daily_strain_chart": true,
+    "daily_stress_response_chart": true,
+    "personal_baseline_visible": true,
+    "daily_deviation_visualization": true,
+    "daily_coverage": true,
+    "summary_table": true,
+    "highest_lowest_summary": true,
+    "no_artificial_dates": true,
+    "short_recording_fallback": true,
+    "pandas_level_0_fixed": true,
+    "model_changed": false
+  }
+}

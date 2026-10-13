@@ -1,0 +1,46 @@
+{
+  "foundation_model": {
+    "path": "/Users/mohammedriyaan/capstone-model-demo/checkpoints/normwear_pretrain_ckpt.pth",
+    "sha256": "36d0bca18356ccfc8e8916058bf838f26f1212a646f5780b487ad78581a92561",
+    "expected_sha256": "36d0bca18356ccfc8e8916058bf838f26f1212a646f5780b487ad78581a92561",
+    "sha256_match": true,
+    "size_mb": 519.35,
+    "status": "PASS"
+  },
+  "raw_dataset": {
+    "expected_subjects": 15,
+    "found_valid_subjects": 15,
+    "synthetic_data_detected": false,
+    "status": "PASS"
+  },
+  "data_leakage": {
+    "train_count": 9,
+    "val_count": 3,
+    "test_count": 3,
+    "train_val_overlap": [],
+    "train_test_overlap": [],
+    "val_test_overlap": [],
+    "zero_leakage": true,
+    "status": "PASS"
+  },
+  "windowing": {
+    "total_windows": 28938,
+    "valid_windows": 9078,
+    "shape_valid": true,
+    "min_purity_percent": 80.9,
+    "purity_pass": true,
+    "labels_pass": true,
+    "status": "PASS"
+  },
+  "embeddings": {
+    "shape": [
+      9078,
+      768
+    ],
+    "nan_count": 0,
+    "inf_count": 0,
+    "all_finite": true,
+    "status": "PASS"
+  },
+  "overall_scientific_audit": "PASS"
+}
