@@ -1,0 +1,30 @@
+# Official Subject Partition for Downstream Stress Response Classification
+# Strict subject-independent separation: Zero subject overlap between partitions
+
+train_subjects:
+  - S2
+  - S3
+  - S4
+  - S5
+  - S6
+  - S7
+  - S8
+  - S9
+  - S10
+
+validation_subjects:
+  - S11
+  - S13
+  - S14
+
+test_subjects:
+  - S15
+  - S16
+  - S17
+
+split_metadata:
+  train_count: 9
+  validation_count: 3
+  test_count: 3
+  total_count: 15
+  rationale: "Subject-independent split preserving class proportions without intra-subject data leakage across partitions."
