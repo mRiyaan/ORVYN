@@ -1,0 +1,8 @@
+[2026-10-07] NormWear Embedding Extraction Log
+Device: MPS (Apple Silicon Metal Performance Shaders)
+Batch Size: 64
+Total Windows: 9078
+Throughput: 7.8 windows/second
+Total Extraction Time: 1158.13s
+Foundation Checkpoint SHA-256: 36d0bca18356ccfc8e8916058bf838f26f1212a646f5780b487ad78581a92561
+Status: COMPLETED

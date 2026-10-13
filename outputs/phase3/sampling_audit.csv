@@ -1,0 +1,166 @@
+subject_id,device,channel,source_sampling_rate_hz,sample_count,estimated_duration_seconds,sampling_rate_source,status
+S2,chest,ACC,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,chest,ECG,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,chest,EMG,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,chest,EDA,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,chest,Temp,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,chest,Resp,700,4255300,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,wrist,ACC,32,194528,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,wrist,BVP,64,389056,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,wrist,EDA,4,24316,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,wrist,TEMP,4,24316,6079.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S2,label_stream,label,700,4255300,6079.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S3,chest,ACC,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,chest,ECG,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,chest,EMG,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,chest,EDA,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,chest,Temp,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,chest,Resp,700,4545100,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,wrist,ACC,32,207776,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,wrist,BVP,64,415552,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,wrist,EDA,4,25972,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,wrist,TEMP,4,25972,6493.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S3,label_stream,label,700,4545100,6493.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S4,chest,ACC,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,chest,ECG,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,chest,EMG,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,chest,EDA,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,chest,Temp,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,chest,Resp,700,4496100,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,wrist,ACC,32,205536,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,wrist,BVP,64,411072,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,wrist,EDA,4,25692,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,wrist,TEMP,4,25692,6423.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S4,label_stream,label,700,4496100,6423.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S5,chest,ACC,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,chest,ECG,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,chest,EMG,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,chest,EDA,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,chest,Temp,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,chest,Resp,700,4380600,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,wrist,ACC,32,200256,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,wrist,BVP,64,400512,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,wrist,EDA,4,25032,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,wrist,TEMP,4,25032,6258.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S5,label_stream,label,700,4380600,6258.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S6,chest,ACC,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,chest,ECG,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,chest,EMG,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,chest,EDA,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,chest,Temp,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,chest,Resp,700,4949700,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,wrist,ACC,32,226272,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,wrist,BVP,64,452544,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,wrist,EDA,4,28284,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,wrist,TEMP,4,28284,7071.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S6,label_stream,label,700,4949700,7071.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S7,chest,ACC,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,chest,ECG,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,chest,EMG,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,chest,EDA,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,chest,Temp,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,chest,Resp,700,3666600,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,wrist,ACC,32,167616,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,wrist,BVP,64,335232,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,wrist,EDA,4,20952,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,wrist,TEMP,4,20952,5238.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S7,label_stream,label,700,3666600,5238.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S8,chest,ACC,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,chest,ECG,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,chest,EMG,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,chest,EDA,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,chest,Temp,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,chest,Resp,700,3826200,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,wrist,ACC,32,174912,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,wrist,BVP,64,349824,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,wrist,EDA,4,21864,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,wrist,TEMP,4,21864,5466.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S8,label_stream,label,700,3826200,5466.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S9,chest,ACC,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,chest,ECG,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,chest,EMG,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,chest,EDA,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,chest,Temp,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,chest,Resp,700,3656100,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,wrist,ACC,32,167136,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,wrist,BVP,64,334272,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,wrist,EDA,4,20892,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,wrist,TEMP,4,20892,5223.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S9,label_stream,label,700,3656100,5223.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S10,chest,ACC,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,chest,ECG,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,chest,EMG,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,chest,EDA,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,chest,Temp,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,chest,Resp,700,3847200,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,wrist,ACC,32,175872,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,wrist,BVP,64,351744,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,wrist,EDA,4,21984,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,wrist,TEMP,4,21984,5496.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S10,label_stream,label,700,3847200,5496.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S11,chest,ACC,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,chest,ECG,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,chest,EMG,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,chest,EDA,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,chest,Temp,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,chest,Resp,700,3663100,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,wrist,ACC,32,167456,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,wrist,BVP,64,334912,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,wrist,EDA,4,20932,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,wrist,TEMP,4,20932,5233.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S11,label_stream,label,700,3663100,5233.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S13,chest,ACC,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,chest,ECG,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,chest,EMG,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,chest,EDA,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,chest,Temp,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,chest,Resp,700,3875900,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,wrist,ACC,32,177184,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,wrist,BVP,64,354368,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,wrist,EDA,4,22148,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,wrist,TEMP,4,22148,5537.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S13,label_stream,label,700,3875900,5537.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S14,chest,ACC,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,chest,ECG,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,chest,EMG,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,chest,EDA,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,chest,Temp,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,chest,Resp,700,3883600,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,wrist,ACC,32,177536,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,wrist,BVP,64,355072,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,wrist,EDA,4,22192,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,wrist,TEMP,4,22192,5548.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S14,label_stream,label,700,3883600,5548.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S15,chest,ACC,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,chest,ECG,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,chest,EMG,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,chest,EDA,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,chest,Temp,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,chest,Resp,700,3676400,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,wrist,ACC,32,168064,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,wrist,BVP,64,336128,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,wrist,EDA,4,21008,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,wrist,TEMP,4,21008,5252.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S15,label_stream,label,700,3676400,5252.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S16,chest,ACC,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,chest,ECG,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,chest,EMG,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,chest,EDA,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,chest,Temp,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,chest,Resp,700,3941700,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,wrist,ACC,32,180192,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,wrist,BVP,64,360384,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,wrist,EDA,4,22524,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,wrist,TEMP,4,22524,5631.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S16,label_stream,label,700,3941700,5631.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED
+S17,chest,ACC,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,chest,ECG,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,chest,EMG,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,chest,EDA,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,chest,Temp,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,chest,Resp,700,4144000,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,wrist,ACC,32,189440,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,wrist,BVP,64,378880,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,wrist,EDA,4,23680,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,wrist,TEMP,4,23680,5920.0,WESAD Readme / Empatica & RespiBAN Specifications,VERIFIED
+S17,label_stream,label,700,4144000,5920.0,WESAD Readme (Synchronized to 700 Hz Chest stream),VERIFIED

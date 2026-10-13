@@ -1,0 +1,9 @@
+channel,device,signal_type,source_sampling_rate,candidate_for_normwear,reason,phase4_action
+BVP,wrist,Photoplethysmography (PPG/BVP),64 Hz,YES (Primary),Matches NormWear native foundation pretraining domain (PPG). Native 64 Hz directly aligns with NormWear 64 Hz evaluation contract.,"Retain native 64 Hz, normalize via train split statistics."
+EDA,wrist,Electrodermal Activity (Skin Conductance),4 Hz,YES (Secondary),"Gold standard wearable sympathetic arousal marker. Resampling to 64 Hz required for synchronized multi-channel tensor [B, C, L].",Resample 4 Hz -> 64 Hz using polyphase / cubic interpolation.
+TEMP,wrist,Skin Temperature,4 Hz,YES (Secondary),Peripheral vasoconstriction biomarker during acute stress. Resampling to 64 Hz required.,Resample 4 Hz -> 64 Hz using linear / cubic interpolation.
+ACC,wrist,3-Axis Accelerometer (IMU),32 Hz,YES (Motion Reference / Artifact Filtering),Wrist motion artifacts heavily corrupt optical PPG/BVP. Triaxial acceleration enables motion-aware stress discernment.,Resample 32 Hz -> 64 Hz (2x upsampling).
+ECG,chest,Electrocardiogram (Cardiac Electrical),700 Hz,OPTIONAL (Benchmark Reference),"Chest-worn modality; high diagnostic quality for HRV ground truth, but less relevant for strictly wrist-worn consumer wearable deployment.",Downsample 700 Hz -> 64 Hz with anti-aliasing filter if evaluated.
+EDA,chest,Electrodermal Activity,700 Hz,OPTIONAL (Benchmark Reference),Chest location. Wrist EDA is preferred for wearable product fidelity.,Downsample 700 Hz -> 64 Hz if used.
+EMG,chest,Electromyogram (Trapezius muscle tension),700 Hz,NO (First Pass),Requires electrodes on upper trapezius. Not available on wrist wearables.,Exclude from first wearable downstream model.
+RESP,chest,Respiration (Chest expansion band),700 Hz,NO (First Pass),Requires chest respiration band. Not available on consumer smartwatches.,Exclude from first wearable downstream model.

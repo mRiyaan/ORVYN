@@ -1,0 +1,27 @@
+{
+  "total_windows": 9078,
+  "device": "mps",
+  "total_time_seconds": 1158.13,
+  "windows_per_second": 7.84,
+  "channel_mean_shape": [
+    9078,
+    768
+  ],
+  "channel_wise_shape": [
+    9078,
+    3,
+    768
+  ],
+  "channel_concat_shape": [
+    9078,
+    2304
+  ],
+  "nan_count": 0,
+  "inf_count": 0,
+  "all_finite": true,
+  "zero_rows_count": 0,
+  "mean_val": -0.003620121395215392,
+  "std_val": 0.5468734502792358,
+  "min_val": -6.998800754547119,
+  "max_val": 6.738801956176758
+}

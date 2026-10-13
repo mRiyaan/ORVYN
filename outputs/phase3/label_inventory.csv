@@ -1,0 +1,120 @@
+subject_id,label_code,label_name,sample_count,percentage,estimated_duration_seconds
+S2,0,undefined / transient,2142701,50.3537,3061.0
+S2,1,baseline,800800,18.8189,1144.0
+S2,2,stress,430500,10.1168,615.0
+S2,3,amusement,253400,5.9549,362.0
+S2,4,meditation,537599,12.6336,768.0
+S2,6,ignore / rest,45500,1.0693,65.0
+S2,7,ignore / rest,44800,1.0528,64.0
+S3,0,undefined / transient,2345699,51.6094,3351.0
+S3,1,baseline,798000,17.5574,1140.0
+S3,2,stress,448000,9.8568,640.0
+S3,3,amusement,262500,5.7755,375.0
+S3,4,meditation,546001,12.013,780.0
+S3,5,ignore / rest,51100,1.1243,73.0
+S3,6,ignore / rest,46900,1.0319,67.0
+S3,7,ignore / rest,46900,1.0319,67.0
+S4,0,undefined / transient,2314199,51.4713,3306.0
+S4,1,baseline,810601,18.029,1158.0
+S4,2,stress,444500,9.8863,635.0
+S4,3,amusement,260400,5.7917,372.0
+S4,4,meditation,563500,12.5331,805.0
+S4,5,ignore / rest,35699,0.794,51.0
+S4,6,ignore / rest,30800,0.685,44.0
+S4,7,ignore / rest,36401,0.8096,52.0
+S5,0,undefined / transient,2142700,48.9134,3061.0
+S5,1,baseline,838600,19.1435,1198.0
+S5,2,stress,451500,10.3068,645.0
+S5,3,amusement,261800,5.9764,374.0
+S5,4,meditation,555800,12.6878,794.0
+S5,5,ignore / rest,50401,1.1506,72.0
+S5,6,ignore / rest,30799,0.7031,44.0
+S5,7,ignore / rest,49000,1.1186,70.0
+S6,0,undefined / transient,2733499,55.2255,3905.0
+S6,1,baseline,826000,16.6879,1180.0
+S6,2,stress,455000,9.1925,650.0
+S6,3,amusement,260400,5.2609,372.0
+S6,4,meditation,550900,11.13,787.0
+S6,5,ignore / rest,40600,0.8203,58.0
+S6,6,ignore / rest,35001,0.7071,50.0
+S6,7,ignore / rest,48300,0.9758,69.0
+S7,0,undefined / transient,1472098,40.1489,2103.0
+S7,1,baseline,830200,22.6422,1186.0
+S7,2,stress,448000,12.2184,640.0
+S7,3,amusement,260401,7.102,372.0
+S7,4,meditation,553001,15.0821,790.0
+S7,5,ignore / rest,35000,0.9546,50.0
+S7,6,ignore / rest,30799,0.84,44.0
+S7,7,ignore / rest,37101,1.0119,53.0
+S8,0,undefined / transient,1616300,42.243,2309.0
+S8,1,baseline,818300,21.3868,1169.0
+S8,2,stress,469000,12.2576,670.0
+S8,3,amusement,258999,6.7691,370.0
+S8,4,meditation,557200,14.5628,796.0
+S8,5,ignore / rest,34300,0.8965,49.0
+S8,6,ignore / rest,35701,0.9331,51.0
+S8,7,ignore / rest,36400,0.9513,52.0
+S9,0,undefined / transient,1435700,39.2686,2051.0
+S9,1,baseline,826000,22.5924,1180.0
+S9,2,stress,451500,12.3492,645.0
+S9,3,amusement,260400,7.1223,372.0
+S9,4,meditation,555100,15.1828,793.0
+S9,5,ignore / rest,42000,1.1488,60.0
+S9,6,ignore / rest,43400,1.1871,62.0
+S9,7,ignore / rest,42000,1.1488,60.0
+S10,0,undefined / transient,1589000,41.3028,2270.0
+S10,1,baseline,826000,21.4702,1180.0
+S10,2,stress,507500,13.1914,725.0
+S10,3,amusement,260400,6.7686,372.0
+S10,4,meditation,557200,14.4833,796.0
+S10,5,ignore / rest,35700,0.9279,51.0
+S10,6,ignore / rest,31500,0.8188,45.0
+S10,7,ignore / rest,39900,1.0371,57.0
+S11,0,undefined / transient,1443400,39.4038,2062.0
+S11,1,baseline,826000,22.5492,1180.0
+S11,2,stress,476000,12.9945,680.0
+S11,3,amusement,257600,7.0323,368.0
+S11,4,meditation,553701,15.1156,791.0
+S11,5,ignore / rest,35000,0.9555,50.0
+S11,6,ignore / rest,36399,0.9937,52.0
+S11,7,ignore / rest,35000,0.9555,50.0
+S13,0,undefined / transient,1679300,43.3267,2399.0
+S13,1,baseline,826001,21.3112,1180.0
+S13,2,stress,464800,11.9921,664.0
+S13,3,amusement,267400,6.899,382.0
+S13,4,meditation,556499,14.3579,795.0
+S13,5,ignore / rest,34300,0.885,49.0
+S13,6,ignore / rest,33600,0.8669,48.0
+S13,7,ignore / rest,14000,0.3612,20.0
+S14,0,undefined / transient,1648499,42.4477,2355.0
+S14,1,baseline,826000,21.2689,1180.0
+S14,2,stress,472500,12.1665,675.0
+S14,3,amusement,260401,6.7051,372.0
+S14,4,meditation,555800,14.3115,794.0
+S14,5,ignore / rest,44100,1.1355,63.0
+S14,6,ignore / rest,38500,0.9913,55.0
+S14,7,ignore / rest,37800,0.9733,54.0
+S15,0,undefined / transient,1457401,39.6421,2082.0
+S15,1,baseline,822500,22.3724,1175.0
+S15,2,stress,480200,13.0617,686.0
+S15,3,amusement,260400,7.083,372.0
+S15,4,meditation,555799,15.118,794.0
+S15,5,ignore / rest,35000,0.952,50.0
+S15,6,ignore / rest,32900,0.8949,47.0
+S15,7,ignore / rest,32200,0.8759,46.0
+S16,0,undefined / transient,1717100,43.5624,2453.0
+S16,1,baseline,826000,20.9554,1180.0
+S16,2,stress,471101,11.9517,673.0
+S16,3,amusement,257600,6.5353,368.0
+S16,4,meditation,554399,14.065,792.0
+S16,5,ignore / rest,38500,0.9767,55.0
+S16,6,ignore / rest,39900,1.0123,57.0
+S16,7,ignore / rest,37100,0.9412,53.0
+S17,0,undefined / transient,1917301,46.2669,2739.0
+S17,1,baseline,826700,19.9493,1181.0
+S17,2,stress,506100,12.2128,723.0
+S17,3,amusement,260400,6.2838,372.0
+S17,4,meditation,511700,12.348,731.0
+S17,5,ignore / rest,40600,0.9797,58.0
+S17,6,ignore / rest,41299,0.9966,59.0
+S17,7,ignore / rest,39900,0.9628,57.0
