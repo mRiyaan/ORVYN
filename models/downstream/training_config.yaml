@@ -1,0 +1,13 @@
+class_0_name: baseline
+class_1_name: stress
+classification_task: binary_baseline_vs_stress
+model_type: xgboost
+xgb_params:
+  colsample_bytree: 0.8
+  eval_metric: logloss
+  learning_rate: 0.08
+  max_depth: 4
+  n_estimators: 150
+  n_jobs: -1
+  random_state: 42
+  subsample: 0.8

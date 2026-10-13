@@ -1,0 +1,56 @@
+{
+  "S2": {
+    "eda_mean": 0.29716911911964417,
+    "temp_mean": 35.78699493408203,
+    "hr_bpm": 78.82714080810547,
+    "baseline_window_count": 379
+  },
+  "S3": {
+    "eda_mean": 1.7341394424438477,
+    "temp_mean": 33.0088005065918,
+    "hr_bpm": 68.54351043701172,
+    "baseline_window_count": 375
+  },
+  "S4": {
+    "eda_mean": 0.13376910984516144,
+    "temp_mean": 32.99348068237305,
+    "hr_bpm": 66.71910858154297,
+    "baseline_window_count": 372
+  },
+  "S5": {
+    "eda_mean": 0.8238757252693176,
+    "temp_mean": 35.019630432128906,
+    "hr_bpm": 71.38748168945312,
+    "baseline_window_count": 397
+  },
+  "S6": {
+    "eda_mean": 0.7051991820335388,
+    "temp_mean": 33.29310989379883,
+    "hr_bpm": 70.27265167236328,
+    "baseline_window_count": 392
+  },
+  "S7": {
+    "eda_mean": 4.652493476867676,
+    "temp_mean": 33.963226318359375,
+    "hr_bpm": 72.65179443359375,
+    "baseline_window_count": 394
+  },
+  "S8": {
+    "eda_mean": 0.33174610137939453,
+    "temp_mean": 33.6525993347168,
+    "hr_bpm": 66.20712280273438,
+    "baseline_window_count": 385
+  },
+  "S9": {
+    "eda_mean": 0.26592501997947693,
+    "temp_mean": 34.01374053955078,
+    "hr_bpm": 73.79515075683594,
+    "baseline_window_count": 388
+  },
+  "S10": {
+    "eda_mean": 0.40327343344688416,
+    "temp_mean": 33.710182189941406,
+    "hr_bpm": 86.74012756347656,
+    "baseline_window_count": 387
+  }
+}

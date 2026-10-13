@@ -1,0 +1,4 @@
+subject_id,total_windows,stress_windows,baseline_windows,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc,brier_score
+S15,617,228,389,0.658,0.5473,0.7179,0.1228,0.2097,0.6853,0.5603,0.2314
+S16,612,222,390,0.8775,0.834,0.9804,0.6757,0.8,0.9351,0.9251,0.0985
+S17,621,238,383,0.6618,0.5588,1.0,0.1176,0.2105,1.0,1.0,0.1979

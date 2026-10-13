@@ -1,0 +1,14 @@
+training:
+  algorithm: "XGBoost"
+  random_seed: 42
+  metrics:
+    - "accuracy"
+    - "balanced_accuracy"
+    - "f1_score"
+    - "roc_auc"
+  hyperparameters:
+    max_depth: 6
+    learning_rate: 0.1
+    n_estimators: 100
+    objective: "binary:logistic"
+    eval_metric: "logloss"

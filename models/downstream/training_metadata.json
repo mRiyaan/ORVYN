@@ -1,0 +1,68 @@
+{
+  "dataset": "WESAD Downstream Stress Classification",
+  "primary_model": "models/downstream/stress_response_xgb.json",
+  "partitions": {
+    "train_samples": 5393,
+    "val_samples": 1835,
+    "test_samples": 1850,
+    "train_subjects": [
+      "S2",
+      "S3",
+      "S4",
+      "S5",
+      "S6",
+      "S7",
+      "S8",
+      "S9",
+      "S10"
+    ],
+    "val_subjects": [
+      "S11",
+      "S13",
+      "S14"
+    ],
+    "test_subjects": [
+      "S15",
+      "S16",
+      "S17"
+    ]
+  },
+  "experiments_summary": {
+    "Experiment A (NormWear 768-D)": {
+      "accuracy": 0.6027,
+      "balanced_accuracy": 0.6154,
+      "precision": 0.4655,
+      "recall": 0.6611,
+      "f1_score": 0.5464,
+      "roc_auc": 0.6889,
+      "true_positives": 439,
+      "false_positives": 504,
+      "true_negatives": 667,
+      "false_negatives": 225
+    },
+    "Experiment B (Physiology 20-D)": {
+      "accuracy": 0.6392,
+      "balanced_accuracy": 0.5015,
+      "precision": 1.0,
+      "recall": 0.003,
+      "f1_score": 0.006,
+      "roc_auc": 0.7669,
+      "true_positives": 2,
+      "false_positives": 0,
+      "true_negatives": 1171,
+      "false_negatives": 662
+    },
+    "Experiment C (Fusion 788-D)": {
+      "accuracy": 0.6512,
+      "balanced_accuracy": 0.5181,
+      "precision": 1.0,
+      "recall": 0.0361,
+      "f1_score": 0.0698,
+      "roc_auc": 0.6781,
+      "true_positives": 24,
+      "false_positives": 0,
+      "true_negatives": 1171,
+      "false_negatives": 640
+    }
+  }
+}

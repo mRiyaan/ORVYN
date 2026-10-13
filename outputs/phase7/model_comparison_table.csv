@@ -1,0 +1,4 @@
+model,accuracy,balanced_accuracy,precision,recall,f1,roc_auc,pr_auc,brier_score
+Experiment A (NormWear Embeddings 768-D),0.8443,0.8556,0.7387,0.8997,0.8113,0.94,0.8857,0.099
+Experiment B (Handcrafted Physio 20-D),0.7195,0.6228,1.0,0.2456,0.3944,0.8977,0.8519,0.2026
+Experiment C (NormWear + Physio Fusion 788-D),0.7319,0.6437,0.9364,0.2994,0.4537,0.8708,0.8118,0.1762
