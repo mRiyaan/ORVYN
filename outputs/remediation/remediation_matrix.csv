@@ -1,0 +1,13 @@
+original_phase,requirement,implemented,partially_implemented,missing,evidence_file,evidence_artifact,required_change,priority,status_before_fix,status_after_fix
+Phase 8,Personal baseline robust calculation from real data,YES,NO,NO,src/personal_baseline_engine.py,models/personal_profiles/baseline_profiles.json,None,Low,PASS,PENDING
+Phase 8,Unit tests for baseline math,NO,YES,NO,tests/test_baseline_deviations.py,None,Rename to test_baseline.py and ensure 100% test coverage of cases,Medium,PARTIAL,PENDING
+Phase 8,Baseline artifacts reproducibility,YES,NO,NO,src/personal_baseline_engine.py,models/personal_profiles/baseline_profiles.json,None,Low,PASS,PENDING
+Phase 9,Real-time inference engine consistency,YES,NO,NO,src/inference_engine.py,None,None,Low,PASS,PENDING
+Phase 9,Daily aggregation using real dates (no fabrication),NO,NO,YES,outputs/phase9/daily_outputs.csv,None,Remove fabricated daily outputs and replace with real-timestamp logic,High,MISSING,PENDING
+Phase 10,CSV Upload/Replay using real ML pipeline,NO,NO,YES,app/dashboard.py,None,Replace synthetic dashboard mock with real end-to-end inference for CSV,High,MISSING,PENDING
+Phase 10,Pandas level_0 index error,YES,NO,NO,app/dashboard.py,None,None,Low,PASS,PENDING
+Phase 11,Strict CSV validation with 7 cases,NO,YES,NO,src/input_validation.py,tests/test_csv_validation.py,Rename test file to test_input_validation.py and ensure missing data halts pipeline,High,PARTIAL,PENDING
+Phase 12,Day-Wise personalized dashboard,NO,YES,NO,app/dashboard.py,outputs/phase12/day_by_day_dashboard_report.md,Ensure it plots real dates from CSV or uses session fallback for WESAD,High,PARTIAL,PENDING
+Phase 16,Artifact audit provenance,NO,YES,NO,outputs/phase16/artifact_audit.csv,None,Add provenance for artifacts used by day-wise dashboard,Medium,PARTIAL,PENDING
+Phase 17,Project structure & contracts,YES,NO,NO,outputs/phase17/artifact_contracts_report.md,None,Update to include remediation outputs,Medium,PASS,PENDING
+Phase 18,README distinguishes PRETRAINED vs OUR WORK vs FUTURE,NO,YES,NO,README.md,None,Audit and refine README to exactly match validated capabilities without claiming unverified future work,High,PARTIAL,PENDING

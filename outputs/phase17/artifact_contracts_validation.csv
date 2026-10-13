@@ -1,0 +1,6 @@
+contract_name,artifact,expected_schema,observed_schema,status
+Window Tensor Contract,data/processed/wesad_windows/windows.npy,"Tensor [N, 3, 384] float32 (BVP, EDA, TEMP @ 64 Hz, 6.0s)","Shape (28938, 3, 384), dtype float32",PASS
+Foundation Embedding Contract,data/processed/embeddings/normwear_embeddings.npy,"Matrix [N, 768] float32, zero NaNs, NormWear ViT CLS","Shape (9078, 768), dtype float32, zero NaNs: True",PASS
+Personal Profile Schema Contract,models/personal_profiles/baseline_profiles.json,JSON dict per subject with 768-D centroid + physio mean/std,15 calibrated subjects with intact 768-D centroids,PASS
+Downstream Model Contract,models/downstream/stress_response_xgb.json & scaler_params.json,XGBoost JSON + StandardScaler (20 explicit physio channels),"XGBoost model file present, scaler with 20 features",PASS
+Demo Daily Output Contract,outputs/demo/person_01/ & person_02/daily_outputs.csv,"CSV with probability, strain index [0-100], cause, and recovery forecast","P1: 2025 windows, P2: 1749 windows. Schema intact.",PASS
