@@ -1,0 +1,1750 @@
+window_id,start_time_s,condition,model_stress_prob,personal_strain_index,strain_state,primary_cause,hr_bpm,eda_scl,temp_c,recovery_time_mins
+person_02_w0000,0.0,0,0.1584,22.7,Homeostatic Rest,Cardiovascular Strain (Heart Rate Surge),97.0,0.178,29.82,0.8
+person_02_w0001,3.0,0,0.1502,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,86.2,0.192,29.82,0.7
+person_02_w0002,6.0,0,0.0864,22.0,Homeostatic Rest,NormWear ViT Morphological Drift,90.2,0.203,29.83,0.7
+person_02_w0003,9.0,0,0.0589,19.9,Homeostatic Rest,NormWear ViT Morphological Drift,84.3,0.205,29.84,0.7
+person_02_w0004,12.0,0,0.0781,21.7,Homeostatic Rest,NormWear ViT Morphological Drift,89.3,0.207,29.84,0.7
+person_02_w0005,15.0,0,0.0572,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,93.9,0.21,29.84,0.6
+person_02_w0006,18.0,0,0.4308,36.7,Mild Activation,NormWear ViT Morphological Drift,76.6,0.216,29.84,1.2
+person_02_w0007,21.0,0,0.1808,23.0,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.226,29.84,0.8
+person_02_w0008,24.0,0,0.1553,19.1,Homeostatic Rest,NormWear ViT Morphological Drift,60.4,0.235,29.84,0.6
+person_02_w0009,27.0,0,0.1166,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,86.9,0.239,29.85,0.7
+person_02_w0010,30.0,0,0.0095,10.1,Homeostatic Rest,NormWear ViT Morphological Drift,78.1,0.239,29.84,0.5
+person_02_w0011,33.0,0,0.0676,15.2,Homeostatic Rest,NormWear ViT Morphological Drift,84.8,0.237,29.83,0.5
+person_02_w0012,36.0,0,0.2767,28.1,Mild Activation,NormWear ViT Morphological Drift,84.5,0.235,29.83,0.9
+person_02_w0013,39.0,0,0.0795,20.6,Homeostatic Rest,NormWear ViT Morphological Drift,85.1,0.235,29.82,0.7
+person_02_w0014,42.0,0,0.0832,20.7,Homeostatic Rest,NormWear ViT Morphological Drift,82.7,0.236,29.82,0.7
+person_02_w0015,45.0,0,0.1035,18.5,Homeostatic Rest,NormWear ViT Morphological Drift,80.7,0.236,29.82,0.6
+person_02_w0016,48.0,0,0.1529,22.0,Homeostatic Rest,NormWear ViT Morphological Drift,73.1,0.237,29.83,0.7
+person_02_w0017,51.0,0,0.29,32.6,Mild Activation,NormWear ViT Morphological Drift,90.4,0.238,29.84,1.1
+person_02_w0018,54.0,0,0.1236,18.3,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.247,29.85,0.6
+person_02_w0019,57.0,0,0.1373,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,53.6,0.254,29.85,0.7
+person_02_w0020,60.0,0,0.1279,20.4,Homeostatic Rest,NormWear ViT Morphological Drift,73.5,0.251,29.84,0.7
+person_02_w0021,63.0,0,0.187,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,55.9,0.255,29.83,0.8
+person_02_w0022,66.0,0,0.2986,30.1,Mild Activation,NormWear ViT Morphological Drift,62.3,0.267,29.82,1.0
+person_02_w0023,69.0,0,0.3954,37.2,Mild Activation,Cardiovascular Strain (Heart Rate Surge),94.2,0.269,29.83,1.2
+person_02_w0024,72.0,0,0.3462,30.9,Mild Activation,NormWear ViT Morphological Drift,78.4,0.263,29.83,1.0
+person_02_w0025,75.0,0,0.0819,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,80.8,0.252,29.82,0.5
+person_02_w0026,78.0,0,0.1206,18.1,Homeostatic Rest,NormWear ViT Morphological Drift,64.5,0.248,29.81,0.6
+person_02_w0027,81.0,0,0.0315,17.2,Homeostatic Rest,NormWear ViT Morphological Drift,93.2,0.253,29.82,0.6
+person_02_w0028,84.0,0,0.0905,16.9,Homeostatic Rest,NormWear ViT Morphological Drift,70.8,0.254,29.82,0.6
+person_02_w0029,87.0,0,0.0347,12.9,Homeostatic Rest,NormWear ViT Morphological Drift,73.4,0.25,29.81,0.5
+person_02_w0030,90.0,0,0.0622,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,64.0,0.25,29.82,0.5
+person_02_w0031,93.0,0,0.0641,17.5,Homeostatic Rest,NormWear ViT Morphological Drift,51.4,0.252,29.82,0.6
+person_02_w0032,96.0,0,0.079,18.6,Homeostatic Rest,NormWear ViT Morphological Drift,65.8,0.249,29.83,0.6
+person_02_w0033,99.0,0,0.1361,20.1,Homeostatic Rest,NormWear ViT Morphological Drift,58.5,0.254,29.84,0.7
+person_02_w0034,102.0,0,0.0739,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,63.4,0.261,29.84,0.5
+person_02_w0035,105.0,0,0.0599,16.6,Homeostatic Rest,NormWear ViT Morphological Drift,73.3,0.257,29.84,0.6
+person_02_w0036,108.0,1,0.0337,14.2,Homeostatic Rest,NormWear ViT Morphological Drift,82.0,0.25,29.85,0.5
+person_02_w0037,111.0,1,0.0392,14.0,Homeostatic Rest,NormWear ViT Morphological Drift,64.9,0.243,29.85,0.5
+person_02_w0038,114.0,1,0.0242,12.5,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.238,29.86,0.5
+person_02_w0039,117.0,1,0.048,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,52.1,0.237,29.86,0.5
+person_02_w0040,120.0,1,0.2149,24.9,Homeostatic Rest,NormWear ViT Morphological Drift,68.6,0.234,29.86,0.8
+person_02_w0041,123.0,1,0.1147,20.1,Homeostatic Rest,NormWear ViT Morphological Drift,77.6,0.233,29.87,0.7
+person_02_w0042,126.0,1,0.2608,28.7,Mild Activation,NormWear ViT Morphological Drift,79.5,0.231,29.87,1.0
+person_02_w0043,129.0,1,0.0701,18.5,Homeostatic Rest,NormWear ViT Morphological Drift,80.2,0.23,29.87,0.6
+person_02_w0044,132.0,1,0.1484,22.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.229,29.86,0.7
+person_02_w0045,135.0,1,0.0898,20.1,Homeostatic Rest,NormWear ViT Morphological Drift,82.7,0.228,29.86,0.7
+person_02_w0046,138.0,1,0.1659,21.5,Homeostatic Rest,NormWear ViT Morphological Drift,76.6,0.228,29.86,0.7
+person_02_w0047,141.0,1,0.0949,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,65.5,0.227,29.87,0.5
+person_02_w0048,144.0,1,0.0324,13.3,Homeostatic Rest,NormWear ViT Morphological Drift,66.7,0.227,29.86,0.5
+person_02_w0049,147.0,1,0.1225,18.4,Homeostatic Rest,NormWear ViT Morphological Drift,82.5,0.232,29.85,0.6
+person_02_w0050,150.0,1,0.0782,16.2,Homeostatic Rest,NormWear ViT Morphological Drift,58.4,0.245,29.84,0.5
+person_02_w0051,153.0,1,0.1337,18.9,Homeostatic Rest,NormWear ViT Morphological Drift,57.7,0.248,29.83,0.6
+person_02_w0052,156.0,1,0.0699,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.244,29.84,0.5
+person_02_w0053,159.0,1,0.1656,31.4,Mild Activation,NormWear ViT Morphological Drift,112.9,0.251,29.84,1.0
+person_02_w0054,162.0,1,0.2034,26.3,Mild Activation,NormWear ViT Morphological Drift,88.7,0.259,29.84,0.9
+person_02_w0055,165.0,1,0.1411,19.3,Homeostatic Rest,NormWear ViT Morphological Drift,80.0,0.261,29.84,0.6
+person_02_w0056,168.0,1,0.2105,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,50.5,0.258,29.85,0.8
+person_02_w0057,171.0,1,0.0994,16.6,Homeostatic Rest,NormWear ViT Morphological Drift,66.6,0.26,29.86,0.6
+person_02_w0058,174.0,1,0.1649,21.9,Homeostatic Rest,NormWear ViT Morphological Drift,57.7,0.267,29.87,0.7
+person_02_w0059,177.0,1,0.1898,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,63.0,0.27,29.88,0.7
+person_02_w0060,180.0,1,0.0334,12.2,Homeostatic Rest,NormWear ViT Morphological Drift,80.2,0.27,29.87,0.5
+person_02_w0061,183.0,1,0.0336,12.8,Homeostatic Rest,NormWear ViT Morphological Drift,78.9,0.27,29.88,0.5
+person_02_w0062,186.0,1,0.0236,12.4,Homeostatic Rest,NormWear ViT Morphological Drift,73.4,0.27,29.9,0.5
+person_02_w0063,189.0,1,0.0355,14.1,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.27,29.9,0.5
+person_02_w0064,192.0,1,0.0581,16.1,Homeostatic Rest,NormWear ViT Morphological Drift,76.6,0.27,29.9,0.5
+person_02_w0065,195.0,1,0.2781,32.6,Mild Activation,NormWear ViT Morphological Drift,75.0,0.271,29.9,1.1
+person_02_w0066,198.0,1,0.0472,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,60.6,0.271,29.89,0.5
+person_02_w0067,201.0,1,0.1038,19.2,Homeostatic Rest,NormWear ViT Morphological Drift,57.7,0.27,29.9,0.6
+person_02_w0068,204.0,1,0.211,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,83.5,0.269,29.91,0.7
+person_02_w0069,207.0,1,0.1778,23.9,Homeostatic Rest,NormWear ViT Morphological Drift,79.2,0.265,29.91,0.8
+person_02_w0070,210.0,1,0.0526,14.1,Homeostatic Rest,NormWear ViT Morphological Drift,71.4,0.263,29.9,0.5
+person_02_w0071,213.0,1,0.0788,17.9,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.263,29.9,0.6
+person_02_w0072,216.0,1,0.2135,26.7,Mild Activation,NormWear ViT Morphological Drift,44.3,0.263,29.89,0.9
+person_02_w0073,219.0,1,0.1744,22.3,Homeostatic Rest,NormWear ViT Morphological Drift,69.0,0.262,29.89,0.7
+person_02_w0074,222.0,1,0.1279,20.5,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.262,29.89,0.7
+person_02_w0075,225.0,1,0.0649,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.261,29.89,0.5
+person_02_w0076,228.0,1,0.1103,20.4,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.26,29.88,0.7
+person_02_w0077,231.0,1,0.0338,16.4,Homeostatic Rest,NormWear ViT Morphological Drift,58.9,0.26,29.88,0.5
+person_02_w0078,234.0,1,0.1861,22.3,Homeostatic Rest,NormWear ViT Morphological Drift,56.7,0.261,29.88,0.7
+person_02_w0079,237.0,1,0.0567,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,80.6,0.262,29.88,0.5
+person_02_w0080,240.0,1,0.0367,11.7,Homeostatic Rest,NormWear ViT Morphological Drift,70.8,0.261,29.89,0.5
+person_02_w0081,243.0,1,0.0691,12.9,Homeostatic Rest,NormWear ViT Morphological Drift,70.2,0.261,29.89,0.5
+person_02_w0082,246.0,1,0.0576,18.8,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.262,29.88,0.6
+person_02_w0083,249.0,1,0.0845,18.0,Homeostatic Rest,NormWear ViT Morphological Drift,64.2,0.265,29.88,0.6
+person_02_w0084,252.0,1,0.059,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,78.9,0.265,29.88,0.5
+person_02_w0085,255.0,1,0.0794,16.6,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.264,29.88,0.6
+person_02_w0086,258.0,1,0.0495,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,64.0,0.262,29.89,0.5
+person_02_w0087,261.0,1,0.1564,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,55.7,0.26,29.89,0.7
+person_02_w0088,264.0,1,0.2127,24.5,Homeostatic Rest,NormWear ViT Morphological Drift,86.8,0.26,29.89,0.8
+person_02_w0089,267.0,1,0.0638,20.2,Homeostatic Rest,NormWear ViT Morphological Drift,92.5,0.26,29.89,0.7
+person_02_w0090,270.0,1,0.0545,20.3,Homeostatic Rest,NormWear ViT Morphological Drift,92.5,0.258,29.88,0.7
+person_02_w0091,273.0,1,0.0775,19.6,Homeostatic Rest,NormWear ViT Morphological Drift,84.5,0.257,29.88,0.7
+person_02_w0092,276.0,1,0.1955,26.9,Mild Activation,NormWear ViT Morphological Drift,83.7,0.257,29.88,0.9
+person_02_w0093,279.0,1,0.1322,23.5,Homeostatic Rest,NormWear ViT Morphological Drift,84.0,0.257,29.88,0.8
+person_02_w0094,282.0,1,0.3233,31.3,Mild Activation,NormWear ViT Morphological Drift,40.0,0.258,29.87,1.0
+person_02_w0095,285.0,1,0.1298,18.7,Homeostatic Rest,NormWear ViT Morphological Drift,61.9,0.263,29.87,0.6
+person_02_w0096,288.0,1,0.0115,11.8,Homeostatic Rest,NormWear ViT Morphological Drift,64.2,0.267,29.87,0.5
+person_02_w0097,291.0,1,0.0928,17.5,Homeostatic Rest,NormWear ViT Morphological Drift,88.4,0.269,29.88,0.6
+person_02_w0098,294.0,1,0.1265,18.0,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),84.3,0.27,29.89,0.6
+person_02_w0099,297.0,1,0.242,26.1,Mild Activation,NormWear ViT Morphological Drift,86.5,0.271,29.9,0.9
+person_02_w0100,300.0,1,0.3652,35.2,Mild Activation,NormWear ViT Morphological Drift,95.5,0.271,29.89,1.2
+person_02_w0101,303.0,1,0.2039,23.3,Homeostatic Rest,NormWear ViT Morphological Drift,77.1,0.271,29.89,0.8
+person_02_w0102,306.0,1,0.3171,31.6,Mild Activation,NormWear ViT Morphological Drift,80.2,0.27,29.89,1.1
+person_02_w0103,309.0,1,0.0715,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,84.5,0.27,29.9,0.5
+person_02_w0104,312.0,1,0.0735,18.0,Homeostatic Rest,NormWear ViT Morphological Drift,80.5,0.271,29.91,0.6
+person_02_w0105,315.0,1,0.0173,13.4,Homeostatic Rest,NormWear ViT Morphological Drift,75.5,0.271,29.92,0.5
+person_02_w0106,318.0,1,0.0321,12.6,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.272,29.93,0.5
+person_02_w0107,321.0,1,0.0355,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,74.3,0.273,29.91,0.5
+person_02_w0108,324.0,1,0.1093,21.3,Homeostatic Rest,NormWear ViT Morphological Drift,98.5,0.267,29.91,0.7
+person_02_w0109,327.0,1,0.0579,21.4,Homeostatic Rest,NormWear ViT Morphological Drift,107.5,0.261,29.91,0.7
+person_02_w0110,330.0,1,0.0473,14.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.267,29.91,0.5
+person_02_w0111,333.0,1,0.1634,20.4,Homeostatic Rest,NormWear ViT Morphological Drift,77.8,0.27,29.92,0.7
+person_02_w0112,336.0,1,0.2824,26.6,Mild Activation,NormWear ViT Morphological Drift,82.0,0.271,29.93,0.9
+person_02_w0113,339.0,1,0.0426,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,82.0,0.272,29.93,0.5
+person_02_w0114,342.0,1,0.0214,12.9,Homeostatic Rest,NormWear ViT Morphological Drift,73.8,0.273,29.93,0.5
+person_02_w0115,345.0,1,0.361,32.1,Mild Activation,NormWear ViT Morphological Drift,40.0,0.274,29.94,1.1
+person_02_w0116,348.0,1,0.0538,18.7,Homeostatic Rest,NormWear ViT Morphological Drift,86.3,0.275,29.93,0.6
+person_02_w0117,351.0,1,0.0329,13.5,Homeostatic Rest,NormWear ViT Morphological Drift,69.1,0.273,29.93,0.5
+person_02_w0118,354.0,1,0.0873,15.4,Homeostatic Rest,NormWear ViT Morphological Drift,65.4,0.273,29.93,0.5
+person_02_w0119,357.0,1,0.3159,34.3,Mild Activation,NormWear ViT Morphological Drift,85.3,0.274,29.92,1.1
+person_02_w0120,360.0,1,0.0907,21.3,Homeostatic Rest,NormWear ViT Morphological Drift,85.1,0.274,29.91,0.7
+person_02_w0121,363.0,1,0.1653,24.4,Homeostatic Rest,NormWear ViT Morphological Drift,83.3,0.274,29.91,0.8
+person_02_w0122,366.0,1,0.0887,19.8,Homeostatic Rest,NormWear ViT Morphological Drift,84.4,0.274,29.92,0.7
+person_02_w0123,369.0,1,0.0563,15.8,Homeostatic Rest,NormWear ViT Morphological Drift,83.7,0.274,29.93,0.5
+person_02_w0124,372.0,1,0.1045,16.8,Homeostatic Rest,NormWear ViT Morphological Drift,79.8,0.273,29.93,0.6
+person_02_w0125,375.0,1,0.043,14.3,Homeostatic Rest,NormWear ViT Morphological Drift,87.9,0.27,29.92,0.5
+person_02_w0126,378.0,1,0.066,14.5,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.27,29.92,0.5
+person_02_w0127,381.0,1,0.1813,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,89.6,0.273,29.89,0.7
+person_02_w0128,384.0,1,0.282,30.5,Mild Activation,NormWear ViT Morphological Drift,88.6,0.273,29.88,1.0
+person_02_w0129,387.0,1,0.2261,28.5,Mild Activation,NormWear ViT Morphological Drift,83.5,0.273,29.88,0.9
+person_02_w0130,390.0,1,0.2214,28.4,Mild Activation,NormWear ViT Morphological Drift,85.6,0.273,29.88,0.9
+person_02_w0131,393.0,1,0.2636,31.1,Mild Activation,NormWear ViT Morphological Drift,86.8,0.274,29.88,1.0
+person_02_w0132,396.0,1,0.191,21.7,Homeostatic Rest,NormWear ViT Morphological Drift,69.8,0.271,29.88,0.7
+person_02_w0133,399.0,1,0.0769,16.9,Homeostatic Rest,NormWear ViT Morphological Drift,83.8,0.263,29.88,0.6
+person_02_w0134,402.0,1,0.0932,14.8,Homeostatic Rest,NormWear ViT Morphological Drift,75.5,0.26,29.87,0.5
+person_02_w0135,405.0,1,0.1046,15.2,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),72.9,0.258,29.84,0.5
+person_02_w0136,408.0,1,0.1617,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,71.8,0.257,29.81,0.7
+person_02_w0137,411.0,1,0.203,25.5,Mild Activation,NormWear ViT Morphological Drift,85.6,0.256,29.79,0.9
+person_02_w0138,414.0,1,0.1015,23.0,Homeostatic Rest,NormWear ViT Morphological Drift,91.2,0.255,29.76,0.8
+person_02_w0139,417.0,1,0.4829,41.1,Mild Activation,NormWear ViT Morphological Drift,40.0,0.257,29.74,1.4
+person_02_w0140,420.0,1,0.2069,24.9,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.257,29.72,0.8
+person_02_w0141,423.0,1,0.2771,28.5,Mild Activation,NormWear ViT Morphological Drift,71.6,0.256,29.69,1.0
+person_02_w0142,426.0,1,0.2277,24.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),77.6,0.256,29.66,0.8
+person_02_w0143,429.0,1,0.1048,20.6,Homeostatic Rest,NormWear ViT Morphological Drift,81.0,0.256,29.64,0.7
+person_02_w0144,432.0,1,0.4284,40.7,Mild Activation,NormWear ViT Morphological Drift,85.3,0.257,29.61,1.4
+person_02_w0145,435.0,1,0.3188,31.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.6,0.265,29.6,1.0
+person_02_w0146,438.0,1,0.1393,25.1,Mild Activation,NormWear ViT Morphological Drift,75.0,0.272,29.6,0.8
+person_02_w0147,441.0,1,0.2549,28.7,Mild Activation,NormWear ViT Morphological Drift,77.0,0.273,29.62,1.0
+person_02_w0148,444.0,1,0.3261,34.1,Mild Activation,NormWear ViT Morphological Drift,77.9,0.273,29.63,1.1
+person_02_w0149,447.0,1,0.175,24.2,Homeostatic Rest,NormWear ViT Morphological Drift,66.0,0.272,29.64,0.8
+person_02_w0150,450.0,1,0.1149,21.0,Homeostatic Rest,NormWear ViT Morphological Drift,82.7,0.272,29.65,0.7
+person_02_w0151,453.0,1,0.0909,17.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),80.7,0.271,29.66,0.6
+person_02_w0152,456.0,1,0.1617,25.9,Mild Activation,NormWear ViT Morphological Drift,99.1,0.265,29.66,0.9
+person_02_w0153,459.0,1,0.1399,22.3,Homeostatic Rest,NormWear ViT Morphological Drift,79.7,0.261,29.66,0.7
+person_02_w0154,462.0,1,0.046,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,83.5,0.261,29.65,0.6
+person_02_w0155,465.0,1,0.0932,18.2,Homeostatic Rest,NormWear ViT Morphological Drift,52.2,0.261,29.66,0.6
+person_02_w0156,468.0,1,0.1009,18.3,Homeostatic Rest,NormWear ViT Morphological Drift,72.2,0.267,29.68,0.6
+person_02_w0157,471.0,1,0.2309,29.1,Mild Activation,NormWear ViT Morphological Drift,88.3,0.273,29.71,1.0
+person_02_w0158,474.0,1,0.1262,23.3,Homeostatic Rest,NormWear ViT Morphological Drift,85.9,0.274,29.74,0.8
+person_02_w0159,477.0,1,0.0572,16.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.274,29.77,0.5
+person_02_w0160,480.0,1,0.3067,29.4,Mild Activation,NormWear ViT Morphological Drift,79.1,0.275,29.79,1.0
+person_02_w0161,483.0,1,0.0886,14.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),77.1,0.276,29.81,0.5
+person_02_w0162,486.0,1,0.0137,11.9,Homeostatic Rest,NormWear ViT Morphological Drift,74.3,0.277,29.84,0.5
+person_02_w0163,489.0,1,0.0138,10.7,Homeostatic Rest,NormWear ViT Morphological Drift,69.2,0.278,29.86,0.5
+person_02_w0164,492.0,1,0.0312,13.9,Homeostatic Rest,NormWear ViT Morphological Drift,78.1,0.279,29.87,0.5
+person_02_w0165,495.0,1,0.0254,15.2,Homeostatic Rest,NormWear ViT Morphological Drift,81.0,0.28,29.89,0.5
+person_02_w0166,498.0,1,0.2035,24.7,Homeostatic Rest,NormWear ViT Morphological Drift,84.8,0.282,29.91,0.8
+person_02_w0167,501.0,1,0.0482,15.3,Homeostatic Rest,NormWear ViT Morphological Drift,84.0,0.284,29.91,0.5
+person_02_w0168,504.0,1,0.2608,26.8,Mild Activation,NormWear ViT Morphological Drift,81.5,0.279,29.91,0.9
+person_02_w0169,507.0,1,0.1832,26.4,Mild Activation,NormWear ViT Morphological Drift,98.1,0.272,29.91,0.9
+person_02_w0170,510.0,1,0.0833,17.1,Homeostatic Rest,NormWear ViT Morphological Drift,81.5,0.265,29.88,0.6
+person_02_w0171,513.0,1,0.0849,16.6,Homeostatic Rest,NormWear ViT Morphological Drift,58.7,0.257,29.86,0.6
+person_02_w0172,516.0,1,0.0604,14.7,Homeostatic Rest,NormWear ViT Morphological Drift,76.1,0.256,29.86,0.5
+person_02_w0173,519.0,1,0.0481,14.2,Homeostatic Rest,NormWear ViT Morphological Drift,77.9,0.25,29.85,0.5
+person_02_w0174,522.0,1,0.2972,26.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),78.9,0.246,29.83,0.9
+person_02_w0175,525.0,1,0.4138,36.3,Mild Activation,NormWear ViT Morphological Drift,81.0,0.244,29.81,1.2
+person_02_w0176,528.0,1,0.0933,22.1,Homeostatic Rest,NormWear ViT Morphological Drift,82.8,0.243,29.78,0.7
+person_02_w0177,531.0,1,0.0911,22.2,Homeostatic Rest,NormWear ViT Morphological Drift,81.7,0.242,29.77,0.7
+person_02_w0178,534.0,1,0.0911,23.7,Homeostatic Rest,NormWear ViT Morphological Drift,84.0,0.241,29.75,0.8
+person_02_w0179,537.0,1,0.3903,34.3,Mild Activation,NormWear ViT Morphological Drift,70.9,0.244,29.74,1.1
+person_02_w0180,540.0,1,0.2168,23.2,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),58.2,0.249,29.73,0.8
+person_02_w0181,543.0,1,0.1721,22.2,Homeostatic Rest,NormWear ViT Morphological Drift,53.9,0.25,29.73,0.7
+person_02_w0182,546.0,1,0.0406,17.4,Homeostatic Rest,NormWear ViT Morphological Drift,90.4,0.25,29.74,0.6
+person_02_w0183,549.0,1,0.0262,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,103.8,0.248,29.74,0.6
+person_02_w0184,552.0,1,0.0652,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,90.4,0.249,29.76,0.5
+person_02_w0185,555.0,1,0.0638,23.4,Homeostatic Rest,NormWear ViT Morphological Drift,107.3,0.251,29.78,0.8
+person_02_w0186,558.0,1,0.0782,21.6,Homeostatic Rest,NormWear ViT Morphological Drift,93.1,0.25,29.8,0.7
+person_02_w0187,561.0,1,0.0584,16.4,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.248,29.79,0.5
+person_02_w0188,564.0,1,0.063,22.5,Homeostatic Rest,NormWear ViT Morphological Drift,108.3,0.245,29.79,0.8
+person_02_w0189,567.0,1,0.2563,33.7,Mild Activation,NormWear ViT Morphological Drift,108.2,0.247,29.78,1.1
+person_02_w0190,570.0,1,0.0642,14.9,Homeostatic Rest,NormWear ViT Morphological Drift,68.2,0.26,29.79,0.5
+person_02_w0191,573.0,1,0.027,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,54.3,0.263,29.81,0.5
+person_02_w0192,576.0,1,0.0641,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.263,29.82,0.6
+person_02_w0193,579.0,1,0.0542,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,70.5,0.27,29.82,0.5
+person_02_w0194,582.0,1,0.0622,15.3,Homeostatic Rest,NormWear ViT Morphological Drift,75.6,0.268,29.82,0.5
+person_02_w0195,585.0,1,0.1123,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,84.8,0.266,29.82,0.6
+person_02_w0196,588.0,1,0.0626,16.6,Homeostatic Rest,Cardiovascular Strain (Heart Rate Surge),96.3,0.266,29.84,0.6
+person_02_w0197,591.0,1,0.1029,18.1,Homeostatic Rest,Cardiovascular Strain (Heart Rate Surge),99.0,0.266,29.87,0.6
+person_02_w0198,594.0,1,0.0684,19.3,Homeostatic Rest,NormWear ViT Morphological Drift,91.2,0.267,29.91,0.6
+person_02_w0199,597.0,1,0.2196,24.4,Homeostatic Rest,NormWear ViT Morphological Drift,84.0,0.268,29.93,0.8
+person_02_w0200,600.0,1,0.2481,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,79.1,0.268,29.96,0.8
+person_02_w0201,603.0,1,0.1721,19.6,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),80.0,0.268,29.98,0.7
+person_02_w0202,606.0,1,0.066,15.3,Homeostatic Rest,NormWear ViT Morphological Drift,78.6,0.267,30.0,0.5
+person_02_w0203,609.0,1,0.1002,17.3,Homeostatic Rest,NormWear ViT Morphological Drift,88.1,0.267,30.01,0.6
+person_02_w0204,612.0,1,0.0898,14.9,Homeostatic Rest,NormWear ViT Morphological Drift,86.8,0.268,30.02,0.5
+person_02_w0205,615.0,1,0.033,12.2,Homeostatic Rest,NormWear ViT Morphological Drift,64.2,0.262,30.02,0.5
+person_02_w0206,618.0,1,0.1453,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,81.7,0.252,30.02,0.7
+person_02_w0207,621.0,1,0.289,28.5,Mild Activation,NormWear ViT Morphological Drift,85.3,0.249,30.0,0.9
+person_02_w0208,624.0,1,0.44,37.9,Mild Activation,NormWear ViT Morphological Drift,79.8,0.25,29.98,1.3
+person_02_w0209,627.0,1,0.3073,27.5,Mild Activation,NormWear ViT Morphological Drift,73.1,0.252,29.95,0.9
+person_02_w0210,630.0,1,0.1744,21.1,Homeostatic Rest,NormWear ViT Morphological Drift,82.9,0.252,29.93,0.7
+person_02_w0211,633.0,1,0.3786,32.2,Mild Activation,NormWear ViT Morphological Drift,73.0,0.251,29.93,1.1
+person_02_w0212,636.0,1,0.3986,34.5,Mild Activation,NormWear ViT Morphological Drift,55.1,0.25,29.94,1.1
+person_02_w0213,639.0,1,0.4141,34.0,Mild Activation,NormWear ViT Morphological Drift,80.0,0.253,29.94,1.1
+person_02_w0214,642.0,1,0.0849,16.8,Homeostatic Rest,NormWear ViT Morphological Drift,46.8,0.265,29.96,0.6
+person_02_w0215,645.0,1,0.1836,22.7,Homeostatic Rest,NormWear ViT Morphological Drift,61.4,0.272,29.98,0.8
+person_02_w0216,648.0,1,0.0868,14.9,Homeostatic Rest,NormWear ViT Morphological Drift,47.2,0.271,29.99,0.5
+person_02_w0217,651.0,1,0.081,14.3,Homeostatic Rest,NormWear ViT Morphological Drift,65.6,0.269,29.99,0.5
+person_02_w0218,654.0,1,0.1262,17.5,Homeostatic Rest,NormWear ViT Morphological Drift,82.0,0.273,29.99,0.6
+person_02_w0219,657.0,1,0.0749,14.5,Homeostatic Rest,NormWear ViT Morphological Drift,80.3,0.279,29.99,0.5
+person_02_w0220,660.0,1,0.1835,21.1,Homeostatic Rest,NormWear ViT Morphological Drift,79.4,0.28,30.0,0.7
+person_02_w0221,663.0,1,0.0371,13.3,Homeostatic Rest,NormWear ViT Morphological Drift,74.8,0.281,29.99,0.5
+person_02_w0222,666.0,1,0.3881,32.1,Mild Activation,NormWear ViT Morphological Drift,69.8,0.282,29.98,1.1
+person_02_w0223,669.0,1,0.1033,22.7,Homeostatic Rest,NormWear ViT Morphological Drift,106.7,0.282,29.98,0.8
+person_02_w0224,672.0,1,0.0494,15.1,Homeostatic Rest,NormWear ViT Morphological Drift,84.1,0.284,29.98,0.5
+person_02_w0225,675.0,1,0.2486,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,76.8,0.287,29.97,0.8
+person_02_w0226,678.0,1,0.3001,26.9,Mild Activation,NormWear ViT Morphological Drift,79.5,0.287,29.97,0.9
+person_02_w0227,681.0,1,0.4234,36.5,Mild Activation,NormWear ViT Morphological Drift,46.5,0.287,29.97,1.2
+person_02_w0228,684.0,1,0.1112,17.6,Homeostatic Rest,NormWear ViT Morphological Drift,76.4,0.289,29.96,0.6
+person_02_w0229,687.0,1,0.2618,31.4,Mild Activation,NormWear ViT Morphological Drift,103.8,0.29,29.95,1.0
+person_02_w0230,690.0,1,0.2166,24.2,Homeostatic Rest,Cardiovascular Strain (Heart Rate Surge),91.7,0.29,29.95,0.8
+person_02_w0231,693.0,1,0.2425,25.6,Mild Activation,Parasympathetic Withdrawal (Low HRV),87.6,0.29,29.95,0.9
+person_02_w0232,696.0,1,0.1998,31.9,Mild Activation,Cardiovascular Strain (Heart Rate Surge),123.9,0.289,29.94,1.1
+person_02_w0233,699.0,1,0.0676,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,63.0,0.286,29.94,0.5
+person_02_w0234,702.0,1,0.1047,17.6,Homeostatic Rest,NormWear ViT Morphological Drift,58.9,0.281,29.93,0.6
+person_02_w0235,705.0,1,0.1504,18.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.5,0.279,29.93,0.6
+person_02_w0236,708.0,1,0.0205,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,79.1,0.28,29.97,0.5
+person_02_w0237,711.0,1,0.0245,13.8,Homeostatic Rest,NormWear ViT Morphological Drift,77.5,0.28,30.01,0.5
+person_02_w0238,714.0,1,0.0324,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,82.7,0.281,30.05,0.5
+person_02_w0239,717.0,1,0.1064,17.0,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),86.5,0.283,30.08,0.6
+person_02_w0240,720.0,1,0.13,19.2,Homeostatic Rest,NormWear ViT Morphological Drift,88.3,0.285,30.11,0.6
+person_02_w0241,723.0,1,0.0347,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,81.1,0.285,30.14,0.5
+person_02_w0242,726.0,1,0.0527,12.2,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.285,30.16,0.5
+person_02_w0243,729.0,1,0.0729,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,81.1,0.286,30.16,0.6
+person_02_w0244,732.0,1,0.051,13.2,Homeostatic Rest,NormWear ViT Morphological Drift,73.6,0.288,30.17,0.5
+person_02_w0245,735.0,1,0.0407,11.6,Homeostatic Rest,NormWear ViT Morphological Drift,73.8,0.289,30.17,0.5
+person_02_w0246,738.0,1,0.1386,17.7,Homeostatic Rest,NormWear ViT Morphological Drift,78.4,0.289,30.19,0.6
+person_02_w0247,741.0,1,0.3353,31.5,Mild Activation,NormWear ViT Morphological Drift,82.0,0.29,30.19,1.0
+person_02_w0248,744.0,1,0.319,28.5,Mild Activation,NormWear ViT Morphological Drift,78.9,0.29,30.2,1.0
+person_02_w0249,747.0,1,0.0523,12.1,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.291,30.2,0.5
+person_02_w0250,750.0,1,0.0704,13.0,Homeostatic Rest,NormWear ViT Morphological Drift,68.4,0.292,30.2,0.5
+person_02_w0251,753.0,1,0.0621,15.1,Homeostatic Rest,NormWear ViT Morphological Drift,76.4,0.293,30.2,0.5
+person_02_w0252,756.0,1,0.0755,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,74.8,0.293,30.2,0.5
+person_02_w0253,759.0,1,0.0639,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,76.5,0.293,30.2,0.5
+person_02_w0254,762.0,1,0.0925,15.7,Homeostatic Rest,NormWear ViT Morphological Drift,75.8,0.295,30.2,0.5
+person_02_w0255,765.0,1,0.0672,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,80.7,0.295,30.19,0.5
+person_02_w0256,768.0,1,0.151,19.9,Homeostatic Rest,NormWear ViT Morphological Drift,84.4,0.295,30.19,0.7
+person_02_w0257,771.0,1,0.1239,19.8,Homeostatic Rest,NormWear ViT Morphological Drift,88.3,0.296,30.2,0.7
+person_02_w0258,774.0,1,0.5034,40.3,Mild Activation,NormWear ViT Morphological Drift,85.6,0.298,30.19,1.3
+person_02_w0259,777.0,1,0.2535,24.1,Homeostatic Rest,NormWear ViT Morphological Drift,71.8,0.3,30.19,0.8
+person_02_w0260,780.0,1,0.4777,37.3,Mild Activation,NormWear ViT Morphological Drift,75.3,0.299,30.19,1.2
+person_02_w0261,783.0,1,0.0596,13.1,Homeostatic Rest,NormWear ViT Morphological Drift,85.1,0.3,30.19,0.5
+person_02_w0262,786.0,1,0.0308,11.9,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.3,30.19,0.5
+person_02_w0263,789.0,1,0.0326,10.9,Homeostatic Rest,NormWear ViT Morphological Drift,75.5,0.301,30.19,0.5
+person_02_w0264,792.0,1,0.0404,12.4,Homeostatic Rest,NormWear ViT Morphological Drift,75.8,0.302,30.18,0.5
+person_02_w0265,795.0,1,0.043,14.0,Homeostatic Rest,NormWear ViT Morphological Drift,81.0,0.303,30.18,0.5
+person_02_w0266,798.0,1,0.0434,12.6,Homeostatic Rest,NormWear ViT Morphological Drift,74.3,0.304,30.18,0.5
+person_02_w0267,801.0,1,0.0518,12.9,Homeostatic Rest,NormWear ViT Morphological Drift,74.9,0.304,30.18,0.5
+person_02_w0268,804.0,1,0.0274,11.0,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.305,30.17,0.5
+person_02_w0269,807.0,1,0.3017,28.1,Mild Activation,NormWear ViT Morphological Drift,79.4,0.306,30.18,0.9
+person_02_w0270,810.0,1,0.352,33.2,Mild Activation,NormWear ViT Morphological Drift,95.0,0.307,30.18,1.1
+person_02_w0271,813.0,1,0.2846,31.1,Mild Activation,NormWear ViT Morphological Drift,93.1,0.307,30.17,1.0
+person_02_w0272,816.0,1,0.2021,27.2,Mild Activation,NormWear ViT Morphological Drift,91.7,0.307,30.17,0.9
+person_02_w0273,819.0,1,0.1897,27.2,Mild Activation,NormWear ViT Morphological Drift,85.6,0.308,30.16,0.9
+person_02_w0274,822.0,1,0.1895,25.3,Mild Activation,NormWear ViT Morphological Drift,84.4,0.309,30.16,0.8
+person_02_w0275,825.0,1,0.0914,17.8,Homeostatic Rest,NormWear ViT Morphological Drift,83.3,0.309,30.15,0.6
+person_02_w0276,828.0,1,0.0387,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,73.4,0.309,30.14,0.5
+person_02_w0277,831.0,1,0.3913,33.5,Mild Activation,NormWear ViT Morphological Drift,67.1,0.312,30.14,1.1
+person_02_w0278,834.0,1,0.1255,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,70.7,0.313,30.13,0.5
+person_02_w0279,837.0,1,0.3975,35.4,Mild Activation,NormWear ViT Morphological Drift,77.8,0.312,30.12,1.2
+person_02_w0280,840.0,1,0.0264,11.5,Homeostatic Rest,NormWear ViT Morphological Drift,76.8,0.312,30.12,0.5
+person_02_w0281,843.0,1,0.0981,17.4,Homeostatic Rest,NormWear ViT Morphological Drift,81.5,0.313,30.13,0.6
+person_02_w0282,846.0,1,0.3749,32.8,Mild Activation,NormWear ViT Morphological Drift,86.1,0.305,30.12,1.1
+person_02_w0283,849.0,1,0.1962,22.3,Homeostatic Rest,NormWear ViT Morphological Drift,72.2,0.295,30.11,0.7
+person_02_w0284,852.0,1,0.3295,29.5,Mild Activation,NormWear ViT Morphological Drift,64.3,0.292,30.08,1.0
+person_02_w0285,855.0,1,0.112,20.7,Homeostatic Rest,NormWear ViT Morphological Drift,90.8,0.288,30.06,0.7
+person_02_w0286,858.0,1,0.221,28.8,Mild Activation,NormWear ViT Morphological Drift,90.9,0.286,30.04,1.0
+person_02_w0287,861.0,1,0.1228,24.1,Homeostatic Rest,NormWear ViT Morphological Drift,91.2,0.284,30.03,0.8
+person_02_w0288,864.0,1,0.1184,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,85.6,0.282,30.01,0.7
+person_02_w0289,867.0,1,0.1672,24.4,Homeostatic Rest,NormWear ViT Morphological Drift,82.5,0.28,30.0,0.8
+person_02_w0290,870.0,1,0.2239,27.8,Mild Activation,NormWear ViT Morphological Drift,83.0,0.279,29.99,0.9
+person_02_w0291,873.0,1,0.1542,24.1,Homeostatic Rest,NormWear ViT Morphological Drift,86.2,0.278,29.99,0.8
+person_02_w0292,876.0,1,0.1639,23.7,Homeostatic Rest,NormWear ViT Morphological Drift,80.7,0.277,29.98,0.8
+person_02_w0293,879.0,1,0.1403,22.6,Homeostatic Rest,NormWear ViT Morphological Drift,80.2,0.277,29.98,0.8
+person_02_w0294,882.0,1,0.2875,32.0,Mild Activation,NormWear ViT Morphological Drift,89.6,0.277,29.97,1.1
+person_02_w0295,885.0,1,0.4047,38.4,Mild Activation,NormWear ViT Morphological Drift,102.7,0.277,29.97,1.3
+person_02_w0296,888.0,1,0.1414,22.1,Homeostatic Rest,NormWear ViT Morphological Drift,96.0,0.278,29.97,0.7
+person_02_w0297,891.0,1,0.428,34.8,Mild Activation,NormWear ViT Morphological Drift,62.1,0.277,29.97,1.2
+person_02_w0298,894.0,1,0.1446,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,81.0,0.276,29.96,0.6
+person_02_w0299,897.0,1,0.2367,28.9,Mild Activation,NormWear ViT Morphological Drift,87.0,0.277,29.96,1.0
+person_02_w0300,900.0,1,0.1587,21.8,Homeostatic Rest,NormWear ViT Morphological Drift,83.0,0.277,29.96,0.7
+person_02_w0301,903.0,1,0.1754,23.6,Homeostatic Rest,NormWear ViT Morphological Drift,79.1,0.276,29.96,0.8
+person_02_w0302,906.0,1,0.1622,24.3,Homeostatic Rest,NormWear ViT Morphological Drift,82.7,0.276,29.96,0.8
+person_02_w0303,909.0,1,0.1679,24.2,Homeostatic Rest,NormWear ViT Morphological Drift,82.5,0.274,29.96,0.8
+person_02_w0304,912.0,1,0.351,36.5,Mild Activation,Cardiovascular Strain (Heart Rate Surge),114.6,0.277,29.97,1.2
+person_02_w0305,915.0,1,0.1614,21.8,Homeostatic Rest,NormWear ViT Morphological Drift,89.3,0.291,29.96,0.7
+person_02_w0306,918.0,1,0.1304,17.7,Homeostatic Rest,NormWear ViT Morphological Drift,64.6,0.301,29.96,0.6
+person_02_w0307,921.0,1,0.4258,36.3,Mild Activation,NormWear ViT Morphological Drift,83.0,0.302,29.96,1.2
+person_02_w0308,924.0,1,0.1658,21.4,Homeostatic Rest,NormWear ViT Morphological Drift,82.9,0.303,29.96,0.7
+person_02_w0309,927.0,1,0.2551,29.9,Mild Activation,NormWear ViT Morphological Drift,90.8,0.304,29.96,1.0
+person_02_w0310,930.0,1,0.2976,28.8,Mild Activation,NormWear ViT Morphological Drift,81.2,0.305,29.96,1.0
+person_02_w0311,933.0,1,0.3086,27.4,Mild Activation,NormWear ViT Morphological Drift,79.3,0.306,29.96,0.9
+person_02_w0312,936.0,1,0.2069,24.0,Homeostatic Rest,NormWear ViT Morphological Drift,78.6,0.308,29.96,0.8
+person_02_w0313,939.0,1,0.0922,18.8,Homeostatic Rest,NormWear ViT Morphological Drift,82.0,0.308,29.96,0.6
+person_02_w0314,942.0,1,0.1898,23.2,Homeostatic Rest,NormWear ViT Morphological Drift,81.7,0.309,29.96,0.8
+person_02_w0315,945.0,1,0.1896,23.6,Homeostatic Rest,NormWear ViT Morphological Drift,82.1,0.31,29.97,0.8
+person_02_w0316,948.0,1,0.2045,24.2,Homeostatic Rest,NormWear ViT Morphological Drift,83.2,0.311,29.96,0.8
+person_02_w0317,951.0,1,0.4395,40.2,Mild Activation,Cardiovascular Strain (Heart Rate Surge),101.6,0.312,29.96,1.3
+person_02_w0318,954.0,1,0.5088,43.3,Mild Activation,Cardiovascular Strain (Heart Rate Surge),97.5,0.313,29.96,1.4
+person_02_w0319,957.0,1,0.1728,21.4,Homeostatic Rest,NormWear ViT Morphological Drift,84.2,0.313,29.96,0.7
+person_02_w0320,960.0,1,0.2595,29.1,Mild Activation,NormWear ViT Morphological Drift,87.0,0.313,29.97,1.0
+person_02_w0321,963.0,1,0.1877,25.9,Mild Activation,NormWear ViT Morphological Drift,86.2,0.314,29.97,0.9
+person_02_w0322,966.0,1,0.2519,28.8,Mild Activation,NormWear ViT Morphological Drift,86.4,0.316,29.97,1.0
+person_02_w0323,969.0,1,0.2281,27.3,Mild Activation,NormWear ViT Morphological Drift,84.6,0.316,29.97,0.9
+person_02_w0324,972.0,1,0.1813,24.1,Homeostatic Rest,NormWear ViT Morphological Drift,84.8,0.317,29.96,0.8
+person_02_w0325,975.0,1,0.2047,25.9,Mild Activation,NormWear ViT Morphological Drift,83.7,0.318,29.97,0.9
+person_02_w0326,978.0,1,0.3298,31.7,Mild Activation,NormWear ViT Morphological Drift,41.7,0.315,29.97,1.1
+person_02_w0327,981.0,1,0.2323,24.7,Homeostatic Rest,NormWear ViT Morphological Drift,49.0,0.307,29.98,0.8
+person_02_w0328,984.0,1,0.1344,20.0,Homeostatic Rest,NormWear ViT Morphological Drift,51.2,0.311,29.98,0.7
+person_02_w0329,987.0,1,0.1169,16.8,Homeostatic Rest,NormWear ViT Morphological Drift,63.2,0.319,29.99,0.6
+person_02_w0330,990.0,1,0.2757,26.2,Mild Activation,NormWear ViT Morphological Drift,70.6,0.318,29.99,0.9
+person_02_w0331,993.0,1,0.1754,23.5,Homeostatic Rest,NormWear ViT Morphological Drift,92.0,0.318,29.99,0.8
+person_02_w0332,996.0,1,0.2128,25.4,Mild Activation,NormWear ViT Morphological Drift,91.7,0.318,30.0,0.8
+person_02_w0333,999.0,1,0.2449,24.3,Homeostatic Rest,NormWear ViT Morphological Drift,79.3,0.317,30.0,0.8
+person_02_w0334,1002.0,1,0.2907,26.7,Mild Activation,NormWear ViT Morphological Drift,61.9,0.317,29.99,0.9
+person_02_w0335,1005.0,1,0.3648,31.7,Mild Activation,NormWear ViT Morphological Drift,56.9,0.314,29.99,1.1
+person_02_w0336,1008.0,1,0.1677,19.6,Homeostatic Rest,NormWear ViT Morphological Drift,75.9,0.296,30.0,0.7
+person_02_w0337,1011.0,1,0.2207,24.0,Homeostatic Rest,NormWear ViT Morphological Drift,83.7,0.289,30.01,0.8
+person_02_w0338,1014.0,1,0.1016,16.1,Homeostatic Rest,NormWear ViT Morphological Drift,77.8,0.305,30.04,0.5
+person_02_w0339,1017.0,1,0.1952,21.5,Homeostatic Rest,NormWear ViT Morphological Drift,54.3,0.316,30.06,0.7
+person_02_w0340,1020.0,1,0.1052,15.3,Homeostatic Rest,NormWear ViT Morphological Drift,70.0,0.313,30.07,0.5
+person_02_w0341,1023.0,1,0.218,22.1,Homeostatic Rest,NormWear ViT Morphological Drift,76.0,0.311,30.09,0.7
+person_02_w0342,1026.0,1,0.1028,14.8,Homeostatic Rest,NormWear ViT Morphological Drift,74.8,0.312,30.12,0.5
+person_02_w0343,1029.0,1,0.026,11.1,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.312,30.16,0.5
+person_02_w0344,1032.0,1,0.3456,30.3,Mild Activation,NormWear ViT Morphological Drift,74.7,0.31,30.19,1.0
+person_02_w0345,1035.0,1,0.2547,25.4,Mild Activation,NormWear ViT Morphological Drift,86.4,0.299,30.23,0.8
+person_02_w0346,1038.0,1,0.0671,16.1,Homeostatic Rest,NormWear ViT Morphological Drift,87.8,0.292,30.24,0.5
+person_02_w0347,1041.0,1,0.0886,16.4,Homeostatic Rest,NormWear ViT Morphological Drift,78.1,0.301,30.24,0.5
+person_02_w0348,1044.0,1,0.2751,26.9,Mild Activation,NormWear ViT Morphological Drift,40.0,0.307,30.24,0.9
+person_02_w0349,1047.0,1,0.1862,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,81.7,0.309,30.26,0.7
+person_02_w0350,1050.0,1,0.3933,33.8,Mild Activation,NormWear ViT Morphological Drift,86.3,0.312,30.28,1.1
+person_02_w0351,1053.0,1,0.5079,41.3,Mild Activation,NormWear ViT Morphological Drift,90.5,0.313,30.29,1.4
+person_02_w0352,1056.0,1,0.3789,34.1,Mild Activation,NormWear ViT Morphological Drift,86.3,0.314,30.3,1.1
+person_02_w0353,1059.0,1,0.3261,28.1,Mild Activation,NormWear ViT Morphological Drift,62.4,0.315,30.3,0.9
+person_02_w0354,1062.0,1,0.1563,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,76.8,0.306,30.3,0.7
+person_02_w0355,1065.0,1,0.1222,16.5,Homeostatic Rest,NormWear ViT Morphological Drift,61.7,0.293,30.3,0.6
+person_02_w0356,1068.0,1,0.3297,30.2,Mild Activation,NormWear ViT Morphological Drift,84.4,0.291,30.3,1.0
+person_02_w0357,1071.0,1,0.406,33.9,Mild Activation,NormWear ViT Morphological Drift,66.0,0.293,30.27,1.1
+person_02_w0358,1074.0,1,0.2293,24.5,Homeostatic Rest,NormWear ViT Morphological Drift,58.2,0.298,30.25,0.8
+person_02_w0359,1077.0,1,0.3271,30.1,Mild Activation,NormWear ViT Morphological Drift,61.9,0.301,30.24,1.0
+person_02_w0360,1080.0,1,0.2925,31.7,Mild Activation,NormWear ViT Morphological Drift,93.1,0.3,30.24,1.1
+person_02_w0361,1083.0,1,0.222,26.4,Mild Activation,NormWear ViT Morphological Drift,80.2,0.298,30.24,0.9
+person_02_w0362,1086.0,1,0.525,45.5,Mild Activation,NormWear ViT Morphological Drift,87.3,0.3,30.24,1.5
+person_02_w0363,1089.0,1,0.2148,25.3,Mild Activation,NormWear ViT Morphological Drift,77.6,0.308,30.23,0.8
+person_02_w0364,1092.0,1,0.1313,20.8,Homeostatic Rest,NormWear ViT Morphological Drift,67.8,0.317,30.22,0.7
+person_02_w0365,1095.0,1,0.153,20.6,Homeostatic Rest,NormWear ViT Morphological Drift,40.0,0.32,30.22,0.7
+person_02_w0366,1098.0,1,0.5515,43.0,Mild Activation,NormWear ViT Morphological Drift,74.6,0.32,30.23,1.4
+person_02_w0367,1101.0,1,0.2655,28.1,Mild Activation,NormWear ViT Morphological Drift,82.2,0.321,30.23,0.9
+person_02_w0368,1104.0,1,0.1774,23.6,Homeostatic Rest,NormWear ViT Morphological Drift,83.0,0.322,30.23,0.8
+person_02_w0369,1107.0,1,0.2512,24.4,Homeostatic Rest,NormWear ViT Morphological Drift,65.3,0.322,30.24,0.8
+person_02_w0370,1110.0,1,0.3051,28.4,Mild Activation,NormWear ViT Morphological Drift,61.9,0.316,30.24,0.9
+person_02_w0371,1113.0,1,0.1516,19.2,Homeostatic Rest,NormWear ViT Morphological Drift,77.8,0.318,30.25,0.6
+person_02_w0372,1116.0,1,0.2865,27.9,Mild Activation,NormWear ViT Morphological Drift,63.4,0.325,30.25,0.9
+person_02_w0373,1119.0,1,0.31,29.6,Mild Activation,NormWear ViT Morphological Drift,77.8,0.31,30.24,1.0
+person_02_w0374,1122.0,1,0.0749,12.6,Homeostatic Rest,NormWear ViT Morphological Drift,75.5,0.296,30.23,0.5
+person_02_w0375,1125.0,1,0.3477,31.3,Mild Activation,NormWear ViT Morphological Drift,48.5,0.298,30.23,1.0
+person_02_w0376,1128.0,1,0.3885,34.6,Mild Activation,NormWear ViT Morphological Drift,65.5,0.301,30.22,1.2
+person_02_w0377,1131.0,1,0.2336,26.1,Mild Activation,NormWear ViT Morphological Drift,95.6,0.303,30.22,0.9
+person_02_w0378,1134.0,1,0.059,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,66.0,0.306,30.23,0.5
+person_02_w0379,1137.0,1,0.1494,19.2,Homeostatic Rest,NormWear ViT Morphological Drift,63.7,0.312,30.24,0.6
+person_02_w0380,1140.0,1,0.3201,28.5,Mild Activation,NormWear ViT Morphological Drift,55.4,0.32,30.24,1.0
+person_02_w0381,1143.0,1,0.2725,29.8,Mild Activation,NormWear ViT Morphological Drift,90.6,0.324,30.25,1.0
+person_02_w0382,1146.0,1,0.4211,37.0,Mild Activation,Cardiovascular Strain (Heart Rate Surge),97.2,0.324,30.26,1.2
+person_02_w0383,1149.0,1,0.3714,32.5,Mild Activation,NormWear ViT Morphological Drift,40.0,0.323,30.25,1.1
+person_02_w0384,1152.0,1,0.3213,30.6,Mild Activation,NormWear ViT Morphological Drift,73.1,0.324,30.25,1.0
+person_02_w0385,1155.0,1,0.2004,22.3,Homeostatic Rest,NormWear ViT Morphological Drift,52.4,0.327,30.24,0.7
+person_02_w0386,1158.0,1,0.3485,31.5,Mild Activation,NormWear ViT Morphological Drift,88.8,0.326,30.24,1.1
+person_02_w0387,1161.0,1,0.4641,38.6,Mild Activation,NormWear ViT Morphological Drift,87.8,0.326,30.24,1.3
+person_02_w0388,1164.0,1,0.1077,16.9,Homeostatic Rest,NormWear ViT Morphological Drift,83.2,0.326,30.24,0.6
+person_02_w0389,1167.0,1,0.4633,38.0,Mild Activation,NormWear ViT Morphological Drift,55.1,0.323,30.24,1.3
+person_02_w0390,1170.0,1,0.4441,35.6,Mild Activation,NormWear ViT Morphological Drift,63.0,0.31,30.23,1.2
+person_02_w0391,1173.0,1,0.5095,42.2,Mild Activation,NormWear ViT Morphological Drift,46.4,0.304,30.23,1.4
+person_02_w0392,1176.0,1,0.4153,35.3,Mild Activation,NormWear ViT Morphological Drift,63.0,0.319,30.23,1.2
+person_02_w0393,1179.0,1,0.2506,26.9,Mild Activation,NormWear ViT Morphological Drift,82.5,0.33,30.23,0.9
+person_02_w0394,1182.0,1,0.4993,41.9,Mild Activation,NormWear ViT Morphological Drift,83.5,0.331,30.24,1.4
+person_02_w0395,1185.0,1,0.1504,23.2,Homeostatic Rest,NormWear ViT Morphological Drift,87.8,0.332,30.25,0.8
+person_02_w0396,1188.0,1,0.252,25.0,Mild Activation,NormWear ViT Morphological Drift,71.4,0.314,30.26,0.8
+person_02_w0397,1191.0,1,0.3982,32.7,Mild Activation,NormWear ViT Morphological Drift,66.0,0.293,30.26,1.1
+person_02_w0398,1194.0,1,0.0674,12.4,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.288,30.26,0.5
+person_02_w0399,1197.0,1,0.0965,16.7,Homeostatic Rest,NormWear ViT Morphological Drift,91.7,0.286,30.26,0.6
+person_02_w0400,1200.0,1,0.1715,24.2,Homeostatic Rest,NormWear ViT Morphological Drift,98.8,0.285,30.26,0.8
+person_02_w0401,1203.0,1,0.4428,38.1,Mild Activation,NormWear ViT Morphological Drift,92.3,0.284,30.25,1.3
+person_02_w0402,1206.0,1,0.4104,37.1,Mild Activation,Cardiovascular Strain (Heart Rate Surge),97.2,0.284,30.25,1.2
+person_02_w0403,1209.0,1,0.2411,28.2,Mild Activation,NormWear ViT Morphological Drift,85.1,0.284,30.26,0.9
+person_02_w0404,1212.0,1,0.2468,24.8,Homeostatic Rest,NormWear ViT Morphological Drift,69.3,0.284,30.25,0.8
+person_02_w0405,1215.0,1,0.4256,36.0,Mild Activation,NormWear ViT Morphological Drift,60.5,0.3,30.26,1.2
+person_02_w0406,1218.0,1,0.1712,22.1,Homeostatic Rest,NormWear ViT Morphological Drift,86.0,0.318,30.27,0.7
+person_02_w0407,1221.0,1,0.6537,52.4,Moderate Autonomic Strain,Cardiovascular Strain (Heart Rate Surge),99.7,0.318,30.26,1.7
+person_02_w0408,1224.0,1,0.2138,25.8,Mild Activation,NormWear ViT Morphological Drift,85.1,0.311,30.26,0.9
+person_02_w0409,1227.0,1,0.2374,27.2,Mild Activation,NormWear ViT Morphological Drift,83.7,0.308,30.26,0.9
+person_02_w0410,1230.0,1,0.2273,26.3,Mild Activation,NormWear ViT Morphological Drift,79.5,0.309,30.26,0.9
+person_02_w0411,1233.0,1,0.2846,26.7,Mild Activation,NormWear ViT Morphological Drift,79.8,0.308,30.25,0.9
+person_02_w0412,1236.0,1,0.7209,53.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.2,0.31,30.24,1.8
+person_02_w0413,1239.0,1,0.5396,43.0,Mild Activation,NormWear ViT Morphological Drift,75.3,0.311,30.24,1.4
+person_02_w0414,1242.0,1,0.1209,17.8,Homeostatic Rest,NormWear ViT Morphological Drift,69.8,0.31,30.24,0.6
+person_02_w0415,1245.0,1,0.4932,41.5,Mild Activation,NormWear ViT Morphological Drift,88.4,0.307,30.25,1.4
+person_02_w0416,1248.0,1,0.4902,41.1,Mild Activation,NormWear ViT Morphological Drift,85.8,0.304,30.23,1.4
+person_02_w0417,1251.0,1,0.0977,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.302,30.22,0.5
+person_02_w0418,1254.0,1,0.143,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.3,30.23,0.6
+person_02_w0419,1257.0,1,0.2419,25.8,Mild Activation,NormWear ViT Morphological Drift,80.8,0.3,30.23,0.9
+person_02_w0420,1260.0,1,0.0815,15.1,Homeostatic Rest,NormWear ViT Morphological Drift,74.1,0.299,30.23,0.5
+person_02_w0421,1263.0,1,0.5747,44.9,Mild Activation,NormWear ViT Morphological Drift,60.0,0.298,30.23,1.5
+person_02_w0422,1266.0,1,0.1841,21.4,Homeostatic Rest,NormWear ViT Morphological Drift,42.7,0.297,30.24,0.7
+person_02_w0423,1269.0,1,0.3887,35.3,Mild Activation,NormWear ViT Morphological Drift,63.0,0.295,30.23,1.2
+person_02_w0424,1272.0,1,0.2278,26.8,Mild Activation,NormWear ViT Morphological Drift,77.8,0.294,30.23,0.9
+person_02_w0425,1275.0,1,0.08,17.4,Homeostatic Rest,NormWear ViT Morphological Drift,76.6,0.293,30.24,0.6
+person_02_w0426,1278.0,1,0.1378,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,90.4,0.292,30.24,0.7
+person_02_w0427,1281.0,1,0.2778,30.3,Mild Activation,NormWear ViT Morphological Drift,96.6,0.291,30.24,1.0
+person_02_w0428,1284.0,0,0.5712,44.2,Mild Activation,NormWear ViT Morphological Drift,62.2,0.29,30.25,1.5
+person_02_w0429,1287.0,0,0.198,22.6,Homeostatic Rest,NormWear ViT Morphological Drift,83.9,0.305,30.27,0.8
+person_02_w0430,1290.0,0,0.0776,15.1,Homeostatic Rest,NormWear ViT Morphological Drift,65.5,0.323,30.27,0.5
+person_02_w0431,1293.0,0,0.2423,25.5,Mild Activation,NormWear ViT Morphological Drift,75.3,0.322,30.28,0.9
+person_02_w0432,1296.0,0,0.1447,18.9,Homeostatic Rest,NormWear ViT Morphological Drift,61.9,0.313,30.28,0.6
+person_02_w0433,1299.0,0,0.1535,20.5,Homeostatic Rest,NormWear ViT Morphological Drift,89.8,0.312,30.3,0.7
+person_02_w0434,1302.0,0,0.2825,26.7,Mild Activation,NormWear ViT Morphological Drift,60.0,0.334,30.3,0.9
+person_02_w0435,1305.0,0,0.2857,27.3,Mild Activation,NormWear ViT Morphological Drift,52.4,0.351,30.31,0.9
+person_02_w0436,1308.0,0,0.2093,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,65.3,0.345,30.31,0.8
+person_02_w0437,1311.0,0,0.2049,22.8,Homeostatic Rest,NormWear ViT Morphological Drift,67.6,0.338,30.31,0.8
+person_02_w0438,1314.0,0,0.2372,24.5,Homeostatic Rest,NormWear ViT Morphological Drift,58.9,0.345,30.32,0.8
+person_02_w0439,1317.0,0,0.1675,19.9,Homeostatic Rest,NormWear ViT Morphological Drift,76.0,0.348,30.33,0.7
+person_02_w0440,1320.0,0,0.3533,31.6,Mild Activation,NormWear ViT Morphological Drift,85.0,0.345,30.33,1.1
+person_02_w0441,1323.0,0,0.3208,27.4,Mild Activation,NormWear ViT Morphological Drift,80.7,0.367,30.35,0.9
+person_02_w0442,1326.0,0,0.2094,23.4,Homeostatic Rest,NormWear ViT Morphological Drift,85.6,0.388,30.37,0.8
+person_02_w0443,1329.0,0,0.1921,22.0,Homeostatic Rest,NormWear ViT Morphological Drift,63.1,0.384,30.38,0.7
+person_02_w0444,1332.0,0,0.5092,41.2,Mild Activation,NormWear ViT Morphological Drift,61.3,0.386,30.38,1.4
+person_02_w0445,1335.0,5,0.1893,22.1,Homeostatic Rest,NormWear ViT Morphological Drift,59.4,0.391,30.38,0.7
+person_02_w0446,1338.0,5,0.3425,30.3,Mild Activation,NormWear ViT Morphological Drift,59.6,0.389,30.4,1.0
+person_02_w0447,1341.0,5,0.5291,43.5,Mild Activation,NormWear ViT Morphological Drift,79.7,0.393,30.4,1.4
+person_02_w0448,1344.0,5,0.2382,25.8,Mild Activation,NormWear ViT Morphological Drift,81.1,0.397,30.4,0.9
+person_02_w0449,1347.0,5,0.3478,31.4,Mild Activation,NormWear ViT Morphological Drift,58.0,0.403,30.4,1.0
+person_02_w0450,1350.0,5,0.6772,53.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,69.1,0.41,30.39,1.8
+person_02_w0451,1353.0,5,0.2959,32.3,Mild Activation,NormWear ViT Morphological Drift,89.6,0.416,30.38,1.1
+person_02_w0452,1356.0,5,0.3171,30.3,Mild Activation,NormWear ViT Morphological Drift,72.9,0.423,30.39,1.0
+person_02_w0453,1359.0,5,0.6686,51.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,56.3,0.429,30.38,1.7
+person_02_w0454,1362.0,5,0.5795,49.4,Mild Activation,NormWear ViT Morphological Drift,74.8,0.438,30.38,1.6
+person_02_w0455,1365.0,5,0.6114,52.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,79.8,0.449,30.38,1.8
+person_02_w0456,1368.0,5,0.4467,43.1,Mild Activation,NormWear ViT Morphological Drift,69.1,0.454,30.38,1.4
+person_02_w0457,1371.0,5,0.3692,38.3,Mild Activation,NormWear ViT Morphological Drift,68.8,0.455,30.37,1.3
+person_02_w0458,1374.0,5,0.3201,35.5,Mild Activation,NormWear ViT Morphological Drift,54.5,0.456,30.36,1.2
+person_02_w0459,1377.0,5,0.5712,50.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,60.6,0.463,30.36,1.7
+person_02_w0460,1380.0,5,0.184,28.1,Mild Activation,NormWear ViT Morphological Drift,72.9,0.467,30.36,0.9
+person_02_w0461,1383.0,0,0.3396,34.7,Mild Activation,NormWear ViT Morphological Drift,79.4,0.465,30.36,1.2
+person_02_w0462,1386.0,0,0.1937,26.9,Mild Activation,NormWear ViT Morphological Drift,76.6,0.466,30.37,0.9
+person_02_w0463,1389.0,0,0.5578,50.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,82.0,0.462,30.38,1.7
+person_02_w0464,1392.0,0,0.6433,56.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.0,0.466,30.36,1.9
+person_02_w0465,1395.0,0,0.5918,57.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,96.0,0.488,30.35,1.9
+person_02_w0466,1398.0,0,0.2476,34.5,Mild Activation,NormWear ViT Morphological Drift,63.0,0.495,30.36,1.1
+person_02_w0467,1401.0,0,0.637,58.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,49.2,0.49,30.37,2.0
+person_02_w0468,1404.0,0,0.3972,40.7,Mild Activation,NormWear ViT Morphological Drift,64.4,0.486,30.38,1.4
+person_02_w0469,1407.0,0,0.5753,57.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,99.9,0.471,30.38,1.9
+person_02_w0470,1410.0,0,0.6228,55.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,58.9,0.475,30.38,1.8
+person_02_w0471,1413.0,0,0.342,39.6,Mild Activation,NormWear ViT Morphological Drift,77.1,0.493,30.39,1.3
+person_02_w0472,1416.0,0,0.4441,48.8,Mild Activation,NormWear ViT Morphological Drift,94.3,0.499,30.41,1.6
+person_02_w0473,1419.0,0,0.5301,49.4,Mild Activation,NormWear ViT Morphological Drift,66.0,0.497,30.42,1.6
+person_02_w0474,1422.0,0,0.0454,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.2,0.489,30.43,0.7
+person_02_w0475,1425.0,0,0.0664,20.4,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.483,30.42,0.7
+person_02_w0476,1428.0,0,0.0701,19.4,Homeostatic Rest,NormWear ViT Morphological Drift,67.8,0.478,30.41,0.6
+person_02_w0477,1431.0,0,0.0628,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.475,30.41,0.7
+person_02_w0478,1434.0,0,0.2939,34.7,Mild Activation,NormWear ViT Morphological Drift,71.4,0.472,30.42,1.2
+person_02_w0479,1437.0,0,0.5821,53.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.9,0.472,30.42,1.8
+person_02_w0480,1440.0,0,0.1898,29.7,Mild Activation,NormWear ViT Morphological Drift,74.6,0.477,30.42,1.0
+person_02_w0481,1443.0,0,0.2756,35.8,Mild Activation,NormWear ViT Morphological Drift,66.8,0.475,30.41,1.2
+person_02_w0482,1446.0,0,0.2277,31.8,Mild Activation,NormWear ViT Morphological Drift,74.1,0.473,30.41,1.1
+person_02_w0483,1449.0,0,0.2202,32.7,Mild Activation,NormWear ViT Morphological Drift,75.3,0.473,30.41,1.1
+person_02_w0484,1452.0,0,0.2807,37.2,Mild Activation,NormWear ViT Morphological Drift,76.5,0.478,30.41,1.2
+person_02_w0485,1455.0,0,0.3725,41.1,Mild Activation,NormWear ViT Morphological Drift,88.4,0.479,30.4,1.4
+person_02_w0486,1458.0,0,0.284,36.0,Mild Activation,NormWear ViT Morphological Drift,89.9,0.471,30.41,1.2
+person_02_w0487,1461.0,0,0.3003,34.3,Mild Activation,NormWear ViT Morphological Drift,71.6,0.466,30.41,1.1
+person_02_w0488,1464.0,0,0.2189,28.0,Mild Activation,NormWear ViT Morphological Drift,72.7,0.462,30.4,0.9
+person_02_w0489,1467.0,0,0.0561,17.3,Homeostatic Rest,NormWear ViT Morphological Drift,73.1,0.458,30.4,0.6
+person_02_w0490,1470.0,0,0.5344,46.0,Mild Activation,NormWear ViT Morphological Drift,73.6,0.456,30.4,1.5
+person_02_w0491,1473.0,0,0.295,32.2,Mild Activation,NormWear ViT Morphological Drift,74.4,0.456,30.39,1.1
+person_02_w0492,1476.0,0,0.2271,30.1,Mild Activation,NormWear ViT Morphological Drift,74.7,0.456,30.39,1.0
+person_02_w0493,1479.0,0,0.6043,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,71.1,0.456,30.4,1.7
+person_02_w0494,1482.0,0,0.462,41.9,Mild Activation,NormWear ViT Morphological Drift,59.6,0.454,30.39,1.4
+person_02_w0495,1485.0,0,0.3841,37.3,Mild Activation,NormWear ViT Morphological Drift,67.4,0.449,30.39,1.2
+person_02_w0496,1488.0,0,0.1374,23.5,Homeostatic Rest,NormWear ViT Morphological Drift,67.6,0.446,30.4,0.8
+person_02_w0497,1491.0,0,0.2273,28.5,Mild Activation,NormWear ViT Morphological Drift,68.0,0.447,30.4,1.0
+person_02_w0498,1494.0,0,0.4259,43.9,Mild Activation,NormWear ViT Morphological Drift,83.5,0.457,30.41,1.5
+person_02_w0499,1497.0,0,0.1442,25.6,Mild Activation,NormWear ViT Morphological Drift,84.3,0.463,30.41,0.9
+person_02_w0500,1500.0,0,0.0511,18.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.9,0.458,30.41,0.6
+person_02_w0501,1503.0,0,0.5474,47.4,Mild Activation,NormWear ViT Morphological Drift,71.1,0.452,30.41,1.6
+person_02_w0502,1506.0,0,0.4731,42.6,Mild Activation,NormWear ViT Morphological Drift,74.3,0.448,30.4,1.4
+person_02_w0503,1509.0,0,0.0701,18.8,Homeostatic Rest,NormWear ViT Morphological Drift,77.8,0.445,30.4,0.6
+person_02_w0504,1512.0,0,0.0454,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,68.8,0.444,30.4,0.5
+person_02_w0505,1515.0,0,0.0825,18.1,Homeostatic Rest,NormWear ViT Morphological Drift,72.7,0.446,30.41,0.6
+person_02_w0506,1518.0,0,0.0717,18.5,Homeostatic Rest,NormWear ViT Morphological Drift,73.8,0.449,30.41,0.6
+person_02_w0507,1521.0,0,0.0995,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.451,30.41,0.7
+person_02_w0508,1524.0,0,0.569,49.4,Mild Activation,NormWear ViT Morphological Drift,70.7,0.453,30.41,1.6
+person_02_w0509,1527.0,0,0.3241,32.9,Mild Activation,NormWear ViT Morphological Drift,83.5,0.441,30.41,1.1
+person_02_w0510,1530.0,0,0.3007,31.6,Mild Activation,NormWear ViT Morphological Drift,67.2,0.43,30.41,1.1
+person_02_w0511,1533.0,0,0.3414,34.8,Mild Activation,NormWear ViT Morphological Drift,70.0,0.432,30.4,1.2
+person_02_w0512,1536.0,0,0.409,39.7,Mild Activation,NormWear ViT Morphological Drift,79.1,0.446,30.39,1.3
+person_02_w0513,1539.0,0,0.2721,31.5,Mild Activation,NormWear ViT Morphological Drift,73.6,0.458,30.39,1.1
+person_02_w0514,1542.0,0,0.2594,30.5,Mild Activation,NormWear ViT Morphological Drift,60.0,0.455,30.4,1.0
+person_02_w0515,1545.0,0,0.4965,43.9,Mild Activation,NormWear ViT Morphological Drift,68.0,0.448,30.4,1.5
+person_02_w0516,1548.0,0,0.5142,44.4,Mild Activation,NormWear ViT Morphological Drift,74.1,0.432,30.4,1.5
+person_02_w0517,1551.0,0,0.3855,37.0,Mild Activation,NormWear ViT Morphological Drift,77.1,0.418,30.38,1.2
+person_02_w0518,1554.0,0,0.4911,44.5,Mild Activation,NormWear ViT Morphological Drift,89.9,0.413,30.37,1.5
+person_02_w0519,1557.0,0,0.4715,43.0,Mild Activation,NormWear ViT Morphological Drift,45.0,0.426,30.38,1.4
+person_02_w0520,1560.0,0,0.5641,48.5,Mild Activation,NormWear ViT Morphological Drift,40.0,0.444,30.4,1.6
+person_02_w0521,1563.0,0,0.4137,38.4,Mild Activation,NormWear ViT Morphological Drift,69.8,0.438,30.4,1.3
+person_02_w0522,1566.0,0,0.238,28.4,Mild Activation,NormWear ViT Morphological Drift,78.1,0.426,30.4,0.9
+person_02_w0523,1569.0,0,0.3086,31.8,Mild Activation,NormWear ViT Morphological Drift,82.0,0.423,30.39,1.1
+person_02_w0524,1572.0,0,0.5014,42.2,Mild Activation,NormWear ViT Morphological Drift,75.5,0.419,30.39,1.4
+person_02_w0525,1575.0,0,0.2134,25.9,Mild Activation,NormWear ViT Morphological Drift,82.7,0.414,30.38,0.9
+person_02_w0526,1578.0,0,0.3043,29.9,Mild Activation,NormWear ViT Morphological Drift,83.7,0.417,30.37,1.0
+person_02_w0527,1581.0,0,0.6032,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,51.0,0.43,30.37,1.7
+person_02_w0528,1584.0,0,0.2825,33.0,Mild Activation,NormWear ViT Morphological Drift,60.7,0.444,30.35,1.1
+person_02_w0529,1587.0,0,0.4252,38.5,Mild Activation,NormWear ViT Morphological Drift,78.6,0.449,30.34,1.3
+person_02_w0530,1590.0,0,0.1155,24.0,Homeostatic Rest,NormWear ViT Morphological Drift,82.5,0.445,30.33,0.8
+person_02_w0531,1593.0,0,0.6572,53.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.1,0.434,30.32,1.8
+person_02_w0532,1596.0,0,0.1093,22.5,Homeostatic Rest,NormWear ViT Morphological Drift,69.8,0.433,30.31,0.8
+person_02_w0533,1599.0,0,0.445,42.3,Mild Activation,NormWear ViT Morphological Drift,70.3,0.459,30.31,1.4
+person_02_w0534,1602.0,0,0.0954,23.9,Homeostatic Rest,NormWear ViT Morphological Drift,76.8,0.486,30.33,0.8
+person_02_w0535,1605.0,0,0.0679,24.0,Homeostatic Rest,NormWear ViT Morphological Drift,77.0,0.496,30.35,0.8
+person_02_w0536,1608.0,0,0.0945,27.0,Mild Activation,NormWear ViT Morphological Drift,76.4,0.503,30.38,0.9
+person_02_w0537,1611.0,3,0.0629,23.4,Homeostatic Rest,NormWear ViT Morphological Drift,71.6,0.503,30.4,0.8
+person_02_w0538,1614.0,3,0.0529,21.8,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.495,30.42,0.7
+person_02_w0539,1617.0,3,0.0687,22.4,Homeostatic Rest,NormWear ViT Morphological Drift,71.3,0.484,30.44,0.7
+person_02_w0540,1620.0,3,0.0656,23.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.487,30.45,0.8
+person_02_w0541,1623.0,3,0.2079,33.3,Mild Activation,NormWear ViT Morphological Drift,76.8,0.519,30.47,1.1
+person_02_w0542,1626.0,3,0.1546,31.9,Mild Activation,NormWear ViT Morphological Drift,76.8,0.535,30.47,1.1
+person_02_w0543,1629.0,3,0.0511,25.0,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.526,30.48,0.8
+person_02_w0544,1632.0,3,0.0931,27.1,Mild Activation,NormWear ViT Morphological Drift,74.0,0.525,30.49,0.9
+person_02_w0545,1635.0,3,0.1315,32.0,Mild Activation,NormWear ViT Morphological Drift,79.2,0.54,30.5,1.1
+person_02_w0546,1638.0,3,0.0929,28.9,Mild Activation,NormWear ViT Morphological Drift,72.2,0.551,30.49,1.0
+person_02_w0547,1641.0,3,0.0539,27.6,Mild Activation,NormWear ViT Morphological Drift,70.5,0.546,30.49,0.9
+person_02_w0548,1644.0,3,0.1451,32.9,Mild Activation,NormWear ViT Morphological Drift,71.3,0.539,30.49,1.1
+person_02_w0549,1647.0,3,0.1212,30.1,Mild Activation,NormWear ViT Morphological Drift,77.6,0.533,30.5,1.0
+person_02_w0550,1650.0,3,0.0414,26.3,Mild Activation,NormWear ViT Morphological Drift,74.8,0.542,30.5,0.9
+person_02_w0551,1653.0,3,0.2576,40.9,Mild Activation,NormWear ViT Morphological Drift,74.7,0.562,30.51,1.4
+person_02_w0552,1656.0,3,0.5072,57.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,83.5,0.574,30.5,1.9
+person_02_w0553,1659.0,3,0.4003,51.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,85.1,0.579,30.51,1.7
+person_02_w0554,1662.0,3,0.3315,49.6,Mild Activation,NormWear ViT Morphological Drift,84.0,0.581,30.5,1.7
+person_02_w0555,1665.0,3,0.118,35.6,Mild Activation,NormWear ViT Morphological Drift,77.5,0.587,30.49,1.2
+person_02_w0556,1668.0,3,0.427,57.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,86.1,0.641,30.48,1.9
+person_02_w0557,1671.0,3,0.5754,69.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,95.3,0.666,30.48,2.3
+person_02_w0558,1674.0,3,0.4336,59.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,95.1,0.635,30.48,2.0
+person_02_w0559,1677.0,3,0.1393,38.2,Mild Activation,NormWear ViT Morphological Drift,81.2,0.621,30.48,1.3
+person_02_w0560,1680.0,3,0.0983,34.8,Mild Activation,NormWear ViT Morphological Drift,70.0,0.618,30.47,1.2
+person_02_w0561,1683.0,3,0.3725,55.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.5,0.642,30.47,1.8
+person_02_w0562,1686.0,3,0.6238,71.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),85.3,0.699,30.47,2.4
+person_02_w0563,1689.0,3,0.4908,67.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,115.7,0.72,30.46,2.2
+person_02_w0564,1692.0,3,0.7081,75.9,Acute Physiological Surge,NormWear ViT Morphological Drift,67.6,0.697,30.45,2.5
+person_02_w0565,1695.0,3,0.1036,41.6,Mild Activation,NormWear ViT Morphological Drift,88.1,0.697,30.44,1.4
+person_02_w0566,1698.0,3,0.2513,50.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),91.4,0.717,30.45,1.7
+person_02_w0567,1701.0,3,0.0089,34.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.7,0.714,30.46,1.1
+person_02_w0568,1704.0,3,0.0165,34.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.8,0.691,30.45,1.2
+person_02_w0569,1707.0,3,0.1512,43.2,Mild Activation,NormWear ViT Morphological Drift,78.4,0.684,30.46,1.4
+person_02_w0570,1710.0,3,0.2004,45.7,Mild Activation,NormWear ViT Morphological Drift,78.8,0.677,30.47,1.5
+person_02_w0571,1713.0,3,0.0741,38.2,Mild Activation,NormWear ViT Morphological Drift,76.8,0.682,30.47,1.3
+person_02_w0572,1716.0,3,0.136,41.7,Mild Activation,NormWear ViT Morphological Drift,73.6,0.681,30.47,1.4
+person_02_w0573,1719.0,3,0.0644,35.5,Mild Activation,NormWear ViT Morphological Drift,73.1,0.667,30.47,1.2
+person_02_w0574,1722.0,3,0.0315,33.6,Mild Activation,NormWear ViT Morphological Drift,70.7,0.664,30.46,1.1
+person_02_w0575,1725.0,3,0.0373,34.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.3,0.667,30.46,1.1
+person_02_w0576,1728.0,3,0.0746,36.7,Mild Activation,NormWear ViT Morphological Drift,74.3,0.661,30.48,1.2
+person_02_w0577,1731.0,3,0.0561,34.9,Mild Activation,NormWear ViT Morphological Drift,72.9,0.653,30.48,1.2
+person_02_w0578,1734.0,3,0.0397,33.8,Mild Activation,NormWear ViT Morphological Drift,74.6,0.649,30.47,1.1
+person_02_w0579,1737.0,3,0.0567,33.5,Mild Activation,NormWear ViT Morphological Drift,73.8,0.645,30.47,1.1
+person_02_w0580,1740.0,3,0.0662,33.9,Mild Activation,NormWear ViT Morphological Drift,74.6,0.641,30.47,1.1
+person_02_w0581,1743.0,3,0.0887,34.9,Mild Activation,NormWear ViT Morphological Drift,75.3,0.637,30.47,1.2
+person_02_w0582,1746.0,3,0.0501,32.6,Mild Activation,NormWear ViT Morphological Drift,76.0,0.635,30.46,1.1
+person_02_w0583,1749.0,3,0.0384,32.1,Mild Activation,NormWear ViT Morphological Drift,75.0,0.634,30.45,1.1
+person_02_w0584,1752.0,3,0.0332,31.4,Mild Activation,NormWear ViT Morphological Drift,76.1,0.632,30.46,1.0
+person_02_w0585,1755.0,3,0.0383,31.9,Mild Activation,NormWear ViT Morphological Drift,73.1,0.628,30.47,1.1
+person_02_w0586,1758.0,3,0.0517,32.7,Mild Activation,NormWear ViT Morphological Drift,76.0,0.625,30.46,1.1
+person_02_w0587,1761.0,3,0.0699,33.0,Mild Activation,NormWear ViT Morphological Drift,73.4,0.621,30.46,1.1
+person_02_w0588,1764.0,3,0.0447,32.0,Mild Activation,NormWear ViT Morphological Drift,74.8,0.617,30.46,1.1
+person_02_w0589,1767.0,3,0.0833,33.4,Mild Activation,NormWear ViT Morphological Drift,72.7,0.612,30.45,1.1
+person_02_w0590,1770.0,3,0.086,32.6,Mild Activation,NormWear ViT Morphological Drift,76.3,0.608,30.45,1.1
+person_02_w0591,1773.0,3,0.0811,33.5,Mild Activation,NormWear ViT Morphological Drift,76.8,0.605,30.44,1.1
+person_02_w0592,1776.0,3,0.0691,32.3,Mild Activation,NormWear ViT Morphological Drift,72.0,0.603,30.44,1.1
+person_02_w0593,1779.0,3,0.0652,32.9,Mild Activation,NormWear ViT Morphological Drift,76.8,0.6,30.44,1.1
+person_02_w0594,1782.0,3,0.6277,63.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.9,0.6,30.44,2.1
+person_02_w0595,1785.0,3,0.7405,72.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,62.7,0.616,30.42,2.4
+person_02_w0596,1788.0,3,0.6861,74.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,101.8,0.631,30.41,2.5
+person_02_w0597,1791.0,3,0.4056,55.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.0,0.626,30.4,1.8
+person_02_w0598,1794.0,3,0.1796,41.2,Mild Activation,NormWear ViT Morphological Drift,79.2,0.62,30.38,1.4
+person_02_w0599,1797.0,3,0.2958,49.0,Mild Activation,NormWear ViT Morphological Drift,85.3,0.622,30.37,1.6
+person_02_w0600,1800.0,3,0.2472,45.5,Mild Activation,NormWear ViT Morphological Drift,86.2,0.624,30.36,1.5
+person_02_w0601,1803.0,3,0.0831,33.1,Mild Activation,NormWear ViT Morphological Drift,67.4,0.618,30.35,1.1
+person_02_w0602,1806.0,3,0.0719,32.8,Mild Activation,NormWear ViT Morphological Drift,72.2,0.613,30.35,1.1
+person_02_w0603,1809.0,3,0.0922,35.3,Mild Activation,NormWear ViT Morphological Drift,80.6,0.61,30.34,1.2
+person_02_w0604,1812.0,3,0.1471,37.5,Mild Activation,NormWear ViT Morphological Drift,79.3,0.607,30.33,1.3
+person_02_w0605,1815.0,3,0.2211,40.5,Mild Activation,NormWear ViT Morphological Drift,75.5,0.604,30.33,1.4
+person_02_w0606,1818.0,3,0.0713,30.9,Mild Activation,NormWear ViT Morphological Drift,63.8,0.601,30.33,1.0
+person_02_w0607,1821.0,3,0.0805,32.3,Mild Activation,NormWear ViT Morphological Drift,69.6,0.596,30.33,1.1
+person_02_w0608,1824.0,3,0.093,34.3,Mild Activation,NormWear ViT Morphological Drift,73.4,0.592,30.33,1.1
+person_02_w0609,1827.0,3,0.0551,30.4,Mild Activation,NormWear ViT Morphological Drift,75.0,0.589,30.33,1.0
+person_02_w0610,1830.0,3,0.1767,38.9,Mild Activation,NormWear ViT Morphological Drift,80.8,0.587,30.32,1.3
+person_02_w0611,1833.0,3,0.0662,30.0,Mild Activation,NormWear ViT Morphological Drift,74.6,0.584,30.31,1.0
+person_02_w0612,1836.0,3,0.0694,30.0,Mild Activation,NormWear ViT Morphological Drift,68.6,0.581,30.31,1.0
+person_02_w0613,1839.0,3,0.0751,31.1,Mild Activation,NormWear ViT Morphological Drift,73.1,0.578,30.3,1.0
+person_02_w0614,1842.0,3,0.062,30.5,Mild Activation,NormWear ViT Morphological Drift,74.3,0.574,30.3,1.0
+person_02_w0615,1845.0,3,0.0379,28.0,Mild Activation,NormWear ViT Morphological Drift,73.6,0.572,30.31,0.9
+person_02_w0616,1848.0,3,0.0907,30.7,Mild Activation,NormWear ViT Morphological Drift,78.6,0.568,30.3,1.0
+person_02_w0617,1851.0,3,0.0759,30.8,Mild Activation,NormWear ViT Morphological Drift,79.5,0.569,30.3,1.0
+person_02_w0618,1854.0,3,0.091,31.3,Mild Activation,NormWear ViT Morphological Drift,76.0,0.572,30.3,1.0
+person_02_w0619,1857.0,3,0.0733,30.7,Mild Activation,NormWear ViT Morphological Drift,76.0,0.571,30.3,1.0
+person_02_w0620,1860.0,3,0.0781,31.5,Mild Activation,NormWear ViT Morphological Drift,75.8,0.569,30.29,1.1
+person_02_w0621,1863.0,3,0.2084,39.5,Mild Activation,NormWear ViT Morphological Drift,77.7,0.565,30.28,1.3
+person_02_w0622,1866.0,3,0.2127,40.1,Mild Activation,NormWear ViT Morphological Drift,78.1,0.562,30.27,1.3
+person_02_w0623,1869.0,3,0.1159,33.3,Mild Activation,NormWear ViT Morphological Drift,76.5,0.559,30.26,1.1
+person_02_w0624,1872.0,3,0.0563,28.4,Mild Activation,NormWear ViT Morphological Drift,73.6,0.557,30.27,0.9
+person_02_w0625,1875.0,3,0.0744,29.3,Mild Activation,NormWear ViT Morphological Drift,76.8,0.557,30.27,1.0
+person_02_w0626,1878.0,3,0.0663,29.7,Mild Activation,NormWear ViT Morphological Drift,75.1,0.556,30.27,1.0
+person_02_w0627,1881.0,3,0.0806,30.3,Mild Activation,NormWear ViT Morphological Drift,73.8,0.554,30.27,1.0
+person_02_w0628,1884.0,3,0.1618,35.0,Mild Activation,NormWear ViT Morphological Drift,76.8,0.551,30.27,1.2
+person_02_w0629,1887.0,3,0.2066,37.6,Mild Activation,NormWear ViT Morphological Drift,80.8,0.549,30.25,1.3
+person_02_w0630,1890.0,3,0.2657,42.4,Mild Activation,NormWear ViT Morphological Drift,85.3,0.548,30.24,1.4
+person_02_w0631,1893.0,3,0.1047,30.8,Mild Activation,NormWear ViT Morphological Drift,82.2,0.548,30.24,1.0
+person_02_w0632,1896.0,3,0.0681,26.4,Mild Activation,NormWear ViT Morphological Drift,69.4,0.547,30.24,0.9
+person_02_w0633,1899.0,3,0.1661,34.9,Mild Activation,NormWear ViT Morphological Drift,71.6,0.546,30.24,1.2
+person_02_w0634,1902.0,3,0.2254,40.0,Mild Activation,NormWear ViT Morphological Drift,82.0,0.545,30.23,1.3
+person_02_w0635,1905.0,3,0.1485,35.6,Mild Activation,NormWear ViT Morphological Drift,80.3,0.544,30.24,1.2
+person_02_w0636,1908.0,3,0.1584,36.0,Mild Activation,NormWear ViT Morphological Drift,81.7,0.543,30.24,1.2
+person_02_w0637,1911.0,3,0.131,32.1,Mild Activation,NormWear ViT Morphological Drift,73.6,0.541,30.23,1.1
+person_02_w0638,1914.0,3,0.2081,36.6,Mild Activation,NormWear ViT Morphological Drift,75.8,0.541,30.23,1.2
+person_02_w0639,1917.0,3,0.1249,32.1,Mild Activation,NormWear ViT Morphological Drift,77.0,0.542,30.23,1.1
+person_02_w0640,1920.0,3,0.0981,30.3,Mild Activation,NormWear ViT Morphological Drift,80.2,0.541,30.23,1.0
+person_02_w0641,1923.0,3,0.1377,30.7,Mild Activation,NormWear ViT Morphological Drift,72.9,0.539,30.22,1.0
+person_02_w0642,1926.0,3,0.1425,31.3,Mild Activation,NormWear ViT Morphological Drift,78.1,0.538,30.22,1.0
+person_02_w0643,1929.0,3,0.6703,61.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,64.4,0.537,30.22,2.1
+person_02_w0644,1932.0,3,0.659,61.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.4,0.539,30.22,2.0
+person_02_w0645,1935.0,3,0.5372,58.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.6,0.54,30.21,2.0
+person_02_w0646,1938.0,3,0.123,30.8,Mild Activation,NormWear ViT Morphological Drift,82.2,0.539,30.21,1.0
+person_02_w0647,1941.0,3,0.0851,28.2,Mild Activation,NormWear ViT Morphological Drift,78.1,0.539,30.2,0.9
+person_02_w0648,1944.0,3,0.2473,41.0,Mild Activation,NormWear ViT Morphological Drift,82.7,0.542,30.2,1.4
+person_02_w0649,1947.0,3,0.2104,38.0,Mild Activation,NormWear ViT Morphological Drift,82.2,0.547,30.2,1.3
+person_02_w0650,1950.0,3,0.1498,34.4,Mild Activation,NormWear ViT Morphological Drift,80.2,0.549,30.2,1.1
+person_02_w0651,1953.0,3,0.0395,26.2,Mild Activation,NormWear ViT Morphological Drift,74.3,0.547,30.21,0.9
+person_02_w0652,1956.0,3,0.0918,30.3,Mild Activation,NormWear ViT Morphological Drift,77.8,0.546,30.22,1.0
+person_02_w0653,1959.0,3,0.1292,30.8,Mild Activation,NormWear ViT Morphological Drift,68.8,0.545,30.21,1.0
+person_02_w0654,1962.0,3,0.1224,30.5,Mild Activation,NormWear ViT Morphological Drift,72.5,0.543,30.2,1.0
+person_02_w0655,1965.0,3,0.1213,30.0,Mild Activation,NormWear ViT Morphological Drift,72.7,0.542,30.2,1.0
+person_02_w0656,1968.0,3,0.068,27.0,Mild Activation,NormWear ViT Morphological Drift,75.1,0.54,30.2,0.9
+person_02_w0657,1971.0,3,0.0596,25.4,Mild Activation,NormWear ViT Morphological Drift,68.4,0.539,30.2,0.8
+person_02_w0658,1974.0,3,0.0854,27.1,Mild Activation,NormWear ViT Morphological Drift,69.8,0.538,30.21,0.9
+person_02_w0659,1977.0,3,0.1005,28.3,Mild Activation,NormWear ViT Morphological Drift,66.4,0.537,30.2,0.9
+person_02_w0660,1980.0,3,0.0956,27.4,Mild Activation,NormWear ViT Morphological Drift,71.6,0.537,30.2,0.9
+person_02_w0661,1983.0,0,0.1752,32.6,Mild Activation,NormWear ViT Morphological Drift,73.4,0.535,30.19,1.1
+person_02_w0662,1986.0,0,0.1101,28.5,Mild Activation,NormWear ViT Morphological Drift,72.2,0.535,30.19,0.9
+person_02_w0663,1989.0,0,0.5995,56.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),69.4,0.532,30.19,1.9
+person_02_w0664,1992.0,0,0.5802,53.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,77.8,0.478,30.19,1.8
+person_02_w0665,1995.0,0,0.7793,69.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.9,0.497,30.17,2.3
+person_02_w0666,1998.0,0,0.6895,68.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,95.0,0.566,30.14,2.3
+person_02_w0667,2001.0,0,0.4232,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.9,0.56,30.11,1.7
+person_02_w0668,2004.0,0,0.5572,58.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,65.8,0.553,30.1,1.9
+person_02_w0669,2007.0,0,0.6224,64.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.4,0.563,30.1,2.2
+person_02_w0670,2010.0,0,0.3942,50.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.3,0.571,30.12,1.7
+person_02_w0671,2013.0,0,0.5007,56.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,72.5,0.568,30.14,1.9
+person_02_w0672,2016.0,0,0.1923,37.1,Mild Activation,NormWear ViT Morphological Drift,72.0,0.568,30.15,1.2
+person_02_w0673,2019.0,0,0.0777,29.8,Mild Activation,NormWear ViT Morphological Drift,69.2,0.57,30.15,1.0
+person_02_w0674,2022.0,0,0.4364,54.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,77.1,0.585,30.16,1.8
+person_02_w0675,2025.0,0,0.5236,60.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.4,0.596,30.17,2.0
+person_02_w0676,2028.0,0,0.5161,58.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.6,0.589,30.17,2.0
+person_02_w0677,2031.0,7,0.1486,36.2,Mild Activation,NormWear ViT Morphological Drift,64.9,0.581,30.17,1.2
+person_02_w0678,2034.0,7,0.3927,51.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.2,0.575,30.16,1.7
+person_02_w0679,2037.0,7,0.4497,55.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,85.6,0.572,30.16,1.8
+person_02_w0680,2040.0,7,0.4847,57.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,87.3,0.57,30.16,1.9
+person_02_w0681,2043.0,7,0.4047,50.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.0,0.569,30.16,1.7
+person_02_w0682,2046.0,7,0.5416,57.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.8,0.568,30.15,1.9
+person_02_w0683,2049.0,7,0.5934,60.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,71.6,0.566,30.15,2.0
+person_02_w0684,2052.0,7,0.4552,56.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,101.9,0.565,30.15,1.9
+person_02_w0685,2055.0,7,0.6434,65.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,95.7,0.565,30.16,2.2
+person_02_w0686,2058.0,7,0.7057,69.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,60.0,0.571,30.15,2.3
+person_02_w0687,2061.0,7,0.6027,64.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.8,0.576,30.14,2.1
+person_02_w0688,2064.0,7,0.2101,38.0,Mild Activation,NormWear ViT Morphological Drift,79.8,0.573,30.13,1.3
+person_02_w0689,2067.0,7,0.5996,61.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,66.7,0.569,30.13,2.1
+person_02_w0690,2070.0,7,0.4852,55.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,66.9,0.567,30.12,1.9
+person_02_w0691,2073.0,7,0.4051,53.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,90.4,0.568,30.11,1.8
+person_02_w0692,2076.0,0,0.4095,52.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.6,0.574,30.11,1.8
+person_02_w0693,2079.0,0,0.3054,46.5,Mild Activation,NormWear ViT Morphological Drift,74.8,0.574,30.1,1.5
+person_02_w0694,2082.0,0,0.3824,50.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,64.9,0.567,30.1,1.7
+person_02_w0695,2085.0,0,0.6042,61.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.1,0.565,30.1,2.1
+person_02_w0696,2088.0,0,0.704,69.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,77.1,0.569,30.1,2.3
+person_02_w0697,2091.0,0,0.6411,66.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,57.5,0.562,30.09,2.2
+person_02_w0698,2094.0,0,0.4914,54.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,53.8,0.56,30.1,1.8
+person_02_w0699,2097.0,0,0.4985,56.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,64.2,0.559,30.1,1.9
+person_02_w0700,2100.0,0,0.4664,57.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.6,0.566,30.1,1.9
+person_02_w0701,2103.0,0,0.6307,66.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,75.8,0.587,30.1,2.2
+person_02_w0702,2106.0,0,0.6486,68.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.0,0.6,30.09,2.3
+person_02_w0703,2109.0,0,0.0661,32.4,Mild Activation,NormWear ViT Morphological Drift,67.2,0.608,30.1,1.1
+person_02_w0704,2112.0,0,0.3721,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.6,0.603,30.11,1.7
+person_02_w0705,2115.0,0,0.5635,61.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.2,0.598,30.12,2.0
+person_02_w0706,2118.0,0,0.1001,32.9,Mild Activation,NormWear ViT Morphological Drift,77.8,0.593,30.11,1.1
+person_02_w0707,2121.0,0,0.0592,30.5,Mild Activation,NormWear ViT Morphological Drift,73.8,0.588,30.11,1.0
+person_02_w0708,2124.0,0,0.481,55.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.3,0.586,30.11,1.9
+person_02_w0709,2127.0,0,0.4197,52.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,51.5,0.588,30.11,1.8
+person_02_w0710,2130.0,0,0.571,61.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,41.3,0.589,30.12,2.0
+person_02_w0711,2133.0,0,0.4776,57.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,49.2,0.591,30.12,1.9
+person_02_w0712,2136.0,0,0.1054,34.0,Mild Activation,NormWear ViT Morphological Drift,64.8,0.59,30.11,1.1
+person_02_w0713,2139.0,0,0.54,59.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,57.1,0.588,30.11,2.0
+person_02_w0714,2142.0,0,0.3709,48.6,Mild Activation,NormWear ViT Morphological Drift,68.3,0.589,30.11,1.6
+person_02_w0715,2145.0,0,0.3691,48.8,Mild Activation,NormWear ViT Morphological Drift,73.3,0.588,30.12,1.6
+person_02_w0716,2148.0,0,0.0969,31.1,Mild Activation,NormWear ViT Morphological Drift,74.0,0.585,30.12,1.0
+person_02_w0717,2151.0,0,0.0324,28.6,Mild Activation,NormWear ViT Morphological Drift,77.3,0.584,30.11,1.0
+person_02_w0718,2154.0,0,0.5646,60.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,58.9,0.583,30.11,2.0
+person_02_w0719,2157.0,0,0.5983,63.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,50.7,0.583,30.12,2.1
+person_02_w0720,2160.0,0,0.4311,53.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,43.6,0.584,30.12,1.8
+person_02_w0721,2163.0,0,0.6222,68.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,92.9,0.579,30.11,2.3
+person_02_w0722,2166.0,0,0.6559,68.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.7,0.578,30.11,2.3
+person_02_w0723,2169.0,0,0.529,61.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,82.2,0.584,30.1,2.0
+person_02_w0724,2172.0,0,0.6744,67.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.8,0.588,30.11,2.2
+person_02_w0725,2175.0,0,0.1939,40.7,Mild Activation,NormWear ViT Morphological Drift,67.1,0.591,30.11,1.4
+person_02_w0726,2178.0,0,0.3755,50.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,65.5,0.592,30.12,1.7
+person_02_w0727,2181.0,0,0.3163,48.3,Mild Activation,NormWear ViT Morphological Drift,83.7,0.593,30.15,1.6
+person_02_w0728,2184.0,0,0.5078,59.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,79.4,0.589,30.16,2.0
+person_02_w0729,2187.0,0,0.3224,46.7,Mild Activation,NormWear ViT Morphological Drift,54.9,0.576,30.18,1.6
+person_02_w0730,2190.0,0,0.5522,61.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,82.8,0.576,30.19,2.1
+person_02_w0731,2193.0,0,0.5022,57.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,53.2,0.588,30.18,1.9
+person_02_w0732,2196.0,0,0.5625,60.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.8,0.588,30.18,2.0
+person_02_w0733,2199.0,0,0.6271,64.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,66.2,0.586,30.16,2.2
+person_02_w0734,2202.0,0,0.49,56.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,76.5,0.585,30.15,1.9
+person_02_w0735,2205.0,0,0.5387,60.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.9,0.579,30.14,2.0
+person_02_w0736,2208.0,0,0.5396,60.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.0,0.562,30.13,2.0
+person_02_w0737,2211.0,0,0.4379,54.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,103.1,0.535,30.12,1.8
+person_02_w0738,2214.0,0,0.4904,51.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.3,0.508,30.11,1.7
+person_02_w0739,2217.0,0,0.3405,39.8,Mild Activation,NormWear ViT Morphological Drift,84.9,0.492,30.1,1.3
+person_02_w0740,2220.0,0,0.1128,24.5,Homeostatic Rest,NormWear ViT Morphological Drift,84.3,0.485,30.09,0.8
+person_02_w0741,2223.0,0,0.0665,21.0,Homeostatic Rest,NormWear ViT Morphological Drift,78.1,0.479,30.11,0.7
+person_02_w0742,2226.0,0,0.0567,20.8,Homeostatic Rest,NormWear ViT Morphological Drift,77.1,0.476,30.13,0.7
+person_02_w0743,2229.0,0,0.0414,19.1,Homeostatic Rest,NormWear ViT Morphological Drift,73.8,0.472,30.14,0.6
+person_02_w0744,2232.0,0,0.1072,22.0,Homeostatic Rest,NormWear ViT Morphological Drift,70.9,0.474,30.15,0.7
+person_02_w0745,2235.0,0,0.7069,69.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,100.2,0.524,30.16,2.3
+person_02_w0746,2238.0,0,0.3424,45.7,Mild Activation,NormWear ViT Morphological Drift,68.2,0.546,30.17,1.5
+person_02_w0747,2241.0,0,0.537,52.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.7,0.496,30.18,1.8
+person_02_w0748,2244.0,0,0.5606,50.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,93.0,0.465,30.16,1.7
+person_02_w0749,2247.0,0,0.6512,59.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,99.6,0.46,30.15,2.0
+person_02_w0750,2250.0,0,0.5973,53.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,92.3,0.455,30.15,1.8
+person_02_w0751,2253.0,0,0.4045,38.7,Mild Activation,NormWear ViT Morphological Drift,76.3,0.455,30.15,1.3
+person_02_w0752,2256.0,4,0.4558,44.4,Mild Activation,NormWear ViT Morphological Drift,67.8,0.47,30.14,1.5
+person_02_w0753,2259.0,4,0.3597,40.4,Mild Activation,NormWear ViT Morphological Drift,78.8,0.468,30.14,1.3
+person_02_w0754,2262.0,4,0.203,27.9,Mild Activation,NormWear ViT Morphological Drift,79.3,0.451,30.13,0.9
+person_02_w0755,2265.0,4,0.123,23.2,Homeostatic Rest,NormWear ViT Morphological Drift,76.6,0.448,30.1,0.8
+person_02_w0756,2268.0,4,0.1084,21.3,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.444,30.09,0.7
+person_02_w0757,2271.0,4,0.6437,51.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,61.9,0.446,30.08,1.7
+person_02_w0758,2274.0,4,0.1627,23.3,Homeostatic Rest,NormWear ViT Morphological Drift,68.9,0.452,30.11,0.8
+person_02_w0759,2277.0,4,0.0672,19.8,Homeostatic Rest,NormWear ViT Morphological Drift,57.8,0.445,30.16,0.7
+person_02_w0760,2280.0,4,0.4825,42.5,Mild Activation,NormWear ViT Morphological Drift,65.8,0.445,30.17,1.4
+person_02_w0761,2283.0,4,0.424,40.4,Mild Activation,NormWear ViT Morphological Drift,81.1,0.451,30.14,1.3
+person_02_w0762,2286.0,4,0.276,31.6,Mild Activation,NormWear ViT Morphological Drift,80.8,0.446,30.11,1.1
+person_02_w0763,2289.0,4,0.0676,19.1,Homeostatic Rest,NormWear ViT Morphological Drift,74.1,0.443,30.11,0.6
+person_02_w0764,2292.0,4,0.0926,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.0,0.44,30.1,0.7
+person_02_w0765,2295.0,4,0.0395,14.7,Homeostatic Rest,NormWear ViT Morphological Drift,64.9,0.437,30.1,0.5
+person_02_w0766,2298.0,4,0.0444,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,67.4,0.434,30.12,0.5
+person_02_w0767,2301.0,4,0.0665,17.2,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.431,30.13,0.6
+person_02_w0768,2304.0,4,0.0977,18.6,Homeostatic Rest,NormWear ViT Morphological Drift,70.7,0.43,30.14,0.6
+person_02_w0769,2307.0,4,0.0809,18.8,Homeostatic Rest,NormWear ViT Morphological Drift,75.8,0.427,30.14,0.6
+person_02_w0770,2310.0,4,0.0731,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,70.0,0.423,30.15,0.5
+person_02_w0771,2313.0,4,0.0709,15.7,Homeostatic Rest,NormWear ViT Morphological Drift,70.0,0.42,30.15,0.5
+person_02_w0772,2316.0,4,0.0686,16.9,Homeostatic Rest,NormWear ViT Morphological Drift,73.1,0.419,30.15,0.6
+person_02_w0773,2319.0,4,0.0513,14.3,Homeostatic Rest,NormWear ViT Morphological Drift,66.0,0.417,30.15,0.5
+person_02_w0774,2322.0,4,0.0575,14.8,Homeostatic Rest,NormWear ViT Morphological Drift,67.8,0.415,30.14,0.5
+person_02_w0775,2325.0,4,0.0431,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,70.5,0.412,30.15,0.5
+person_02_w0776,2328.0,4,0.0394,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,68.0,0.41,30.16,0.5
+person_02_w0777,2331.0,4,0.0603,14.5,Homeostatic Rest,NormWear ViT Morphological Drift,64.6,0.408,30.16,0.5
+person_02_w0778,2334.0,4,0.068,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,68.8,0.406,30.16,0.5
+person_02_w0779,2337.0,4,0.0519,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,65.1,0.403,30.17,0.5
+person_02_w0780,2340.0,4,0.0502,13.5,Homeostatic Rest,NormWear ViT Morphological Drift,69.6,0.401,30.17,0.5
+person_02_w0781,2343.0,4,0.072,14.8,Homeostatic Rest,NormWear ViT Morphological Drift,70.5,0.4,30.16,0.5
+person_02_w0782,2346.0,4,0.0568,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.0,0.398,30.16,0.5
+person_02_w0783,2349.0,4,0.0496,13.1,Homeostatic Rest,NormWear ViT Morphological Drift,65.1,0.396,30.16,0.5
+person_02_w0784,2352.0,4,0.0457,12.6,Homeostatic Rest,NormWear ViT Morphological Drift,69.2,0.393,30.15,0.5
+person_02_w0785,2355.0,4,0.0758,15.9,Homeostatic Rest,NormWear ViT Morphological Drift,74.0,0.393,30.14,0.5
+person_02_w0786,2358.0,4,0.0406,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,71.1,0.393,30.12,0.5
+person_02_w0787,2361.0,4,0.0687,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.391,30.11,0.5
+person_02_w0788,2364.0,4,0.0852,15.7,Homeostatic Rest,NormWear ViT Morphological Drift,75.0,0.389,30.08,0.5
+person_02_w0789,2367.0,4,0.0591,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,73.8,0.388,30.08,0.5
+person_02_w0790,2370.0,4,0.0698,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,75.1,0.386,30.08,0.5
+person_02_w0791,2373.0,4,0.0631,13.0,Homeostatic Rest,NormWear ViT Morphological Drift,68.4,0.384,30.07,0.5
+person_02_w0792,2376.0,4,0.0614,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,69.4,0.382,30.06,0.5
+person_02_w0793,2379.0,4,0.0598,13.4,Homeostatic Rest,NormWear ViT Morphological Drift,69.0,0.38,30.05,0.5
+person_02_w0794,2382.0,4,0.0582,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,65.3,0.379,30.04,0.5
+person_02_w0795,2385.0,4,0.0666,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,68.0,0.377,30.03,0.5
+person_02_w0796,2388.0,4,0.0442,11.9,Homeostatic Rest,NormWear ViT Morphological Drift,65.5,0.376,30.03,0.5
+person_02_w0797,2391.0,4,0.0531,12.0,Homeostatic Rest,NormWear ViT Morphological Drift,65.8,0.375,30.02,0.5
+person_02_w0798,2394.0,4,0.0513,12.2,Homeostatic Rest,NormWear ViT Morphological Drift,65.3,0.374,30.0,0.5
+person_02_w0799,2397.0,4,0.0709,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,76.4,0.373,29.99,0.5
+person_02_w0800,2400.0,4,0.0749,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.372,29.97,0.5
+person_02_w0801,2403.0,4,0.081,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,76.0,0.371,29.96,0.5
+person_02_w0802,2406.0,4,0.0508,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,70.5,0.369,29.95,0.5
+person_02_w0803,2409.0,4,0.0418,12.1,Homeostatic Rest,NormWear ViT Morphological Drift,69.2,0.368,29.93,0.5
+person_02_w0804,2412.0,4,0.0518,14.4,Homeostatic Rest,NormWear ViT Morphological Drift,72.0,0.367,29.91,0.5
+person_02_w0805,2415.0,4,0.0607,14.2,Homeostatic Rest,NormWear ViT Morphological Drift,72.2,0.366,29.9,0.5
+person_02_w0806,2418.0,4,0.0521,13.9,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.365,29.89,0.5
+person_02_w0807,2421.0,4,0.0596,13.8,Homeostatic Rest,NormWear ViT Morphological Drift,69.1,0.365,29.87,0.5
+person_02_w0808,2424.0,4,0.0674,15.8,Homeostatic Rest,NormWear ViT Morphological Drift,76.5,0.364,29.85,0.5
+person_02_w0809,2427.0,4,0.0545,13.3,Homeostatic Rest,NormWear ViT Morphological Drift,63.4,0.363,29.83,0.5
+person_02_w0810,2430.0,4,0.0386,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,69.8,0.361,29.8,0.5
+person_02_w0811,2433.0,4,0.0503,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,71.8,0.359,29.78,0.5
+person_02_w0812,2436.0,4,0.0525,13.6,Homeostatic Rest,NormWear ViT Morphological Drift,60.6,0.358,29.77,0.5
+person_02_w0813,2439.0,4,0.0442,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,67.2,0.357,29.75,0.5
+person_02_w0814,2442.0,4,0.0456,13.7,Homeostatic Rest,NormWear ViT Morphological Drift,65.5,0.357,29.73,0.5
+person_02_w0815,2445.0,4,0.0396,13.3,Homeostatic Rest,NormWear ViT Morphological Drift,68.8,0.356,29.71,0.5
+person_02_w0816,2448.0,4,0.0629,15.8,Homeostatic Rest,NormWear ViT Morphological Drift,73.4,0.355,29.69,0.5
+person_02_w0817,2451.0,4,0.0554,16.1,Homeostatic Rest,NormWear ViT Morphological Drift,74.3,0.354,29.67,0.5
+person_02_w0818,2454.0,4,0.0486,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.353,29.64,0.5
+person_02_w0819,2457.0,4,0.0658,17.4,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),75.8,0.352,29.61,0.6
+person_02_w0820,2460.0,4,0.0494,16.2,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),72.7,0.352,29.59,0.5
+person_02_w0821,2463.0,4,0.0705,19.5,Homeostatic Rest,NormWear ViT Morphological Drift,76.5,0.351,29.56,0.6
+person_02_w0822,2466.0,4,0.0742,19.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),75.5,0.35,29.53,0.6
+person_02_w0823,2469.0,4,0.0581,17.5,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),75.3,0.349,29.53,0.6
+person_02_w0824,2472.0,4,0.0532,16.1,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),68.6,0.348,29.52,0.5
+person_02_w0825,2475.0,4,0.0335,14.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),61.7,0.347,29.5,0.5
+person_02_w0826,2478.0,4,0.0428,16.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),68.8,0.346,29.47,0.6
+person_02_w0827,2481.0,4,0.0523,18.6,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),75.0,0.346,29.46,0.6
+person_02_w0828,2484.0,4,0.1724,23.0,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),66.2,0.345,29.44,0.8
+person_02_w0829,2487.0,4,0.0516,15.7,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),62.5,0.343,29.42,0.5
+person_02_w0830,2490.0,4,0.0407,15.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.8,0.342,29.41,0.5
+person_02_w0831,2493.0,4,0.0442,16.0,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),73.6,0.341,29.42,0.5
+person_02_w0832,2496.0,4,0.0359,14.6,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),64.7,0.34,29.42,0.5
+person_02_w0833,2499.0,4,0.0621,18.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),75.9,0.34,29.4,0.6
+person_02_w0834,2502.0,4,0.0336,15.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),70.7,0.339,29.4,0.5
+person_02_w0835,2505.0,4,0.0575,17.4,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.9,0.339,29.4,0.6
+person_02_w0836,2508.0,4,0.0516,18.2,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),73.8,0.338,29.39,0.6
+person_02_w0837,2511.0,4,0.0521,17.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.3,0.337,29.4,0.6
+person_02_w0838,2514.0,4,0.0561,19.1,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),73.6,0.337,29.4,0.6
+person_02_w0839,2517.0,4,0.0363,16.6,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.6,0.336,29.41,0.6
+person_02_w0840,2520.0,4,0.0333,16.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),70.7,0.336,29.42,0.6
+person_02_w0841,2523.0,4,0.0739,20.5,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),78.8,0.334,29.43,0.7
+person_02_w0842,2526.0,4,0.0802,20.1,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),76.5,0.334,29.42,0.7
+person_02_w0843,2529.0,4,0.035,15.6,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),65.5,0.333,29.43,0.5
+person_02_w0844,2532.0,4,0.05,17.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.1,0.333,29.44,0.6
+person_02_w0845,2535.0,4,0.0749,20.7,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),80.5,0.332,29.45,0.7
+person_02_w0846,2538.0,4,0.041,15.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.1,0.331,29.46,0.5
+person_02_w0847,2541.0,4,0.0398,15.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),64.9,0.332,29.47,0.5
+person_02_w0848,2544.0,4,0.0653,18.4,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),73.8,0.331,29.47,0.6
+person_02_w0849,2547.0,4,0.037,17.0,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),77.9,0.331,29.49,0.6
+person_02_w0850,2550.0,4,0.0468,15.7,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),66.9,0.33,29.5,0.5
+person_02_w0851,2553.0,4,0.0461,16.4,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),71.3,0.329,29.5,0.5
+person_02_w0852,2556.0,4,0.033,16.1,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),70.0,0.329,29.51,0.5
+person_02_w0853,2559.0,4,0.0483,16.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),73.1,0.328,29.51,0.6
+person_02_w0854,2562.0,4,0.0397,16.3,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),72.0,0.328,29.52,0.5
+person_02_w0855,2565.0,4,0.0581,16.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),70.5,0.327,29.5,0.6
+person_02_w0856,2568.0,4,0.0245,14.7,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),69.8,0.327,29.5,0.5
+person_02_w0857,2571.0,4,0.0424,15.8,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),67.6,0.326,29.51,0.5
+person_02_w0858,2574.0,4,0.0285,15.9,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),72.2,0.326,29.51,0.5
+person_02_w0859,2577.0,4,0.1993,23.7,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),79.2,0.325,29.51,0.8
+person_02_w0860,2580.0,4,0.2565,29.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),86.5,0.325,29.54,1.0
+person_02_w0861,2583.0,4,0.059,19.5,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),82.2,0.326,29.56,0.6
+person_02_w0862,2586.0,4,0.069,20.2,Homeostatic Rest,NormWear ViT Morphological Drift,80.2,0.326,29.57,0.7
+person_02_w0863,2589.0,4,0.0407,17.3,Homeostatic Rest,NormWear ViT Morphological Drift,77.0,0.326,29.59,0.6
+person_02_w0864,2592.0,4,0.0579,17.8,Homeostatic Rest,NormWear ViT Morphological Drift,76.5,0.326,29.6,0.6
+person_02_w0865,2595.0,4,0.0393,16.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.7,0.325,29.6,0.6
+person_02_w0866,2598.0,4,0.0388,16.6,Homeostatic Rest,NormWear ViT Morphological Drift,73.6,0.326,29.62,0.6
+person_02_w0867,2601.0,4,0.0247,14.9,Homeostatic Rest,NormWear ViT Morphological Drift,74.1,0.326,29.64,0.5
+person_02_w0868,2604.0,4,0.0324,15.0,Homeostatic Rest,NormWear ViT Morphological Drift,70.9,0.326,29.67,0.5
+person_02_w0869,2607.0,4,0.0386,14.9,Homeostatic Rest,NormWear ViT Morphological Drift,72.1,0.326,29.7,0.5
+person_02_w0870,2610.0,4,0.0412,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,76.8,0.325,29.73,0.5
+person_02_w0871,2613.0,4,0.0807,18.0,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.325,29.74,0.6
+person_02_w0872,2616.0,4,0.024,14.0,Homeostatic Rest,NormWear ViT Morphological Drift,73.6,0.325,29.77,0.5
+person_02_w0873,2619.0,4,0.036,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,75.9,0.326,29.8,0.5
+person_02_w0874,2622.0,4,0.0417,15.3,Homeostatic Rest,NormWear ViT Morphological Drift,77.3,0.325,29.84,0.5
+person_02_w0875,2625.0,4,0.0307,14.6,Homeostatic Rest,NormWear ViT Morphological Drift,77.3,0.325,29.88,0.5
+person_02_w0876,2628.0,4,0.0294,13.4,Homeostatic Rest,NormWear ViT Morphological Drift,72.7,0.325,29.91,0.5
+person_02_w0877,2631.0,4,0.036,13.1,Homeostatic Rest,NormWear ViT Morphological Drift,73.4,0.326,29.94,0.5
+person_02_w0878,2634.0,4,0.0322,13.2,Homeostatic Rest,NormWear ViT Morphological Drift,75.3,0.326,29.96,0.5
+person_02_w0879,2637.0,4,0.0266,11.6,Homeostatic Rest,NormWear ViT Morphological Drift,69.2,0.326,29.99,0.5
+person_02_w0880,2640.0,4,0.0412,14.0,Homeostatic Rest,NormWear ViT Morphological Drift,73.6,0.327,30.04,0.5
+person_02_w0881,2643.0,4,0.03,11.7,Homeostatic Rest,NormWear ViT Morphological Drift,71.6,0.326,30.08,0.5
+person_02_w0882,2646.0,4,0.0278,12.5,Homeostatic Rest,NormWear ViT Morphological Drift,73.6,0.326,30.12,0.5
+person_02_w0883,2649.0,4,0.0235,11.6,Homeostatic Rest,NormWear ViT Morphological Drift,74.3,0.326,30.17,0.5
+person_02_w0884,2652.0,0,0.0274,12.4,Homeostatic Rest,NormWear ViT Morphological Drift,74.1,0.326,30.22,0.5
+person_02_w0885,2655.0,0,0.0453,14.1,Homeostatic Rest,NormWear ViT Morphological Drift,80.2,0.326,30.25,0.5
+person_02_w0886,2658.0,0,0.0331,12.7,Homeostatic Rest,NormWear ViT Morphological Drift,72.5,0.326,30.26,0.5
+person_02_w0887,2661.0,0,0.0401,12.6,Homeostatic Rest,NormWear ViT Morphological Drift,70.9,0.325,30.27,0.5
+person_02_w0888,2664.0,0,0.4634,37.8,Mild Activation,NormWear ViT Morphological Drift,79.2,0.363,30.25,1.3
+person_02_w0889,2667.0,0,0.2164,23.6,Homeostatic Rest,NormWear ViT Morphological Drift,74.8,0.397,30.25,0.8
+person_02_w0890,2670.0,0,0.2007,25.0,Homeostatic Rest,NormWear ViT Morphological Drift,93.1,0.388,30.25,0.8
+person_02_w0891,2673.0,0,0.2575,30.7,Mild Activation,NormWear ViT Morphological Drift,104.8,0.359,30.24,1.0
+person_02_w0892,2676.0,0,0.3637,33.0,Mild Activation,NormWear ViT Morphological Drift,76.8,0.362,30.22,1.1
+person_02_w0893,2679.0,0,0.2148,23.1,Homeostatic Rest,NormWear ViT Morphological Drift,62.7,0.39,30.22,0.8
+person_02_w0894,2682.0,0,0.4763,40.3,Mild Activation,NormWear ViT Morphological Drift,95.2,0.39,30.22,1.3
+person_02_w0895,2685.0,0,0.457,39.6,Mild Activation,NormWear ViT Morphological Drift,93.4,0.392,30.21,1.3
+person_02_w0896,2688.0,0,0.2662,29.6,Mild Activation,NormWear ViT Morphological Drift,89.0,0.396,30.19,1.0
+person_02_w0897,2691.0,0,0.2866,29.0,Mild Activation,NormWear ViT Morphological Drift,86.1,0.401,30.18,1.0
+person_02_w0898,2694.0,0,0.4308,36.6,Mild Activation,NormWear ViT Morphological Drift,72.9,0.404,30.18,1.2
+person_02_w0899,2697.0,0,0.358,33.7,Mild Activation,NormWear ViT Morphological Drift,67.8,0.405,30.17,1.1
+person_02_w0900,2700.0,0,0.3918,35.6,Mild Activation,NormWear ViT Morphological Drift,75.3,0.408,30.17,1.2
+person_02_w0901,2703.0,0,0.1078,18.5,Homeostatic Rest,NormWear ViT Morphological Drift,72.2,0.417,30.16,0.6
+person_02_w0902,2706.0,0,0.0981,17.5,Homeostatic Rest,NormWear ViT Morphological Drift,71.8,0.421,30.16,0.6
+person_02_w0903,2709.0,0,0.1159,18.9,Homeostatic Rest,NormWear ViT Morphological Drift,74.6,0.42,30.15,0.6
+person_02_w0904,2712.0,0,0.4173,37.4,Mild Activation,NormWear ViT Morphological Drift,66.2,0.421,30.15,1.2
+person_02_w0905,2715.0,0,0.2305,27.0,Mild Activation,NormWear ViT Morphological Drift,63.8,0.422,30.15,0.9
+person_02_w0906,2718.0,0,0.3595,34.8,Mild Activation,NormWear ViT Morphological Drift,55.3,0.422,30.15,1.2
+person_02_w0907,2721.0,0,0.4134,37.5,Mild Activation,NormWear ViT Morphological Drift,60.4,0.422,30.14,1.3
+person_02_w0908,2724.0,0,0.413,36.4,Mild Activation,NormWear ViT Morphological Drift,66.7,0.425,30.14,1.2
+person_02_w0909,2727.0,0,0.4804,44.0,Mild Activation,NormWear ViT Morphological Drift,62.5,0.422,30.14,1.5
+person_02_w0910,2730.0,0,0.4218,38.7,Mild Activation,NormWear ViT Morphological Drift,60.5,0.415,30.14,1.3
+person_02_w0911,2733.0,0,0.4026,37.6,Mild Activation,NormWear ViT Morphological Drift,46.8,0.403,30.14,1.3
+person_02_w0912,2736.0,0,0.276,28.3,Mild Activation,NormWear ViT Morphological Drift,64.4,0.394,30.15,0.9
+person_02_w0913,2739.0,0,0.2552,26.2,Mild Activation,NormWear ViT Morphological Drift,78.9,0.39,30.15,0.9
+person_02_w0914,2742.0,0,0.3242,31.4,Mild Activation,NormWear ViT Morphological Drift,86.4,0.396,30.16,1.0
+person_02_w0915,2745.0,0,0.1645,20.9,Homeostatic Rest,NormWear ViT Morphological Drift,86.4,0.402,30.16,0.7
+person_02_w0916,2748.0,0,0.4337,37.8,Mild Activation,NormWear ViT Morphological Drift,88.1,0.395,30.16,1.3
+person_02_w0917,2751.0,0,0.4498,38.7,Mild Activation,NormWear ViT Morphological Drift,82.0,0.39,30.17,1.3
+person_02_w0918,2754.0,0,0.2904,31.7,Mild Activation,NormWear ViT Morphological Drift,101.9,0.389,30.18,1.1
+person_02_w0919,2757.0,0,0.4548,37.3,Mild Activation,NormWear ViT Morphological Drift,85.3,0.39,30.18,1.2
+person_02_w0920,2760.0,0,0.423,40.1,Mild Activation,NormWear ViT Morphological Drift,101.4,0.391,30.17,1.3
+person_02_w0921,2763.0,0,0.3242,34.5,Mild Activation,NormWear ViT Morphological Drift,99.9,0.394,30.17,1.2
+person_02_w0922,2766.0,0,0.4501,39.8,Mild Activation,Cardiovascular Strain (Heart Rate Surge),94.2,0.397,30.18,1.3
+person_02_w0923,2769.0,0,0.1431,20.0,Homeostatic Rest,NormWear ViT Morphological Drift,68.4,0.397,30.18,0.7
+person_02_w0924,2772.0,0,0.0591,12.8,Homeostatic Rest,NormWear ViT Morphological Drift,58.5,0.393,30.19,0.5
+person_02_w0925,2775.0,0,0.3549,30.3,Mild Activation,NormWear ViT Morphological Drift,60.2,0.391,30.19,1.0
+person_02_w0926,2778.0,0,0.4555,37.7,Mild Activation,NormWear ViT Morphological Drift,73.8,0.391,30.19,1.3
+person_02_w0927,2781.0,0,0.106,18.7,Homeostatic Rest,NormWear ViT Morphological Drift,80.7,0.392,30.19,0.6
+person_02_w0928,2784.0,0,0.1641,24.2,Homeostatic Rest,NormWear ViT Morphological Drift,83.0,0.396,30.19,0.8
+person_02_w0929,2787.0,0,0.2686,28.8,Mild Activation,NormWear ViT Morphological Drift,84.8,0.4,30.18,1.0
+person_02_w0930,2790.0,0,0.2244,26.3,Mild Activation,NormWear ViT Morphological Drift,84.3,0.407,30.18,0.9
+person_02_w0931,2793.0,0,0.3531,36.7,Mild Activation,NormWear ViT Morphological Drift,87.5,0.415,30.17,1.2
+person_02_w0932,2796.0,0,0.2887,36.6,Mild Activation,NormWear ViT Morphological Drift,92.0,0.419,30.17,1.2
+person_02_w0933,2799.0,0,0.1891,27.4,Mild Activation,NormWear ViT Morphological Drift,81.2,0.421,30.17,0.9
+person_02_w0934,2802.0,0,0.3675,39.6,Mild Activation,NormWear ViT Morphological Drift,90.9,0.425,30.17,1.3
+person_02_w0935,2805.0,0,0.4691,49.3,Mild Activation,NormWear ViT Morphological Drift,93.4,0.436,30.17,1.6
+person_02_w0936,2808.0,0,0.3826,42.7,Mild Activation,NormWear ViT Morphological Drift,83.7,0.45,30.16,1.4
+person_02_w0937,2811.0,0,0.2885,37.8,Mild Activation,NormWear ViT Morphological Drift,83.7,0.461,30.16,1.3
+person_02_w0938,2814.0,0,0.2884,40.2,Mild Activation,NormWear ViT Morphological Drift,88.1,0.466,30.15,1.3
+person_02_w0939,2817.0,0,0.4009,44.5,Mild Activation,NormWear ViT Morphological Drift,84.4,0.47,30.14,1.5
+person_02_w0940,2820.0,0,0.738,73.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,121.9,0.51,30.14,2.5
+person_02_w0941,2823.0,0,0.205,37.6,Mild Activation,NormWear ViT Morphological Drift,90.2,0.544,30.15,1.3
+person_02_w0942,2826.0,0,0.1187,29.4,Mild Activation,NormWear ViT Morphological Drift,77.3,0.541,30.14,1.0
+person_02_w0943,2829.0,0,0.1563,32.7,Mild Activation,NormWear ViT Morphological Drift,82.6,0.538,30.13,1.1
+person_02_w0944,2832.0,0,0.2207,38.2,Mild Activation,NormWear ViT Morphological Drift,88.3,0.536,30.13,1.3
+person_02_w0945,2835.0,0,0.1782,36.7,Mild Activation,NormWear ViT Morphological Drift,90.8,0.536,30.13,1.2
+person_02_w0946,2838.0,0,0.1489,32.8,Mild Activation,NormWear ViT Morphological Drift,84.0,0.536,30.13,1.1
+person_02_w0947,2841.0,0,0.2758,40.6,Mild Activation,NormWear ViT Morphological Drift,86.2,0.54,30.12,1.4
+person_02_w0948,2844.0,0,0.2999,40.4,Mild Activation,NormWear ViT Morphological Drift,71.8,0.538,30.12,1.3
+person_02_w0949,2847.0,0,0.5298,52.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.4,0.52,30.11,1.8
+person_02_w0950,2850.0,0,0.2242,34.6,Mild Activation,NormWear ViT Morphological Drift,80.7,0.497,30.11,1.2
+person_02_w0951,2853.0,0,0.3645,43.9,Mild Activation,NormWear ViT Morphological Drift,71.6,0.519,30.11,1.5
+person_02_w0952,2856.0,0,0.4104,48.4,Mild Activation,NormWear ViT Morphological Drift,67.0,0.549,30.11,1.6
+person_02_w0953,2859.0,0,0.5828,60.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,62.1,0.547,30.11,2.0
+person_02_w0954,2862.0,0,0.4967,55.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.7,0.555,30.09,1.9
+person_02_w0955,2865.0,0,0.51,61.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,115.2,0.56,30.08,2.1
+person_02_w0956,2868.0,0,0.0636,29.2,Mild Activation,NormWear ViT Morphological Drift,86.5,0.554,30.08,1.0
+person_02_w0957,2871.0,0,0.1213,31.1,Mild Activation,NormWear ViT Morphological Drift,79.8,0.551,30.09,1.0
+person_02_w0958,2874.0,0,0.1223,32.1,Mild Activation,NormWear ViT Morphological Drift,83.7,0.552,30.08,1.1
+person_02_w0959,2877.0,0,0.1063,30.6,Mild Activation,NormWear ViT Morphological Drift,84.0,0.55,30.08,1.0
+person_02_w0960,2880.0,0,0.5146,57.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.4,0.547,30.08,1.9
+person_02_w0961,2883.0,0,0.4599,52.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.546,30.08,1.8
+person_02_w0962,2886.0,0,0.4772,54.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,42.2,0.545,30.08,1.8
+person_02_w0963,2889.0,0,0.3098,43.3,Mild Activation,NormWear ViT Morphological Drift,79.8,0.542,30.08,1.4
+person_02_w0964,2892.0,0,0.3398,47.0,Mild Activation,NormWear ViT Morphological Drift,82.6,0.538,30.08,1.6
+person_02_w0965,2895.0,0,0.5364,57.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.3,0.536,30.07,1.9
+person_02_w0966,2898.0,0,0.3927,46.8,Mild Activation,NormWear ViT Morphological Drift,85.3,0.534,30.06,1.6
+person_02_w0967,2901.0,0,0.3188,41.1,Mild Activation,NormWear ViT Morphological Drift,72.0,0.53,30.06,1.4
+person_02_w0968,2904.0,0,0.515,52.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,72.9,0.528,30.05,1.8
+person_02_w0969,2907.0,0,0.2039,34.8,Mild Activation,NormWear ViT Morphological Drift,84.0,0.526,30.05,1.2
+person_02_w0970,2910.0,0,0.2518,38.9,Mild Activation,NormWear ViT Morphological Drift,88.7,0.525,30.05,1.3
+person_02_w0971,2913.0,0,0.1221,31.1,Mild Activation,NormWear ViT Morphological Drift,86.7,0.525,30.05,1.0
+person_02_w0972,2916.0,0,0.5534,57.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,43.3,0.526,30.06,1.9
+person_02_w0973,2919.0,0,0.6556,63.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,79.7,0.546,30.05,2.1
+person_02_w0974,2922.0,0,0.6591,65.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,66.7,0.568,30.04,2.2
+person_02_w0975,2925.0,0,0.4593,55.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,76.5,0.568,30.03,1.9
+person_02_w0976,2928.0,0,0.5642,60.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.0,0.562,30.03,2.0
+person_02_w0977,2931.0,0,0.4987,54.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,75.9,0.557,30.04,1.8
+person_02_w0978,2934.0,0,0.2614,41.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),92.1,0.553,30.04,1.4
+person_02_w0979,2937.0,0,0.1543,36.8,Mild Activation,NormWear ViT Morphological Drift,91.2,0.55,30.04,1.2
+person_02_w0980,2940.0,0,0.1181,32.5,Mild Activation,NormWear ViT Morphological Drift,85.1,0.548,30.05,1.1
+person_02_w0981,2943.0,0,0.3993,49.9,Mild Activation,NormWear ViT Morphological Drift,89.3,0.544,30.05,1.7
+person_02_w0982,2946.0,0,0.4191,49.4,Mild Activation,NormWear ViT Morphological Drift,84.1,0.542,30.06,1.6
+person_02_w0983,2949.0,0,0.535,56.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,92.0,0.539,30.07,1.9
+person_02_w0984,2952.0,0,0.166,35.7,Mild Activation,NormWear ViT Morphological Drift,88.7,0.538,30.06,1.2
+person_02_w0985,2955.0,0,0.1259,33.6,Mild Activation,NormWear ViT Morphological Drift,91.7,0.537,30.06,1.1
+person_02_w0986,2958.0,0,0.1778,35.6,Mild Activation,NormWear ViT Morphological Drift,85.6,0.535,30.06,1.2
+person_02_w0987,2961.0,0,0.1094,30.3,Mild Activation,NormWear ViT Morphological Drift,81.5,0.534,30.06,1.0
+person_02_w0988,2964.0,0,0.2593,39.7,Mild Activation,NormWear ViT Morphological Drift,87.9,0.533,30.06,1.3
+person_02_w0989,2967.0,0,0.6319,58.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,75.5,0.532,30.06,1.9
+person_02_w0990,2970.0,0,0.5542,56.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,82.2,0.534,30.06,1.9
+person_02_w0991,2973.0,0,0.0942,28.3,Mild Activation,NormWear ViT Morphological Drift,83.0,0.537,30.06,0.9
+person_02_w0992,2976.0,0,0.1476,33.9,Mild Activation,NormWear ViT Morphological Drift,89.8,0.536,30.06,1.1
+person_02_w0993,2979.0,0,0.5555,58.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,77.6,0.536,30.05,1.9
+person_02_w0994,2982.0,0,0.5301,56.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,69.4,0.544,30.05,1.9
+person_02_w0995,2985.0,0,0.5887,60.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.55,30.05,2.0
+person_02_w0996,2988.0,0,0.3761,52.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,98.5,0.548,30.05,1.7
+person_02_w0997,2991.0,0,0.3876,48.8,Mild Activation,NormWear ViT Morphological Drift,84.8,0.546,30.04,1.6
+person_02_w0998,2994.0,0,0.1017,32.2,Mild Activation,NormWear ViT Morphological Drift,88.5,0.545,30.04,1.1
+person_02_w0999,2997.0,0,0.1009,30.1,Mild Activation,NormWear ViT Morphological Drift,82.7,0.544,30.05,1.0
+person_02_w1000,3000.0,0,0.15,31.4,Mild Activation,NormWear ViT Morphological Drift,79.3,0.544,30.05,1.0
+person_02_w1001,3003.0,0,0.1135,32.9,Mild Activation,NormWear ViT Morphological Drift,89.6,0.544,30.05,1.1
+person_02_w1002,3006.0,0,0.6087,61.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,41.3,0.541,30.05,2.1
+person_02_w1003,3009.0,0,0.6401,65.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.6,0.543,30.04,2.2
+person_02_w1004,3012.0,0,0.5404,58.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,48.6,0.564,30.04,1.9
+person_02_w1005,3015.0,0,0.4696,56.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.0,0.587,30.05,1.9
+person_02_w1006,3018.0,0,0.3967,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.8,0.589,30.06,1.7
+person_02_w1007,3021.0,0,0.574,66.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,102.9,0.581,30.07,2.2
+person_02_w1008,3024.0,0,0.4678,59.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,96.4,0.576,30.06,2.0
+person_02_w1009,3027.0,0,0.5623,61.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.5,0.589,30.06,2.0
+person_02_w1010,3030.0,0,0.6312,67.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,41.7,0.606,30.06,2.2
+person_02_w1011,3033.0,0,0.2762,45.7,Mild Activation,NormWear ViT Morphological Drift,46.6,0.605,30.04,1.5
+person_02_w1012,3036.0,0,0.4633,56.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.2,0.599,30.03,1.9
+person_02_w1013,3039.0,0,0.5899,63.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.3,0.591,30.03,2.1
+person_02_w1014,3042.0,0,0.2966,45.0,Mild Activation,NormWear ViT Morphological Drift,46.8,0.581,30.02,1.5
+person_02_w1015,3045.0,0,0.3082,47.3,Mild Activation,NormWear ViT Morphological Drift,66.5,0.583,30.02,1.6
+person_02_w1016,3048.0,0,0.6988,72.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.6,0.621,30.02,2.4
+person_02_w1017,3051.0,0,0.7687,82.2,Acute Physiological Surge,NormWear ViT Morphological Drift,99.4,0.689,30.03,2.7
+person_02_w1018,3054.0,0,0.3725,56.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,52.1,0.713,30.04,1.9
+person_02_w1019,3057.0,0,0.4649,61.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,57.3,0.685,30.06,2.1
+person_02_w1020,3060.0,0,0.6685,75.5,Acute Physiological Surge,NormWear ViT Morphological Drift,86.4,0.682,30.08,2.5
+person_02_w1021,3063.0,0,0.2453,48.8,Mild Activation,NormWear ViT Morphological Drift,70.3,0.698,30.08,1.6
+person_02_w1022,3066.0,0,0.3657,56.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,75.0,0.704,30.09,1.9
+person_02_w1023,3069.0,0,0.1645,44.6,Mild Activation,NormWear ViT Morphological Drift,76.5,0.715,30.1,1.5
+person_02_w1024,3072.0,0,0.1467,42.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.1,0.71,30.1,1.4
+person_02_w1025,3075.0,0,0.0288,36.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.1,0.702,30.11,1.2
+person_02_w1026,3078.0,0,0.0311,36.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),82.2,0.7,30.11,1.2
+person_02_w1027,3081.0,0,0.0103,35.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.6,0.714,30.11,1.2
+person_02_w1028,3084.0,0,0.2265,48.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.1,0.742,30.12,1.6
+person_02_w1029,3087.0,0,0.1798,49.3,Mild Activation,NormWear ViT Morphological Drift,119.3,0.766,30.11,1.6
+person_02_w1030,3090.0,0,0.3037,55.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.9,0.782,30.1,1.9
+person_02_w1031,3093.0,0,0.5017,68.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.6,0.801,30.09,2.3
+person_02_w1032,3096.0,0,0.4875,67.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,87.3,0.82,30.09,2.3
+person_02_w1033,3099.0,2,0.2642,54.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.8,0.822,30.1,1.8
+person_02_w1034,3102.0,2,0.5497,71.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,69.8,0.845,30.11,2.4
+person_02_w1035,3105.0,2,0.3445,59.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.6,0.883,30.11,2.0
+person_02_w1036,3108.0,2,0.0439,41.9,Mild Activation,NormWear ViT Morphological Drift,68.2,0.917,30.12,1.4
+person_02_w1037,3111.0,2,0.0409,41.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),79.7,0.938,30.14,1.4
+person_02_w1038,3114.0,2,0.0927,44.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),91.7,0.912,30.15,1.5
+person_02_w1039,3117.0,2,0.2101,51.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),71.1,0.907,30.16,1.7
+person_02_w1040,3120.0,2,0.6056,75.5,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),73.3,0.925,30.16,2.5
+person_02_w1041,3123.0,2,0.2708,55.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,92.4,0.888,30.17,1.8
+person_02_w1042,3126.0,2,0.1532,47.9,Mild Activation,NormWear ViT Morphological Drift,62.3,0.876,30.18,1.6
+person_02_w1043,3129.0,2,0.0821,44.2,Mild Activation,NormWear ViT Morphological Drift,60.2,0.921,30.2,1.5
+person_02_w1044,3132.0,2,0.2746,56.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,57.3,0.959,30.23,1.9
+person_02_w1045,3135.0,2,0.07,43.8,Mild Activation,NormWear ViT Morphological Drift,69.1,0.971,30.26,1.5
+person_02_w1046,3138.0,2,0.2803,56.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,43.3,0.963,30.28,1.9
+person_02_w1047,3141.0,2,0.5352,71.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.1,0.982,30.29,2.4
+person_02_w1048,3144.0,2,0.7406,84.0,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),85.3,1.0,30.28,2.8
+person_02_w1049,3147.0,2,0.1228,46.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.8,0.989,30.29,1.6
+person_02_w1050,3150.0,2,0.1194,46.8,Mild Activation,NormWear ViT Morphological Drift,41.3,0.998,30.3,1.6
+person_02_w1051,3153.0,2,0.1458,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.3,1.017,30.28,1.6
+person_02_w1052,3156.0,2,0.4578,67.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.1,1.021,30.27,2.2
+person_02_w1053,3159.0,2,0.6564,79.1,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),89.3,0.995,30.23,2.6
+person_02_w1054,3162.0,2,0.5734,74.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.1,0.992,30.18,2.5
+person_02_w1055,3165.0,2,0.2123,52.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),92.1,1.03,30.17,1.7
+person_02_w1056,3168.0,2,0.0615,43.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),61.0,1.07,30.19,1.4
+person_02_w1057,3171.0,2,0.4078,64.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.8,1.095,30.21,2.1
+person_02_w1058,3174.0,2,0.2275,53.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.6,1.108,30.22,1.8
+person_02_w1059,3177.0,2,0.2189,53.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.7,1.131,30.21,1.8
+person_02_w1060,3180.0,2,0.3298,59.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),66.7,1.128,30.19,2.0
+person_02_w1061,3183.0,2,0.3979,63.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),72.7,1.11,30.19,2.1
+person_02_w1062,3186.0,2,0.1725,50.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.8,1.159,30.19,1.7
+person_02_w1063,3189.0,2,0.3654,61.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.1,1.191,30.18,2.1
+person_02_w1064,3192.0,2,0.1935,51.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),71.6,1.16,30.19,1.7
+person_02_w1065,3195.0,2,0.114,46.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),77.3,1.134,30.19,1.6
+person_02_w1066,3198.0,2,0.3141,58.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.8,1.121,30.17,2.0
+person_02_w1067,3201.0,2,0.3764,62.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),94.8,1.124,30.16,2.1
+person_02_w1068,3204.0,2,0.2294,53.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),95.3,1.173,30.16,1.8
+person_02_w1069,3207.0,2,0.369,62.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.1,1.247,30.16,2.1
+person_02_w1070,3210.0,2,0.1152,46.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),107.7,1.257,30.17,1.6
+person_02_w1071,3213.0,2,0.3578,61.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),59.3,1.24,30.18,2.0
+person_02_w1072,3216.0,2,0.1417,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),105.4,1.222,30.18,1.6
+person_02_w1073,3219.0,2,0.2449,54.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.2,1.203,30.17,1.8
+person_02_w1074,3222.0,2,0.16,49.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.7,1.202,30.17,1.7
+person_02_w1075,3225.0,2,0.2557,55.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),59.3,1.208,30.18,1.8
+person_02_w1076,3228.0,2,0.5135,70.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),64.4,1.21,30.18,2.4
+person_02_w1077,3231.0,2,0.1726,50.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),66.7,1.206,30.18,1.7
+person_02_w1078,3234.0,2,0.2222,53.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.3,1.209,30.18,1.8
+person_02_w1079,3237.0,2,0.2758,56.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.1,1.222,30.17,1.9
+person_02_w1080,3240.0,2,0.1913,51.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),55.0,1.228,30.16,1.7
+person_02_w1081,3243.0,2,0.109,46.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.6,1.23,30.16,1.5
+person_02_w1082,3246.0,2,0.1933,51.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),58.8,1.239,30.18,1.7
+person_02_w1083,3249.0,2,0.5224,71.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),82.7,1.312,30.19,2.4
+person_02_w1084,3252.0,2,0.052,43.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.3,1.363,30.18,1.4
+person_02_w1085,3255.0,2,0.024,41.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.2,1.328,30.18,1.4
+person_02_w1086,3258.0,2,0.3828,62.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.0,1.305,30.18,2.1
+person_02_w1087,3261.0,2,0.1786,50.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),62.6,1.31,30.18,1.7
+person_02_w1088,3264.0,2,0.1597,49.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),47.9,1.319,30.17,1.7
+person_02_w1089,3267.0,2,0.2427,54.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.3,1.304,30.17,1.8
+person_02_w1090,3270.0,2,0.2176,53.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.6,1.301,30.18,1.8
+person_02_w1091,3273.0,2,0.0557,43.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.5,1.312,30.17,1.4
+person_02_w1092,3276.0,2,0.1486,48.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.1,1.3,30.17,1.6
+person_02_w1093,3279.0,2,0.4359,66.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.8,1.283,30.17,2.2
+person_02_w1094,3282.0,2,0.1444,48.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.9,1.266,30.18,1.6
+person_02_w1095,3285.0,2,0.3861,63.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),91.4,1.264,30.19,2.1
+person_02_w1096,3288.0,2,0.2873,57.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),65.1,1.292,30.19,1.9
+person_02_w1097,3291.0,2,0.1643,49.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),42.7,1.303,30.2,1.7
+person_02_w1098,3294.0,2,0.2138,52.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),73.8,1.293,30.2,1.8
+person_02_w1099,3297.0,2,0.3769,62.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.1,1.299,30.2,2.1
+person_02_w1100,3300.0,2,0.1423,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.7,1.313,30.19,1.6
+person_02_w1101,3303.0,2,0.2599,55.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),58.7,1.324,30.19,1.9
+person_02_w1102,3306.0,2,0.1552,49.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.2,1.335,30.2,1.6
+person_02_w1103,3309.0,2,0.234,54.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),76.8,1.329,30.19,1.8
+person_02_w1104,3312.0,2,0.3371,60.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),82.5,1.311,30.18,2.0
+person_02_w1105,3315.0,2,0.4063,64.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),53.7,1.302,30.17,2.1
+person_02_w1106,3318.0,2,0.1249,47.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),79.2,1.328,30.16,1.6
+person_02_w1107,3321.0,2,0.144,48.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.6,1.366,30.15,1.6
+person_02_w1108,3324.0,2,0.2215,53.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.1,1.374,30.14,1.8
+person_02_w1109,3327.0,2,0.5771,74.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),56.3,1.37,30.15,2.5
+person_02_w1110,3330.0,2,0.556,73.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),105.2,1.359,30.16,2.4
+person_02_w1111,3333.0,2,0.3691,62.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.4,1.357,30.16,2.1
+person_02_w1112,3336.0,2,0.3953,63.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),91.2,1.367,30.16,2.1
+person_02_w1113,3339.0,2,0.3787,62.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),152.1,1.357,30.16,2.1
+person_02_w1114,3342.0,2,0.4372,66.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),102.4,1.365,30.15,2.2
+person_02_w1115,3345.0,2,0.165,49.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.6,1.391,30.14,1.7
+person_02_w1116,3348.0,2,0.1377,48.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.1,1.399,30.14,1.6
+person_02_w1117,3351.0,2,0.3361,60.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.8,1.396,30.16,2.0
+person_02_w1118,3354.0,2,0.1749,50.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),74.8,1.375,30.16,1.7
+person_02_w1119,3357.0,2,0.4098,64.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),57.1,1.38,30.17,2.2
+person_02_w1120,3360.0,2,0.1417,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.3,1.39,30.18,1.6
+person_02_w1121,3363.0,2,0.1298,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),85.3,1.379,30.19,1.6
+person_02_w1122,3366.0,2,0.2068,52.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.9,1.365,30.19,1.7
+person_02_w1123,3369.0,2,0.1828,50.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.3,1.351,30.19,1.7
+person_02_w1124,3372.0,2,0.0739,44.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.4,1.348,30.19,1.5
+person_02_w1125,3375.0,2,0.3285,59.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),81.7,1.347,30.18,2.0
+person_02_w1126,3378.0,2,0.5037,70.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),89.3,1.355,30.18,2.3
+person_02_w1127,3381.0,2,0.4007,64.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),53.0,1.389,30.17,2.1
+person_02_w1128,3384.0,2,0.176,50.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.1,1.431,30.16,1.7
+person_02_w1129,3387.0,2,0.1875,51.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.9,1.431,30.15,1.7
+person_02_w1130,3390.0,2,0.1399,48.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.9,1.403,30.15,1.6
+person_02_w1131,3393.0,2,0.1562,49.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.7,1.392,30.15,1.6
+person_02_w1132,3396.0,2,0.0997,46.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),97.9,1.382,30.14,1.5
+person_02_w1133,3399.0,2,0.2395,54.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),98.5,1.376,30.14,1.8
+person_02_w1134,3402.0,2,0.296,57.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),85.0,1.373,30.15,1.9
+person_02_w1135,3405.0,2,0.1381,48.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.2,1.354,30.15,1.6
+person_02_w1136,3408.0,2,0.2526,55.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.1,1.35,30.16,1.8
+person_02_w1137,3411.0,2,0.0588,43.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),71.1,1.367,30.17,1.5
+person_02_w1138,3414.0,2,0.2058,52.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),87.0,1.378,30.18,1.7
+person_02_w1139,3417.0,2,0.5493,72.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),67.4,1.383,30.18,2.4
+person_02_w1140,3420.0,2,0.2726,56.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.8,1.385,30.18,1.9
+person_02_w1141,3423.0,2,0.0075,40.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.0,1.373,30.2,1.3
+person_02_w1142,3426.0,2,0.0296,41.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.6,1.353,30.2,1.4
+person_02_w1143,3429.0,2,0.049,42.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.8,1.334,30.21,1.4
+person_02_w1144,3432.0,2,0.0466,42.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.5,1.34,30.23,1.4
+person_02_w1145,3435.0,2,0.3429,60.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),40.0,1.427,30.24,2.0
+person_02_w1146,3438.0,2,0.1494,49.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),83.5,1.521,30.23,1.6
+person_02_w1147,3441.0,2,0.3304,59.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.0,1.534,30.22,2.0
+person_02_w1148,3444.0,2,0.1164,47.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.8,1.543,30.21,1.6
+person_02_w1149,3447.0,2,0.1716,50.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.0,1.549,30.22,1.7
+person_02_w1150,3450.0,2,0.2954,57.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.8,1.519,30.22,1.9
+person_02_w1151,3453.0,2,0.2884,57.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.8,1.528,30.22,1.9
+person_02_w1152,3456.0,2,0.1931,51.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.5,1.542,30.22,1.7
+person_02_w1153,3459.0,2,0.0987,45.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.2,1.524,30.21,1.5
+person_02_w1154,3462.0,2,0.1478,48.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),67.0,1.515,30.22,1.6
+person_02_w1155,3465.0,2,0.4063,64.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.3,1.51,30.22,2.1
+person_02_w1156,3468.0,2,0.4016,64.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),61.4,1.498,30.21,2.1
+person_02_w1157,3471.0,2,0.1544,49.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.0,1.481,30.21,1.6
+person_02_w1158,3474.0,2,0.3761,62.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.9,1.463,30.21,2.1
+person_02_w1159,3477.0,2,0.6738,80.4,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),84.8,1.47,30.19,2.7
+person_02_w1160,3480.0,2,0.5215,71.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.5,1.497,30.19,2.4
+person_02_w1161,3483.0,2,0.3719,62.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),67.0,1.519,30.18,2.1
+person_02_w1162,3486.0,2,0.1735,50.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),82.9,1.545,30.17,1.7
+person_02_w1163,3489.0,2,0.5252,71.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),91.7,1.553,30.17,2.4
+person_02_w1164,3492.0,2,0.4815,68.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),94.0,1.528,30.16,2.3
+person_02_w1165,3495.0,2,0.3537,61.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),92.0,1.523,30.15,2.0
+person_02_w1166,3498.0,2,0.7559,85.4,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),97.8,1.569,30.15,2.8
+person_02_w1167,3501.0,2,0.4038,64.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),89.8,1.587,30.15,2.1
+person_02_w1168,3504.0,2,0.3351,60.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.2,1.542,30.14,2.0
+person_02_w1169,3507.0,2,0.5053,70.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),87.3,1.498,30.13,2.3
+person_02_w1170,3510.0,2,0.6008,76.0,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),91.4,1.489,30.13,2.5
+person_02_w1171,3513.0,2,0.5397,72.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),87.6,1.501,30.12,2.4
+person_02_w1172,3516.0,2,0.4742,68.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),118.8,1.504,30.11,2.3
+person_02_w1173,3519.0,2,0.1476,48.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),106.7,1.489,30.12,1.6
+person_02_w1174,3522.0,2,0.1676,50.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),71.6,1.474,30.12,1.7
+person_02_w1175,3525.0,2,0.6762,80.6,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),99.4,1.479,30.12,2.7
+person_02_w1176,3528.0,2,0.4964,69.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),94.9,1.481,30.12,2.3
+person_02_w1177,3531.0,2,0.4416,66.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),93.1,1.462,30.13,2.2
+person_02_w1178,3534.0,2,0.4616,67.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.1,1.448,30.13,2.3
+person_02_w1179,3537.0,2,0.4569,67.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),87.0,1.445,30.12,2.2
+person_02_w1180,3540.0,2,0.3117,58.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),81.2,1.448,30.13,2.0
+person_02_w1181,3543.0,2,0.176,50.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.0,1.45,30.13,1.7
+person_02_w1182,3546.0,2,0.3278,59.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.7,1.457,30.12,2.0
+person_02_w1183,3549.0,2,0.2186,53.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),85.1,1.46,30.12,1.8
+person_02_w1184,3552.0,2,0.0454,42.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),77.3,1.466,30.12,1.4
+person_02_w1185,3555.0,2,0.0546,43.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.4,1.467,30.13,1.4
+person_02_w1186,3558.0,2,0.1611,49.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.2,1.449,30.13,1.7
+person_02_w1187,3561.0,2,0.0687,44.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.1,1.431,30.12,1.5
+person_02_w1188,3564.0,2,0.0887,45.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.3,1.424,30.11,1.5
+person_02_w1189,3567.0,2,0.0963,45.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),79.3,1.425,30.11,1.5
+person_02_w1190,3570.0,2,0.1187,47.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),99.7,1.421,30.12,1.6
+person_02_w1191,3573.0,2,0.1301,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.6,1.425,30.11,1.6
+person_02_w1192,3576.0,2,0.3888,63.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.8,1.425,30.11,2.1
+person_02_w1193,3579.0,2,0.1947,51.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),95.1,1.415,30.11,1.7
+person_02_w1194,3582.0,2,0.1871,51.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),85.3,1.43,30.11,1.7
+person_02_w1195,3585.0,2,0.4702,68.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.5,1.462,30.11,2.3
+person_02_w1196,3588.0,2,0.2463,54.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),85.9,1.477,30.11,1.8
+person_02_w1197,3591.0,2,0.1856,51.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.3,1.462,30.11,1.7
+person_02_w1198,3594.0,2,0.1537,49.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.4,1.429,30.11,1.6
+person_02_w1199,3597.0,2,0.1941,51.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.5,1.41,30.1,1.7
+person_02_w1200,3600.0,2,0.2778,56.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),94.3,1.405,30.1,1.9
+person_02_w1201,3603.0,2,0.2931,57.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.9,1.406,30.11,1.9
+person_02_w1202,3606.0,2,0.425,65.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),81.5,1.401,30.1,2.2
+person_02_w1203,3609.0,2,0.2605,55.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.4,1.403,30.1,1.9
+person_02_w1204,3612.0,2,0.3006,58.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.8,1.41,30.11,1.9
+person_02_w1205,3615.0,2,0.449,66.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.7,1.448,30.1,2.2
+person_02_w1206,3618.0,2,0.3314,59.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.6,1.467,30.1,2.0
+person_02_w1207,3621.0,2,0.2223,53.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.8,1.442,30.11,1.8
+person_02_w1208,3624.0,2,0.3282,59.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.5,1.441,30.11,2.0
+person_02_w1209,3627.0,2,0.5363,72.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),57.8,1.43,30.11,2.4
+person_02_w1210,3630.0,2,0.3824,62.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),67.6,1.42,30.11,2.1
+person_02_w1211,3633.0,2,0.5924,75.5,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),81.7,1.42,30.11,2.5
+person_02_w1212,3636.0,2,0.3001,58.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),71.6,1.402,30.11,1.9
+person_02_w1213,3639.0,2,0.6425,78.5,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),79.3,1.39,30.1,2.6
+person_02_w1214,3642.0,2,0.2282,53.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.9,1.394,30.1,1.8
+person_02_w1215,3645.0,2,0.2204,53.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),61.9,1.387,30.1,1.8
+person_02_w1216,3648.0,2,0.198,51.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),47.8,1.39,30.1,1.7
+person_02_w1217,3651.0,2,0.2376,54.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),64.0,1.41,30.09,1.8
+person_02_w1218,3654.0,2,0.1129,46.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.4,1.402,30.08,1.6
+person_02_w1219,3657.0,2,0.1426,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),57.8,1.392,30.08,1.6
+person_02_w1220,3660.0,2,0.1414,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),67.7,1.399,30.08,1.6
+person_02_w1221,3663.0,2,0.5538,73.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),49.1,1.419,30.08,2.4
+person_02_w1222,3666.0,2,0.1167,47.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.6,1.425,30.07,1.6
+person_02_w1223,3669.0,2,0.1477,48.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.0,1.425,30.07,1.6
+person_02_w1224,3672.0,2,0.482,68.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),58.8,1.434,30.06,2.3
+person_02_w1225,3675.0,2,0.1968,51.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),94.6,1.421,30.04,1.7
+person_02_w1226,3678.0,2,0.3298,59.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.0,1.406,30.04,2.0
+person_02_w1227,3681.0,2,0.0516,43.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),87.8,1.391,30.04,1.4
+person_02_w1228,3684.0,2,0.2051,52.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.1,1.368,30.04,1.7
+person_02_w1229,3687.0,2,0.0681,44.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.8,1.344,30.04,1.5
+person_02_w1230,3690.0,2,0.5037,70.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),92.5,1.325,30.04,2.3
+person_02_w1231,3693.0,2,0.3227,59.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),76.0,1.322,30.03,2.0
+person_02_w1232,3696.0,2,0.0856,45.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.1,1.321,30.02,1.5
+person_02_w1233,3699.0,2,0.5367,72.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.8,1.312,30.03,2.4
+person_02_w1234,3702.0,2,0.408,64.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.7,1.308,30.02,2.1
+person_02_w1235,3705.0,2,0.3521,61.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.5,1.314,30.0,2.0
+person_02_w1236,3708.0,2,0.3163,58.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.2,1.32,30.01,2.0
+person_02_w1237,3711.0,2,0.1454,48.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),86.2,1.313,30.02,1.6
+person_02_w1238,3714.0,2,0.5225,71.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.5,1.286,30.01,2.4
+person_02_w1239,3717.0,2,0.1153,46.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),71.3,1.268,30.01,1.6
+person_02_w1240,3720.0,2,0.4206,65.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.6,1.279,30.02,2.2
+person_02_w1241,3723.0,2,0.4504,67.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),66.9,1.291,30.01,2.2
+person_02_w1242,3726.0,2,0.3621,61.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.2,1.288,30.0,2.1
+person_02_w1243,3729.0,2,0.124,47.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.3,1.274,30.01,1.6
+person_02_w1244,3732.0,2,0.4018,64.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.1,1.264,30.01,2.1
+person_02_w1245,3735.0,2,0.2889,57.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),72.9,1.269,30.01,1.9
+person_02_w1246,3738.0,2,0.356,61.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.7,1.272,30.01,2.0
+person_02_w1247,3741.0,2,0.3071,58.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.9,1.263,30.01,1.9
+person_02_w1248,3744.0,2,0.5853,75.1,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),77.9,1.232,30.01,2.5
+person_02_w1249,3747.0,2,0.4265,65.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),81.2,1.223,30.01,2.2
+person_02_w1250,3750.0,2,0.366,61.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.2,1.247,30.0,2.1
+person_02_w1251,3753.0,2,0.1181,47.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.3,1.253,30.0,1.6
+person_02_w1252,3756.0,2,0.1307,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.1,1.252,30.0,1.6
+person_02_w1253,3759.0,2,0.5082,70.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),97.8,1.267,30.0,2.3
+person_02_w1254,3762.0,2,0.3734,62.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.2,1.27,30.0,2.1
+person_02_w1255,3765.0,2,0.3596,61.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.2,1.266,29.99,2.1
+person_02_w1256,3768.0,2,0.3707,62.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.4,1.263,29.99,2.1
+person_02_w1257,3771.0,2,0.284,57.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.4,1.249,29.99,1.9
+person_02_w1258,3774.0,2,0.2571,55.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),82.0,1.234,30.0,1.8
+person_02_w1259,3777.0,2,0.4191,65.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),74.3,1.219,29.99,2.2
+person_02_w1260,3780.0,2,0.2851,57.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.5,1.209,29.99,1.9
+person_02_w1261,3783.0,0,0.3401,60.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),89.3,1.204,30.0,2.0
+person_02_w1262,3786.0,0,0.6235,77.3,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),82.0,1.209,29.99,2.6
+person_02_w1263,3789.0,0,0.1268,47.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),60.0,1.23,29.98,1.6
+person_02_w1264,3792.0,0,0.2038,52.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),60.6,1.232,29.99,1.7
+person_02_w1265,3795.0,0,0.5177,71.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),65.6,1.222,29.98,2.4
+person_02_w1266,3798.0,0,0.3999,64.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),134.0,1.252,29.98,2.1
+person_02_w1267,3801.0,0,0.4509,67.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),117.7,1.267,30.01,2.2
+person_02_w1268,3804.0,0,0.185,51.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),105.0,1.276,30.03,1.7
+person_02_w1269,3807.0,0,0.2349,54.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),70.7,1.296,30.02,1.8
+person_02_w1270,3810.0,0,0.0624,43.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.0,1.29,30.0,1.5
+person_02_w1271,3813.0,0,0.4103,64.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),97.7,1.289,29.99,2.2
+person_02_w1272,3816.0,0,0.1649,49.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),104.8,1.272,29.98,1.7
+person_02_w1273,3819.0,0,0.1332,48.0,Mild Activation,NormWear ViT Morphological Drift,97.8,1.26,29.95,1.6
+person_02_w1274,3822.0,0,0.3798,62.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,62.8,1.322,29.94,2.1
+person_02_w1275,3825.0,0,0.5587,73.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),62.7,1.39,29.94,2.5
+person_02_w1276,3828.0,0,0.1531,49.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),91.9,1.407,29.95,1.6
+person_02_w1277,3831.0,0,0.0513,43.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.1,1.4,29.96,1.4
+person_02_w1278,3834.0,0,0.0679,44.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.3,1.388,29.98,1.5
+person_02_w1279,3837.0,0,0.5259,71.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),56.1,1.375,29.98,2.4
+person_02_w1280,3840.0,0,0.0929,45.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),83.8,1.364,29.99,1.5
+person_02_w1281,3843.0,0,0.2543,55.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),59.4,1.358,30.01,1.8
+person_02_w1282,3846.0,0,0.2336,54.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),72.5,1.352,30.01,1.8
+person_02_w1283,3849.0,0,0.1577,49.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),46.5,1.342,30.01,1.6
+person_02_w1284,3852.0,0,0.0546,43.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),81.4,1.337,30.02,1.4
+person_02_w1285,3855.0,0,0.2115,52.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),81.2,1.344,30.02,1.8
+person_02_w1286,3858.0,0,0.1158,46.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),71.4,1.349,30.0,1.6
+person_02_w1287,3861.0,0,0.2545,55.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.4,1.346,30.01,1.8
+person_02_w1288,3864.0,0,0.1732,50.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),69.6,1.34,30.01,1.7
+person_02_w1289,3867.0,0,0.4001,64.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),64.4,1.338,30.01,2.1
+person_02_w1290,3870.0,0,0.1194,47.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.7,1.333,30.01,1.6
+person_02_w1291,3873.0,0,0.1445,48.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),59.8,1.323,30.02,1.6
+person_02_w1292,3876.0,0,0.0618,43.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.8,1.317,30.03,1.5
+person_02_w1293,3879.0,0,0.0238,41.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),61.7,1.314,30.04,1.4
+person_02_w1294,3882.0,0,0.1657,49.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.9,1.319,30.05,1.7
+person_02_w1295,3885.0,0,0.0878,45.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.2,1.323,30.04,1.5
+person_02_w1296,3888.0,0,0.1663,50.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),85.7,1.318,30.05,1.7
+person_02_w1297,3891.0,0,0.0758,44.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.2,1.31,30.08,1.5
+person_02_w1298,3894.0,0,0.0293,41.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.3,1.303,30.08,1.4
+person_02_w1299,3897.0,0,0.0434,42.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.8,1.296,30.08,1.4
+person_02_w1300,3900.0,0,0.1703,50.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),58.2,1.295,30.07,1.7
+person_02_w1301,3903.0,0,0.1481,48.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),53.3,1.294,30.07,1.6
+person_02_w1302,3906.0,0,0.1483,48.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),62.3,1.288,30.06,1.6
+person_02_w1303,3909.0,0,0.1313,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),71.4,1.28,30.05,1.6
+person_02_w1304,3912.0,0,0.212,52.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),84.3,1.28,30.05,1.8
+person_02_w1305,3915.0,0,0.0974,45.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),94.0,1.282,30.05,1.5
+person_02_w1306,3918.0,0,0.1221,47.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.0,1.281,30.05,1.6
+person_02_w1307,3921.0,0,0.1019,46.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),82.5,1.277,30.03,1.5
+person_02_w1308,3924.0,0,0.1636,49.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),86.3,1.267,30.01,1.7
+person_02_w1309,3927.0,0,0.0962,45.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.7,1.259,30.0,1.5
+person_02_w1310,3930.0,0,0.0205,41.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.1,1.251,30.0,1.4
+person_02_w1311,3933.0,0,0.056,43.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),59.1,1.234,29.99,1.4
+person_02_w1312,3936.0,0,0.0641,43.8,Mild Activation,NormWear ViT Morphological Drift,74.4,1.232,30.0,1.5
+person_02_w1313,3939.0,0,0.4044,64.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),87.3,1.236,29.99,2.1
+person_02_w1314,3942.0,0,0.3496,60.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),117.1,1.225,29.99,2.0
+person_02_w1315,3945.0,0,0.3029,58.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),95.7,1.228,30.01,1.9
+person_02_w1316,3948.0,0,0.2838,57.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.5,1.239,30.04,1.9
+person_02_w1317,3951.0,0,0.0511,43.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),59.1,1.217,30.05,1.4
+person_02_w1318,3954.0,0,0.4564,67.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.8,1.21,30.06,2.2
+person_02_w1319,3957.0,0,0.1434,48.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.1,1.233,30.05,1.6
+person_02_w1320,3960.0,0,0.0671,44.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.8,1.237,30.05,1.5
+person_02_w1321,3963.0,0,0.111,46.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),79.2,1.233,30.06,1.6
+person_02_w1322,3966.0,6,0.13,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),89.0,1.228,30.07,1.6
+person_02_w1323,3969.0,6,0.1355,48.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),77.6,1.223,30.06,1.6
+person_02_w1324,3972.0,6,0.0032,40.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.2,1.219,30.06,1.3
+person_02_w1325,3975.0,6,0.1112,46.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),62.7,1.224,30.07,1.6
+person_02_w1326,3978.0,6,0.1625,49.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.2,1.23,30.07,1.7
+person_02_w1327,3981.0,6,0.0308,41.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.6,1.225,30.07,1.4
+person_02_w1328,3984.0,6,0.2329,53.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),72.7,1.22,30.06,1.8
+person_02_w1329,3987.0,6,0.2927,57.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),77.9,1.214,30.06,1.9
+person_02_w1330,3990.0,6,0.0961,45.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.3,1.21,30.07,1.5
+person_02_w1331,3993.0,6,0.0715,44.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.0,1.206,30.07,1.5
+person_02_w1332,3996.0,6,0.1112,46.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),57.3,1.202,30.07,1.6
+person_02_w1333,3999.0,6,0.3564,61.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),65.5,1.198,30.07,2.0
+person_02_w1334,4002.0,6,0.0485,42.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.2,1.194,30.08,1.4
+person_02_w1335,4005.0,6,0.1135,46.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.6,1.19,30.08,1.6
+person_02_w1336,4008.0,6,0.083,44.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),59.4,1.184,30.08,1.5
+person_02_w1337,4011.0,6,0.0495,42.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),62.5,1.179,30.08,1.4
+person_02_w1338,4014.0,0,0.2201,53.1,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),82.0,1.176,30.07,1.8
+person_02_w1339,4017.0,0,0.4663,67.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),89.6,1.173,30.07,2.3
+person_02_w1340,4020.0,0,0.0904,45.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.2,1.169,30.07,1.5
+person_02_w1341,4023.0,0,0.1611,49.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),82.1,1.167,30.07,1.7
+person_02_w1342,4026.0,0,0.1745,50.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),63.0,1.149,30.07,1.7
+person_02_w1343,4029.0,0,0.3826,62.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.5,1.109,30.05,2.1
+person_02_w1344,4032.0,0,0.441,66.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),68.6,1.078,30.02,2.2
+person_02_w1345,4035.0,0,0.3264,59.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),110.7,1.078,29.98,2.0
+person_02_w1346,4038.0,0,0.3216,59.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),86.2,1.094,29.96,2.0
+person_02_w1347,4041.0,0,0.1331,47.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),78.0,1.12,29.97,1.6
+person_02_w1348,4044.0,0,0.1559,49.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),56.3,1.118,30.0,1.6
+person_02_w1349,4047.0,0,0.1215,47.2,Mild Activation,NormWear ViT Morphological Drift,93.7,1.122,30.04,1.6
+person_02_w1350,4050.0,0,0.186,51.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),73.8,1.085,30.05,1.7
+person_02_w1351,4053.0,0,0.3231,59.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,61.7,1.017,30.04,2.0
+person_02_w1352,4056.0,0,0.4569,67.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),80.8,1.018,30.04,2.2
+person_02_w1353,4059.0,0,0.5323,71.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),97.4,1.02,30.03,2.4
+person_02_w1354,4062.0,0,0.1296,47.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.6,1.011,30.0,1.6
+person_02_w1355,4065.0,0,0.0231,40.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.0,1.002,29.98,1.4
+person_02_w1356,4068.0,0,0.2178,52.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),73.3,0.992,29.95,1.7
+person_02_w1357,4071.0,0,0.5562,72.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),45.3,0.994,29.92,2.4
+person_02_w1358,4074.0,0,0.6139,76.4,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),93.7,0.994,29.91,2.5
+person_02_w1359,4077.0,0,0.0366,41.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.0,0.985,29.89,1.4
+person_02_w1360,4080.0,0,0.0214,40.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.8,0.979,29.87,1.4
+person_02_w1361,4083.0,0,0.0944,45.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.2,0.972,29.86,1.5
+person_02_w1362,4086.0,0,0.2626,55.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),103.8,1.011,29.85,1.9
+person_02_w1363,4089.0,0,0.2091,52.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),74.8,1.057,29.83,1.7
+person_02_w1364,4092.0,0,0.0144,40.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.7,1.059,29.83,1.4
+person_02_w1365,4095.0,0,0.0718,44.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.5,1.054,29.82,1.5
+person_02_w1366,4098.0,0,0.1362,47.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.4,1.051,29.8,1.6
+person_02_w1367,4101.0,0,0.4464,66.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),71.6,1.047,29.79,2.2
+person_02_w1368,4104.0,0,0.1177,46.8,Mild Activation,NormWear ViT Morphological Drift,86.8,1.002,29.78,1.6
+person_02_w1369,4107.0,0,0.4076,64.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.1,0.949,29.77,2.1
+person_02_w1370,4110.0,0,0.2547,54.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),64.6,0.942,29.79,1.8
+person_02_w1371,4113.0,0,0.1882,50.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),64.2,0.942,29.85,1.7
+person_02_w1372,4116.0,0,0.0335,41.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.6,0.936,29.93,1.4
+person_02_w1373,4119.0,0,0.0182,40.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.2,0.929,29.99,1.3
+person_02_w1374,4122.0,0,0.0124,39.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.7,0.922,30.02,1.3
+person_02_w1375,4125.0,0,0.0163,39.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.8,0.916,30.06,1.3
+person_02_w1376,4128.0,0,0.0107,39.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.7,0.91,30.11,1.3
+person_02_w1377,4131.0,0,0.0032,39.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.6,0.905,30.15,1.3
+person_02_w1378,4134.0,0,0.0085,39.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),85.3,0.902,30.17,1.3
+person_02_w1379,4137.0,0,0.0063,39.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.0,0.899,30.18,1.3
+person_02_w1380,4140.0,0,0.0043,39.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.0,0.894,30.2,1.3
+person_02_w1381,4143.0,0,0.1263,47.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),98.5,0.906,30.22,1.6
+person_02_w1382,4146.0,0,0.6509,78.6,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),115.7,0.908,30.23,2.6
+person_02_w1383,4149.0,0,0.3351,59.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,70.5,0.888,30.21,2.0
+person_02_w1384,4152.0,0,0.0192,39.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.8,0.881,30.2,1.3
+person_02_w1385,4155.0,0,0.1898,50.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.4,0.91,30.19,1.7
+person_02_w1386,4158.0,0,0.1151,46.2,Mild Activation,NormWear ViT Morphological Drift,66.4,0.929,30.19,1.5
+person_02_w1387,4161.0,0,0.2882,56.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.0,0.895,30.18,1.9
+person_02_w1388,4164.0,0,0.0307,40.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.9,0.869,30.19,1.3
+person_02_w1389,4167.0,0,0.006,38.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.6,0.863,30.2,1.3
+person_02_w1390,4170.0,0,0.1324,46.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),82.2,0.858,30.2,1.5
+person_02_w1391,4173.0,0,0.0029,38.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.4,0.854,30.2,1.3
+person_02_w1392,4176.0,0,0.0052,38.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.3,0.85,30.19,1.3
+person_02_w1393,4179.0,0,0.0035,38.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.2,0.846,30.19,1.3
+person_02_w1394,4182.0,0,0.0039,38.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.8,0.842,30.18,1.3
+person_02_w1395,4185.0,0,0.0026,37.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.0,0.839,30.17,1.3
+person_02_w1396,4188.0,0,0.0057,38.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),81.4,0.836,30.18,1.3
+person_02_w1397,4191.0,0,0.004,38.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.6,0.834,30.19,1.3
+person_02_w1398,4194.0,0,0.0081,38.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.5,0.831,30.18,1.3
+person_02_w1399,4197.0,0,0.0035,37.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.9,0.829,30.18,1.3
+person_02_w1400,4200.0,0,0.0064,38.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.3,0.827,30.17,1.3
+person_02_w1401,4203.0,0,0.0262,39.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.5,0.824,30.17,1.3
+person_02_w1402,4206.0,0,0.0081,37.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.1,0.822,30.16,1.3
+person_02_w1403,4209.0,0,0.0148,38.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.3,0.818,30.16,1.3
+person_02_w1404,4212.0,0,0.0207,38.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.3,0.813,30.15,1.3
+person_02_w1405,4215.0,0,0.2834,56.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.4,0.887,30.14,1.9
+person_02_w1406,4218.0,0,0.5118,69.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),40.0,0.941,30.09,2.3
+person_02_w1407,4221.0,0,0.5425,71.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),103.1,0.916,30.04,2.4
+person_02_w1408,4224.0,0,0.5465,72.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),112.6,0.911,29.99,2.4
+person_02_w1409,4227.0,0,0.3663,61.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),99.9,0.909,29.95,2.0
+person_02_w1410,4230.0,0,0.2762,56.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),110.3,0.909,29.9,1.9
+person_02_w1411,4233.0,0,0.2463,54.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),108.9,0.914,29.86,1.8
+person_02_w1412,4236.0,0,0.6069,75.4,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),67.6,0.91,29.83,2.5
+person_02_w1413,4239.0,0,0.5035,69.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,100.2,0.823,29.8,2.3
+person_02_w1414,4242.0,0,0.235,52.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.4,0.757,29.79,1.7
+person_02_w1415,4245.0,0,0.197,49.4,Mild Activation,NormWear ViT Morphological Drift,62.5,0.767,29.83,1.6
+person_02_w1416,4248.0,0,0.4319,63.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,83.5,0.76,29.89,2.1
+person_02_w1417,4251.0,0,0.2268,51.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,90.5,0.754,29.96,1.7
+person_02_w1418,4254.0,0,0.1783,48.6,Mild Activation,NormWear ViT Morphological Drift,113.3,0.749,30.01,1.6
+person_02_w1419,4257.0,0,0.0237,37.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.2,0.744,30.05,1.2
+person_02_w1420,4260.0,0,0.0186,36.6,Mild Activation,NormWear ViT Morphological Drift,57.1,0.74,30.08,1.2
+person_02_w1421,4263.0,0,0.0652,39.9,Mild Activation,NormWear ViT Morphological Drift,58.5,0.738,30.1,1.3
+person_02_w1422,4266.0,0,0.4912,66.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.9,0.746,30.12,2.2
+person_02_w1423,4269.0,0,0.483,66.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,93.1,0.753,30.14,2.2
+person_02_w1424,4272.0,0,0.3111,56.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,101.9,0.752,30.16,1.9
+person_02_w1425,4275.0,0,0.2622,53.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,83.0,0.752,30.17,1.8
+person_02_w1426,4278.0,0,0.399,62.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,97.8,0.75,30.18,2.1
+person_02_w1427,4281.0,0,0.1346,46.2,Mild Activation,NormWear ViT Morphological Drift,97.2,0.747,30.19,1.5
+person_02_w1428,4284.0,0,0.1315,44.4,Mild Activation,NormWear ViT Morphological Drift,75.3,0.746,30.21,1.5
+person_02_w1429,4287.0,0,0.5019,66.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.743,30.21,2.2
+person_02_w1430,4290.0,0,0.4546,64.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,63.2,0.777,30.21,2.2
+person_02_w1431,4293.0,0,0.4643,66.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,115.1,0.798,30.2,2.2
+person_02_w1432,4296.0,0,0.4359,64.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,97.0,0.782,30.21,2.1
+person_02_w1433,4299.0,0,0.0534,41.4,Mild Activation,NormWear ViT Morphological Drift,99.3,0.78,30.23,1.4
+person_02_w1434,4302.0,0,0.0228,38.5,Mild Activation,NormWear ViT Morphological Drift,74.3,0.779,30.24,1.3
+person_02_w1435,4305.0,0,0.0655,40.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.3,0.779,30.23,1.3
+person_02_w1436,4308.0,0,0.0046,37.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.9,0.778,30.23,1.2
+person_02_w1437,4311.0,0,0.0047,36.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),72.7,0.777,30.23,1.2
+person_02_w1438,4314.0,0,0.0085,37.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.0,0.775,30.23,1.2
+person_02_w1439,4317.0,0,0.0203,38.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),85.1,0.774,30.23,1.3
+person_02_w1440,4320.0,0,0.2131,50.0,Mild Activation,NormWear ViT Morphological Drift,77.3,0.779,30.23,1.7
+person_02_w1441,4323.0,0,0.2714,55.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.3,0.868,30.23,1.8
+person_02_w1442,4326.0,0,0.4792,68.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),117.4,0.958,30.24,2.3
+person_02_w1443,4329.0,0,0.3399,59.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,96.6,0.896,30.25,2.0
+person_02_w1444,4332.0,0,0.2927,55.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,86.2,0.783,30.24,1.9
+person_02_w1445,4335.0,0,0.4401,63.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.6,0.732,30.21,2.1
+person_02_w1446,4338.0,0,0.6458,74.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,86.3,0.722,30.16,2.5
+person_02_w1447,4341.0,0,0.4598,64.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,108.7,0.713,30.12,2.1
+person_02_w1448,4344.0,0,0.1865,47.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),104.3,0.709,30.09,1.6
+person_02_w1449,4347.0,0,0.3961,59.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),83.5,0.708,30.06,2.0
+person_02_w1450,4350.0,0,0.1415,44.4,Mild Activation,NormWear ViT Morphological Drift,82.0,0.703,30.02,1.5
+person_02_w1451,4353.0,0,0.541,67.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.2,0.699,29.99,2.3
+person_02_w1452,4356.0,0,0.2969,53.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,94.7,0.696,29.98,1.8
+person_02_w1453,4359.0,0,0.3381,54.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,85.6,0.693,29.97,1.8
+person_02_w1454,4362.0,0,0.6031,69.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),79.4,0.691,29.95,2.3
+person_02_w1455,4365.0,0,0.1149,42.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),101.9,0.687,29.93,1.4
+person_02_w1456,4368.0,0,0.6603,76.7,Acute Physiological Surge,NormWear ViT Morphological Drift,101.1,0.683,29.92,2.6
+person_02_w1457,4371.0,0,0.6811,75.4,Acute Physiological Surge,NormWear ViT Morphological Drift,61.3,0.676,29.9,2.5
+person_02_w1458,4374.0,0,0.6724,73.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.1,0.669,29.89,2.4
+person_02_w1459,4377.0,0,0.622,70.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.6,0.665,29.88,2.3
+person_02_w1460,4380.0,0,0.6527,71.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),78.6,0.66,29.86,2.4
+person_02_w1461,4383.0,0,0.1167,39.2,Mild Activation,NormWear ViT Morphological Drift,70.9,0.656,29.85,1.3
+person_02_w1462,4386.0,0,0.6232,70.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,69.8,0.654,29.85,2.4
+person_02_w1463,4389.0,0,0.6921,74.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,91.1,0.651,29.84,2.5
+person_02_w1464,4392.0,0,0.6909,77.3,Acute Physiological Surge,NormWear ViT Morphological Drift,55.4,0.703,29.84,2.6
+person_02_w1465,4395.0,0,0.5289,69.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,84.9,0.763,29.84,2.3
+person_02_w1466,4398.0,0,0.2909,54.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),75.1,0.767,29.85,1.8
+person_02_w1467,4401.0,0,0.0326,38.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),81.2,0.765,29.84,1.3
+person_02_w1468,4404.0,0,0.1151,43.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.7,0.763,29.84,1.4
+person_02_w1469,4407.0,0,0.2663,53.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.3,0.762,29.83,1.8
+person_02_w1470,4410.0,0,0.1337,45.2,Mild Activation,NormWear ViT Morphological Drift,85.6,0.76,29.83,1.5
+person_02_w1471,4413.0,0,0.1031,43.4,Mild Activation,NormWear ViT Morphological Drift,83.9,0.759,29.84,1.4
+person_02_w1472,4416.0,0,0.2085,49.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),77.7,0.762,29.85,1.6
+person_02_w1473,4419.0,0,0.3481,59.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,101.9,0.753,29.83,2.0
+person_02_w1474,4422.0,0,0.6049,74.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,88.1,0.756,29.83,2.5
+person_02_w1475,4425.0,0,0.47,66.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.7,0.787,29.83,2.2
+person_02_w1476,4428.0,0,0.4553,65.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,60.6,0.804,29.83,2.2
+person_02_w1477,4431.0,0,0.0367,40.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),82.0,0.803,29.82,1.3
+person_02_w1478,4434.0,0,0.1041,44.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),96.6,0.802,29.8,1.5
+person_02_w1479,4437.0,0,0.0088,38.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.5,0.801,29.79,1.3
+person_02_w1480,4440.0,0,0.0166,39.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),87.3,0.8,29.78,1.3
+person_02_w1481,4443.0,0,0.4068,62.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),97.9,0.799,29.76,2.1
+person_02_w1482,4446.0,0,0.3419,58.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),97.8,0.799,29.76,2.0
+person_02_w1483,4449.0,0,0.0437,40.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.1,0.798,29.75,1.4
+person_02_w1484,4452.0,0,0.0104,38.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),96.6,0.797,29.74,1.3
+person_02_w1485,4455.0,0,0.069,42.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),93.1,0.797,29.74,1.4
+person_02_w1486,4458.0,0,0.0483,40.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),87.8,0.797,29.74,1.4
+person_02_w1487,4461.0,0,0.0637,41.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),86.4,0.796,29.73,1.4
+person_02_w1488,4464.0,0,0.0678,42.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),105.4,0.795,29.74,1.4
+person_02_w1489,4467.0,0,0.0195,39.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),92.5,0.795,29.74,1.3
+person_02_w1490,4470.0,0,0.034,39.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.7,0.794,29.74,1.3
+person_02_w1491,4473.0,0,0.0846,42.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.8,0.793,29.74,1.4
+person_02_w1492,4476.0,0,0.0652,41.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.3,0.794,29.73,1.4
+person_02_w1493,4479.0,0,0.4788,66.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),90.8,0.793,29.73,2.2
+person_02_w1494,4482.0,0,0.517,69.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),88.1,0.792,29.74,2.3
+person_02_w1495,4485.0,0,0.5669,71.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,56.5,0.759,29.73,2.4
+person_02_w1496,4488.0,0,0.5276,69.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,68.3,0.741,29.74,2.3
+person_02_w1497,4491.0,0,0.2814,54.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,76.8,0.754,29.77,1.8
+person_02_w1498,4494.0,0,0.1045,44.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),117.1,0.752,29.8,1.5
+person_02_w1499,4497.0,0,0.1603,46.9,Mild Activation,NormWear ViT Morphological Drift,80.8,0.75,29.82,1.6
+person_02_w1500,4500.0,0,0.5794,72.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,87.7,0.758,29.84,2.4
+person_02_w1501,4503.0,0,0.3046,57.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,111.8,0.763,29.85,1.9
+person_02_w1502,4506.0,0,0.0064,36.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),75.9,0.76,29.86,1.2
+person_02_w1503,4509.0,0,0.0563,39.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),79.8,0.759,29.88,1.3
+person_02_w1504,4512.0,0,0.4081,60.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),73.6,0.758,29.89,2.0
+person_02_w1505,4515.0,0,0.2783,52.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),66.9,0.758,29.9,1.8
+person_02_w1506,4518.0,0,0.1504,45.7,Mild Activation,NormWear ViT Morphological Drift,52.2,0.758,29.91,1.5
+person_02_w1507,4521.0,0,0.2612,52.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,48.6,0.758,29.92,1.7
+person_02_w1508,4524.0,0,0.5085,66.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),73.0,0.758,29.93,2.2
+person_02_w1509,4527.0,0,0.2829,54.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,56.5,0.76,29.94,1.8
+person_02_w1510,4530.0,0,0.5345,69.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,69.4,0.763,29.94,2.3
+person_02_w1511,4533.0,0,0.1001,42.5,Mild Activation,NormWear ViT Morphological Drift,58.4,0.762,29.92,1.4
+person_02_w1512,4536.0,0,0.5791,72.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,103.8,0.764,29.89,2.4
+person_02_w1513,4539.0,0,0.215,51.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,103.8,0.764,29.88,1.7
+person_02_w1514,4542.0,0,0.2049,49.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),84.4,0.761,29.87,1.6
+person_02_w1515,4545.0,0,0.2664,53.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,96.7,0.761,29.86,1.8
+person_02_w1516,4548.0,0,0.188,48.2,Mild Activation,NormWear ViT Morphological Drift,79.1,0.76,29.85,1.6
+person_02_w1517,4551.0,0,0.2474,52.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.6,0.784,29.86,1.8
+person_02_w1518,4554.0,0,0.6629,78.5,Acute Physiological Surge,NormWear ViT Morphological Drift,90.2,0.818,29.86,2.6
+person_02_w1519,4557.0,0,0.4607,65.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,78.4,0.825,29.85,2.2
+person_02_w1520,4560.0,0,0.3251,57.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,66.8,0.821,29.82,1.9
+person_02_w1521,4563.0,0,0.5373,70.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,61.9,0.82,29.79,2.4
+person_02_w1522,4566.0,0,0.5338,70.9,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.7,0.817,29.75,2.4
+person_02_w1523,4569.0,0,0.0061,38.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.1,0.815,29.72,1.3
+person_02_w1524,4572.0,0,0.021,39.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.0,0.815,29.7,1.3
+person_02_w1525,4575.0,0,0.0059,38.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.1,0.816,29.68,1.3
+person_02_w1526,4578.0,0,0.0051,38.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.6,0.815,29.66,1.3
+person_02_w1527,4581.0,0,0.611,74.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),72.7,0.815,29.65,2.5
+person_02_w1528,4584.0,0,0.0625,42.0,Mild Activation,NormWear ViT Morphological Drift,46.0,0.815,29.64,1.4
+person_02_w1529,4587.0,0,0.1919,49.9,Mild Activation,NormWear ViT Morphological Drift,40.0,0.811,29.63,1.7
+person_02_w1530,4590.0,0,0.1315,47.1,Mild Activation,NormWear ViT Morphological Drift,101.1,0.806,29.63,1.6
+person_02_w1531,4593.0,0,0.0767,43.0,Mild Activation,NormWear ViT Morphological Drift,40.0,0.805,29.62,1.4
+person_02_w1532,4596.0,0,0.1723,48.8,Mild Activation,NormWear ViT Morphological Drift,40.0,0.808,29.61,1.6
+person_02_w1533,4599.0,0,0.0599,41.9,Mild Activation,NormWear ViT Morphological Drift,56.5,0.808,29.61,1.4
+person_02_w1534,4602.0,0,0.16,47.9,Mild Activation,NormWear ViT Morphological Drift,66.2,0.804,29.6,1.6
+person_02_w1535,4605.0,0,0.3175,57.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,60.7,0.803,29.58,1.9
+person_02_w1536,4608.0,0,0.1954,50.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,45.4,0.801,29.56,1.7
+person_02_w1537,4611.0,0,0.2615,54.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.804,29.56,1.8
+person_02_w1538,4614.0,0,0.5891,74.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,62.3,0.816,29.56,2.5
+person_02_w1539,4617.0,0,0.5959,74.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,59.3,0.823,29.56,2.5
+person_02_w1540,4620.0,0,0.0795,43.3,Mild Activation,NormWear ViT Morphological Drift,56.6,0.824,29.57,1.4
+person_02_w1541,4623.0,0,0.095,44.5,Mild Activation,NormWear ViT Morphological Drift,78.0,0.831,29.56,1.5
+person_02_w1542,4626.0,0,0.1891,49.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),77.5,0.828,29.56,1.7
+person_02_w1543,4629.0,0,0.3125,57.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.815,29.56,1.9
+person_02_w1544,4632.0,0,0.1775,49.4,Mild Activation,NormWear ViT Morphological Drift,44.3,0.814,29.56,1.6
+person_02_w1545,4635.0,0,0.3427,59.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,71.9,0.818,29.56,2.0
+person_02_w1546,4638.0,0,0.3256,58.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,73.6,0.811,29.57,1.9
+person_02_w1547,4641.0,0,0.3559,59.8,Moderate Autonomic Strain,NormWear ViT Morphological Drift,40.0,0.793,29.58,2.0
+person_02_w1548,4644.0,0,0.5843,73.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,82.8,0.738,29.58,2.4
+person_02_w1549,4647.0,0,0.5933,73.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,90.2,0.706,29.56,2.5
+person_02_w1550,4650.0,0,0.6016,73.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,67.6,0.73,29.54,2.4
+person_02_w1551,4653.0,0,0.4704,65.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,64.6,0.738,29.53,2.2
+person_02_w1552,4656.0,0,0.5675,71.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.3,0.709,29.54,2.4
+person_02_w1553,4659.0,0,0.4859,67.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,116.4,0.711,29.56,2.3
+person_02_w1554,4662.0,0,0.3912,61.0,Moderate Autonomic Strain,NormWear ViT Morphological Drift,94.0,0.736,29.6,2.0
+person_02_w1555,4665.0,0,0.2152,50.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),96.9,0.734,29.65,1.7
+person_02_w1556,4668.0,0,0.0809,42.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),88.3,0.733,29.68,1.4
+person_02_w1557,4671.0,0,0.266,54.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,98.5,0.732,29.72,1.8
+person_02_w1558,4674.0,0,0.5112,67.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,79.0,0.733,29.75,2.3
+person_02_w1559,4677.0,0,0.5411,69.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,91.2,0.734,29.75,2.3
+person_02_w1560,4680.0,0,0.2108,48.7,Mild Activation,NormWear ViT Morphological Drift,71.1,0.734,29.76,1.6
+person_02_w1561,4683.0,4,0.7308,80.4,Acute Physiological Surge,NormWear ViT Morphological Drift,48.4,0.735,29.77,2.7
+person_02_w1562,4686.0,4,0.1785,47.3,Mild Activation,NormWear ViT Morphological Drift,40.0,0.734,29.77,1.6
+person_02_w1563,4689.0,4,0.083,41.1,Mild Activation,NormWear ViT Morphological Drift,77.8,0.733,29.78,1.4
+person_02_w1564,4692.0,4,0.0827,40.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.8,0.734,29.79,1.4
+person_02_w1565,4695.0,4,0.3584,56.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),67.8,0.734,29.8,1.9
+person_02_w1566,4698.0,4,0.4575,63.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),69.4,0.734,29.81,2.1
+person_02_w1567,4701.0,4,0.006,35.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),73.6,0.733,29.81,1.2
+person_02_w1568,4704.0,4,0.0103,36.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.9,0.733,29.83,1.2
+person_02_w1569,4707.0,4,0.0111,36.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.0,0.733,29.83,1.2
+person_02_w1570,4710.0,4,0.0209,36.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.1,0.732,29.83,1.2
+person_02_w1571,4713.0,4,0.021,36.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),62.1,0.732,29.83,1.2
+person_02_w1572,4716.0,4,0.0072,35.7,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.5,0.732,29.83,1.2
+person_02_w1573,4719.0,4,0.0118,36.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),61.1,0.731,29.84,1.2
+person_02_w1574,4722.0,4,0.0144,36.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),61.9,0.732,29.85,1.2
+person_02_w1575,4725.0,4,0.0205,36.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.2,0.732,29.85,1.2
+person_02_w1576,4728.0,4,0.0193,36.5,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),66.2,0.731,29.84,1.2
+person_02_w1577,4731.0,4,0.0166,36.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),58.2,0.73,29.85,1.2
+person_02_w1578,4734.0,4,0.0312,37.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),76.2,0.73,29.85,1.2
+person_02_w1579,4737.0,4,0.0411,38.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),80.2,0.73,29.84,1.3
+person_02_w1580,4740.0,4,0.0103,36.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.6,0.73,29.84,1.2
+person_02_w1581,4743.0,4,0.0113,35.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),70.8,0.73,29.84,1.2
+person_02_w1582,4746.0,4,0.0379,37.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),74.8,0.73,29.84,1.3
+person_02_w1583,4749.0,4,0.0862,40.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),69.6,0.729,29.84,1.3
+person_02_w1584,4752.0,4,0.0765,39.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.6,0.729,29.84,1.3
+person_02_w1585,4755.0,4,0.0123,36.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.8,0.729,29.83,1.2
+person_02_w1586,4758.0,4,0.0114,36.0,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),67.4,0.729,29.82,1.2
+person_02_w1587,4761.0,4,0.0168,36.3,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.8,0.729,29.82,1.2
+person_02_w1588,4764.0,4,0.0222,36.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),68.6,0.729,29.81,1.2
+person_02_w1589,4767.0,4,0.0169,36.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),59.6,0.729,29.81,1.2
+person_02_w1590,4770.0,4,0.0217,36.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),63.2,0.729,29.81,1.2
+person_02_w1591,4773.0,4,0.0103,36.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),64.2,0.729,29.81,1.2
+person_02_w1592,4776.0,4,0.0084,35.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),65.6,0.728,29.81,1.2
+person_02_w1593,4779.0,4,0.0773,41.8,Mild Activation,NormWear ViT Morphological Drift,90.7,0.725,29.8,1.4
+person_02_w1594,4782.0,4,0.3586,58.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,100.3,0.668,29.79,1.9
+person_02_w1595,4785.0,4,0.3292,53.2,Moderate Autonomic Strain,NormWear ViT Morphological Drift,80.0,0.604,29.73,1.8
+person_02_w1596,4788.0,4,0.476,57.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,72.2,0.59,29.64,1.9
+person_02_w1597,4791.0,4,0.2543,45.1,Mild Activation,NormWear ViT Morphological Drift,81.0,0.586,29.59,1.5
+person_02_w1598,4794.0,4,0.0772,34.8,Mild Activation,NormWear ViT Morphological Drift,78.1,0.584,29.57,1.2
+person_02_w1599,4797.0,4,0.0691,35.0,Mild Activation,NormWear ViT Morphological Drift,79.3,0.581,29.56,1.2
+person_02_w1600,4800.0,4,0.1001,35.3,Mild Activation,NormWear ViT Morphological Drift,75.5,0.578,29.56,1.2
+person_02_w1601,4803.0,4,0.1009,34.8,Mild Activation,NormWear ViT Morphological Drift,70.7,0.576,29.55,1.2
+person_02_w1602,4806.0,4,0.0902,33.7,Mild Activation,NormWear ViT Morphological Drift,69.1,0.573,29.55,1.1
+person_02_w1603,4809.0,4,0.1483,39.0,Mild Activation,NormWear ViT Morphological Drift,87.3,0.57,29.54,1.3
+person_02_w1604,4812.0,4,0.1154,35.3,Mild Activation,NormWear ViT Morphological Drift,79.7,0.568,29.53,1.2
+person_02_w1605,4815.0,4,0.0991,33.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.4,0.566,29.52,1.1
+person_02_w1606,4818.0,4,0.0841,32.8,Mild Activation,NormWear ViT Morphological Drift,63.5,0.564,29.52,1.1
+person_02_w1607,4821.0,4,0.0915,32.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),60.6,0.561,29.51,1.1
+person_02_w1608,4824.0,4,0.1063,33.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.1,0.559,29.5,1.1
+person_02_w1609,4827.0,4,0.0977,33.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),62.1,0.557,29.49,1.1
+person_02_w1610,4830.0,4,0.0832,32.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),71.1,0.556,29.47,1.1
+person_02_w1611,4833.0,4,0.0975,32.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.1,0.553,29.45,1.1
+person_02_w1612,4836.0,4,0.0976,32.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.5,0.551,29.44,1.1
+person_02_w1613,4839.0,4,0.0974,33.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),67.0,0.55,29.43,1.1
+person_02_w1614,4842.0,4,0.096,32.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.4,0.547,29.42,1.1
+person_02_w1615,4845.0,4,0.093,32.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.1,0.545,29.41,1.1
+person_02_w1616,4848.0,4,0.1396,35.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),72.5,0.543,29.41,1.2
+person_02_w1617,4851.0,4,0.0955,34.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),75.3,0.541,29.41,1.1
+person_02_w1618,4854.0,4,0.0899,32.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),71.1,0.539,29.4,1.1
+person_02_w1619,4857.0,4,0.1076,32.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.4,0.537,29.4,1.1
+person_02_w1620,4860.0,4,0.0756,30.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.1,0.534,29.39,1.0
+person_02_w1621,4863.0,4,0.0664,30.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.0,0.533,29.4,1.0
+person_02_w1622,4866.0,4,0.0755,30.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.8,0.532,29.41,1.0
+person_02_w1623,4869.0,4,0.107,32.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),52.1,0.53,29.4,1.1
+person_02_w1624,4872.0,4,0.0428,28.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.0,0.528,29.41,0.9
+person_02_w1625,4875.0,4,0.0887,30.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.5,0.527,29.41,1.0
+person_02_w1626,4878.0,4,0.2035,37.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),57.1,0.525,29.4,1.3
+person_02_w1627,4881.0,4,0.06,28.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),67.8,0.524,29.4,1.0
+person_02_w1628,4884.0,4,0.0779,29.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),58.4,0.522,29.4,1.0
+person_02_w1629,4887.0,4,0.1954,36.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.5,0.521,29.39,1.2
+person_02_w1630,4890.0,4,0.0955,30.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),67.1,0.519,29.37,1.0
+person_02_w1631,4893.0,4,0.0937,30.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),61.1,0.517,29.36,1.0
+person_02_w1632,4896.0,4,0.0724,29.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.7,0.515,29.36,1.0
+person_02_w1633,4899.0,4,0.0884,30.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.5,0.515,29.36,1.0
+person_02_w1634,4902.0,4,0.0729,29.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),57.1,0.513,29.36,1.0
+person_02_w1635,4905.0,4,0.0743,29.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.4,0.511,29.35,1.0
+person_02_w1636,4908.0,4,0.0789,29.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.9,0.511,29.35,1.0
+person_02_w1637,4911.0,4,0.0788,29.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.8,0.51,29.36,1.0
+person_02_w1638,4914.0,4,0.0793,28.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.8,0.508,29.35,1.0
+person_02_w1639,4917.0,4,0.0912,29.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),61.9,0.506,29.35,1.0
+person_02_w1640,4920.0,4,0.1321,34.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.4,0.532,29.35,1.2
+person_02_w1641,4923.0,4,0.132,36.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.1,0.567,29.35,1.2
+person_02_w1642,4926.0,4,0.1048,36.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.2,0.573,29.35,1.2
+person_02_w1643,4929.0,4,0.0739,33.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.9,0.571,29.35,1.1
+person_02_w1644,4932.0,4,0.076,33.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.6,0.57,29.35,1.1
+person_02_w1645,4935.0,4,0.0977,35.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.8,0.568,29.35,1.2
+person_02_w1646,4938.0,4,0.099,35.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.5,0.567,29.34,1.2
+person_02_w1647,4941.0,4,0.0992,35.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.4,0.566,29.33,1.2
+person_02_w1648,4944.0,4,0.083,34.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.0,0.565,29.32,1.1
+person_02_w1649,4947.0,4,0.1104,35.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),59.6,0.563,29.31,1.2
+person_02_w1650,4950.0,4,0.0922,34.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.6,0.561,29.29,1.2
+person_02_w1651,4953.0,4,0.0763,33.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),61.3,0.561,29.28,1.1
+person_02_w1652,4956.0,4,0.0819,34.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.9,0.56,29.27,1.1
+person_02_w1653,4959.0,4,0.0746,33.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.0,0.559,29.26,1.1
+person_02_w1654,4962.0,4,0.0887,34.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.3,0.558,29.25,1.1
+person_02_w1655,4965.0,4,0.102,35.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.2,0.557,29.23,1.2
+person_02_w1656,4968.0,4,0.0648,33.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),64.6,0.556,29.22,1.1
+person_02_w1657,4971.0,4,0.08,34.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),61.7,0.555,29.2,1.1
+person_02_w1658,4974.0,4,0.0918,34.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.9,0.554,29.17,1.2
+person_02_w1659,4977.0,4,0.0882,34.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.4,0.553,29.15,1.1
+person_02_w1660,4980.0,4,0.0935,35.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.1,0.551,29.14,1.2
+person_02_w1661,4983.0,4,0.075,33.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.3,0.55,29.14,1.1
+person_02_w1662,4986.0,4,0.0876,34.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),67.1,0.549,29.12,1.1
+person_02_w1663,4989.0,4,0.0827,34.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),71.6,0.547,29.1,1.2
+person_02_w1664,4992.0,4,0.1007,35.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.8,0.547,29.08,1.2
+person_02_w1665,4995.0,4,0.0933,35.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.8,0.546,29.07,1.2
+person_02_w1666,4998.0,4,0.0752,34.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),68.6,0.545,29.06,1.1
+person_02_w1667,5001.0,4,0.0937,35.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.5,0.544,29.04,1.2
+person_02_w1668,5004.0,4,0.0566,32.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.1,0.543,29.04,1.1
+person_02_w1669,5007.0,4,0.0982,35.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),74.8,0.541,29.04,1.2
+person_02_w1670,5010.0,4,0.0831,35.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),73.1,0.539,29.03,1.2
+person_02_w1671,5013.0,4,0.0379,31.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.2,0.538,29.03,1.0
+person_02_w1672,5016.0,4,0.0859,34.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.1,0.537,29.04,1.1
+person_02_w1673,5019.0,4,0.0916,34.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.9,0.536,29.03,1.2
+person_02_w1674,5022.0,4,0.0701,32.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.8,0.535,29.03,1.1
+person_02_w1675,5025.0,4,0.0647,32.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.3,0.534,29.04,1.1
+person_02_w1676,5028.0,4,0.0657,32.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.8,0.533,29.05,1.1
+person_02_w1677,5031.0,4,0.0818,33.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),69.4,0.531,29.05,1.1
+person_02_w1678,5034.0,4,0.0804,33.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.8,0.53,29.05,1.1
+person_02_w1679,5037.0,4,0.0877,33.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.3,0.53,29.04,1.1
+person_02_w1680,5040.0,4,0.0835,33.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),65.3,0.529,29.04,1.1
+person_02_w1681,5043.0,4,0.0722,32.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),57.1,0.529,29.04,1.1
+person_02_w1682,5046.0,4,0.1095,35.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),56.7,0.528,29.03,1.2
+person_02_w1683,5049.0,4,0.2206,42.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.2,0.526,29.02,1.4
+person_02_w1684,5052.0,4,0.1753,38.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),54.7,0.525,29.02,1.3
+person_02_w1685,5055.0,4,0.2885,45.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),56.5,0.525,29.02,1.5
+person_02_w1686,5058.0,4,0.073,32.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),63.3,0.524,29.01,1.1
+person_02_w1687,5061.0,4,0.1018,34.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),72.5,0.523,29.02,1.1
+person_02_w1688,5064.0,4,0.0772,33.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),60.6,0.522,29.02,1.1
+person_02_w1689,5067.0,4,0.0878,33.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),62.6,0.522,29.02,1.1
+person_02_w1690,5070.0,4,0.0938,33.4,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),70.9,0.52,29.02,1.1
+person_02_w1691,5073.0,4,0.1036,34.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),57.3,0.519,29.01,1.1
+person_02_w1692,5076.0,4,0.1011,35.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),73.3,0.518,29.0,1.2
+person_02_w1693,5079.0,0,0.1025,34.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),55.8,0.515,29.0,1.1
+person_02_w1694,5082.0,0,0.682,73.1,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),64.0,0.545,28.98,2.4
+person_02_w1695,5085.0,0,0.6316,71.4,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),61.1,0.58,28.98,2.4
+person_02_w1696,5088.0,0,0.6191,74.8,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),123.4,0.579,28.98,2.5
+person_02_w1697,5091.0,0,0.7089,76.8,Acute Physiological Surge,Peripheral Vasomotor Reflex (Skin Temp),89.8,0.563,28.98,2.6
+person_02_w1698,5094.0,0,0.5848,69.5,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),109.4,0.559,28.99,2.3
+person_02_w1699,5097.0,0,0.1559,42.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),82.7,0.576,29.0,1.4
+person_02_w1700,5100.0,0,0.2174,45.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),77.3,0.586,29.03,1.5
+person_02_w1701,5103.0,0,0.3753,55.4,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),72.2,0.584,29.07,1.8
+person_02_w1702,5106.0,0,0.3384,54.1,Moderate Autonomic Strain,NormWear ViT Morphological Drift,79.7,0.544,29.1,1.8
+person_02_w1703,5109.0,0,0.4943,61.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,81.2,0.51,29.09,2.1
+person_02_w1704,5112.0,0,0.5974,66.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),45.9,0.523,29.07,2.2
+person_02_w1705,5115.0,0,0.2715,50.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,57.3,0.558,29.05,1.7
+person_02_w1706,5118.0,0,0.4378,61.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,55.5,0.607,29.05,2.0
+person_02_w1707,5121.0,0,0.3085,55.5,Moderate Autonomic Strain,NormWear ViT Morphological Drift,89.6,0.63,29.05,1.8
+person_02_w1708,5124.0,0,0.3497,56.8,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),85.3,0.63,29.06,1.9
+person_02_w1709,5127.0,0,0.0605,38.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),76.5,0.629,29.06,1.3
+person_02_w1710,5130.0,0,0.3886,58.6,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),40.0,0.629,29.05,2.0
+person_02_w1711,5133.0,0,0.5687,69.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),73.1,0.63,29.06,2.3
+person_02_w1712,5136.0,0,0.4727,63.1,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),79.2,0.63,29.05,2.1
+person_02_w1713,5139.0,0,0.0322,37.1,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.0,0.63,29.03,1.2
+person_02_w1714,5142.0,0,0.0142,35.3,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),66.7,0.631,29.03,1.2
+person_02_w1715,5145.0,0,0.0587,37.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),67.8,0.632,29.04,1.3
+person_02_w1716,5148.0,0,0.6682,75.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),79.2,0.632,29.03,2.5
+person_02_w1717,5151.0,0,0.4151,61.1,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),96.7,0.633,29.01,2.0
+person_02_w1718,5154.0,0,0.0932,40.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),72.9,0.633,29.01,1.4
+person_02_w1719,5157.0,0,0.3807,58.6,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),72.5,0.634,29.02,2.0
+person_02_w1720,5160.0,0,0.5621,69.2,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),68.1,0.636,29.03,2.3
+person_02_w1721,5163.0,0,0.3963,59.6,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),73.3,0.638,29.03,2.0
+person_02_w1722,5166.0,0,0.3768,57.8,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),83.8,0.638,29.02,1.9
+person_02_w1723,5169.0,0,0.5099,66.3,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),69.3,0.638,29.03,2.2
+person_02_w1724,5172.0,0,0.3385,56.1,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),69.3,0.639,29.04,1.9
+person_02_w1725,5175.0,0,0.4038,60.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),64.4,0.64,29.04,2.0
+person_02_w1726,5178.0,0,0.4192,61.6,Moderate Autonomic Strain,NormWear ViT Morphological Drift,74.3,0.639,29.03,2.1
+person_02_w1727,5181.0,0,0.5656,70.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),61.7,0.638,29.04,2.3
+person_02_w1728,5184.0,0,0.5924,71.2,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),77.7,0.633,29.04,2.4
+person_02_w1729,5187.0,0,0.6372,75.4,Acute Physiological Surge,NormWear ViT Morphological Drift,97.8,0.625,29.04,2.5
+person_02_w1730,5190.0,0,0.7116,77.6,Acute Physiological Surge,Peripheral Vasomotor Reflex (Skin Temp),60.2,0.617,29.03,2.6
+person_02_w1731,5193.0,0,0.6568,74.5,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),71.1,0.615,29.02,2.5
+person_02_w1732,5196.0,0,0.5252,66.3,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),48.0,0.61,29.03,2.2
+person_02_w1733,5199.0,0,0.3343,55.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,95.3,0.572,29.04,1.9
+person_02_w1734,5202.0,0,0.3398,53.3,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),92.3,0.538,29.07,1.8
+person_02_w1735,5205.0,0,0.5607,67.0,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),75.8,0.58,29.1,2.2
+person_02_w1736,5208.0,0,0.5073,65.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,49.7,0.618,29.13,2.2
+person_02_w1737,5211.0,0,0.2701,50.7,Moderate Autonomic Strain,NormWear ViT Morphological Drift,60.0,0.611,29.16,1.7
+person_02_w1738,5214.0,0,0.2274,47.8,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),80.0,0.614,29.19,1.6
+person_02_w1739,5217.0,0,0.4538,65.8,Moderate Autonomic Strain,Cardiovascular Strain (Heart Rate Surge),147.7,0.625,29.23,2.2
+person_02_w1740,5220.0,0,0.5471,68.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,51.2,0.645,29.26,2.3
+person_02_w1741,5223.0,0,0.7044,78.2,Acute Physiological Surge,NormWear ViT Morphological Drift,43.5,0.653,29.26,2.6
+person_02_w1742,5226.0,0,0.4749,63.3,Moderate Autonomic Strain,NormWear ViT Morphological Drift,73.1,0.608,29.25,2.1
+person_02_w1743,5229.0,0,0.7526,79.0,Acute Physiological Surge,Peripheral Vasomotor Reflex (Skin Temp),97.8,0.58,29.22,2.6
+person_02_w1744,5232.0,0,0.2279,47.9,Mild Activation,NormWear ViT Morphological Drift,83.5,0.603,29.19,1.6
+person_02_w1745,5235.0,0,0.703,77.2,Acute Physiological Surge,Peripheral Vasomotor Reflex (Skin Temp),89.3,0.607,29.19,2.6
+person_02_w1746,5238.0,0,0.4123,60.9,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),101.1,0.604,29.18,2.0
+person_02_w1747,5241.0,0,0.6352,73.4,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),92.0,0.598,29.17,2.4
+person_02_w1748,5244.0,0,0.3593,53.4,Moderate Autonomic Strain,NormWear ViT Morphological Drift,83.5,0.53,29.16,1.8
