@@ -1,0 +1,89 @@
+{
+  "cohort_participants": [
+    27,
+    45,
+    51,
+    56,
+    57,
+    58,
+    60
+  ],
+  "total_cohort_windows": 5643,
+  "population_baseline": {
+    "hr_mean": 72.33926608479561,
+    "rmssd_mean": 100.98384913891508
+  },
+  "individual_baselines": {
+    "27": {
+      "participant_id": 27,
+      "total_windows": 921,
+      "hr_mean": 78.79132325914465,
+      "hr_std": 8.40479765718146,
+      "rmssd_mean": 64.88840131330132,
+      "rmssd_std": 56.626372968794094,
+      "sdnn_mean": 90.36993941132367,
+      "sdnn_std": 61.277621009764395
+    },
+    "45": {
+      "participant_id": 45,
+      "total_windows": 1070,
+      "hr_mean": 69.27596930807726,
+      "hr_std": 8.874522749113146,
+      "rmssd_mean": 85.08446979802194,
+      "rmssd_std": 57.046462222829774,
+      "sdnn_mean": 103.82429299204405,
+      "sdnn_std": 51.83640282628533
+    },
+    "51": {
+      "participant_id": 51,
+      "total_windows": 486,
+      "hr_mean": 70.04458807982097,
+      "hr_std": 6.829901289759197,
+      "rmssd_mean": 93.15711063315162,
+      "rmssd_std": 58.16834817148114,
+      "sdnn_mean": 121.57324721773743,
+      "sdnn_std": 52.97405735419538
+    },
+    "56": {
+      "participant_id": 56,
+      "total_windows": 1262,
+      "hr_mean": 73.53800128607962,
+      "hr_std": 13.118510758396946,
+      "rmssd_mean": 141.45527195491545,
+      "rmssd_std": 66.27386806354436,
+      "sdnn_mean": 170.07756810846607,
+      "sdnn_std": 71.92215379636906
+    },
+    "57": {
+      "participant_id": 57,
+      "total_windows": 712,
+      "hr_mean": 72.0278398327025,
+      "hr_std": 9.742248478408317,
+      "rmssd_mean": 118.21979005113076,
+      "rmssd_std": 78.19871777663627,
+      "sdnn_mean": 130.51177422815755,
+      "sdnn_std": 76.19262294170369
+    },
+    "58": {
+      "participant_id": 58,
+      "total_windows": 225,
+      "hr_mean": 76.66543704416613,
+      "hr_std": 8.999002943965342,
+      "rmssd_mean": 184.38602112004065,
+      "rmssd_std": 79.09195748889415,
+      "sdnn_mean": 209.34119309643143,
+      "sdnn_std": 94.11797290993977
+    },
+    "60": {
+      "participant_id": 60,
+      "total_windows": 967,
+      "hr_mean": 68.39525326736266,
+      "hr_std": 13.627292997822082,
+      "rmssd_mean": 72.06040157829949,
+      "rmssd_std": 55.18208253859145,
+      "sdnn_mean": 100.78956769447734,
+      "sdnn_std": 54.21270757267309
+    }
+  },
+  "population_vs_personal_disagreement_pct": 6.184653553074606
+}

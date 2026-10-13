@@ -1,0 +1,14 @@
+{
+  "participant": 57,
+  "ibi_rows_raw": 1315568,
+  "ibi_rows_after_validity_filter": 941857,
+  "calendar_days_with_ibi": 24,
+  "valid_days_ibi": 24,
+  "days_with_selfreport": 38,
+  "days_with_both": 23,
+  "first_date": "2024-02-26",
+  "last_date": "2024-04-27",
+  "acc_available": false,
+  "acc_features_emitted": [],
+  "min_beats_per_valid_day": 500
+}

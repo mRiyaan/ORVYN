@@ -1,0 +1,156 @@
+{
+  "27": {
+    "participant_id": 27,
+    "raw_beats": 1631482,
+    "clean_beats": 1144412,
+    "monitored_days": 32,
+    "scored_days": 27,
+    "initial_baseline": {
+      "hr_mean": 77.06943181630484,
+      "rmssd_mean": 61.48815551408353,
+      "sdnn_mean": 107.76226528770759
+    },
+    "states": {
+      "typical": 21,
+      "insufficient_baseline": 5,
+      "elevated": 3,
+      "reduced": 3
+    },
+    "date_range": [
+      "2024-02-26",
+      "2024-04-18"
+    ]
+  },
+  "45": {
+    "participant_id": 45,
+    "raw_beats": 1795196,
+    "clean_beats": 1257036,
+    "monitored_days": 39,
+    "scored_days": 34,
+    "initial_baseline": {
+      "hr_mean": 68.2417653089693,
+      "rmssd_mean": 93.04155142330694,
+      "sdnn_mean": 132.13027560127477
+    },
+    "states": {
+      "typical": 25,
+      "reduced": 7,
+      "insufficient_baseline": 5,
+      "elevated": 2
+    },
+    "date_range": [
+      "2024-02-26",
+      "2024-04-28"
+    ]
+  },
+  "51": {
+    "participant_id": 51,
+    "raw_beats": 902964,
+    "clean_beats": 509038,
+    "monitored_days": 27,
+    "scored_days": 22,
+    "initial_baseline": {
+      "hr_mean": 67.7890688702399,
+      "rmssd_mean": 85.07084317896961,
+      "sdnn_mean": 124.73931131086667
+    },
+    "states": {
+      "typical": 16,
+      "insufficient_baseline": 5,
+      "elevated": 3,
+      "reduced": 3
+    },
+    "date_range": [
+      "2024-02-25",
+      "2024-04-28"
+    ]
+  },
+  "56": {
+    "participant_id": 56,
+    "raw_beats": 1614729,
+    "clean_beats": 1129221,
+    "monitored_days": 40,
+    "scored_days": 35,
+    "initial_baseline": {
+      "hr_mean": 71.41883965001743,
+      "rmssd_mean": 138.73139213073935,
+      "sdnn_mean": 207.64399014324925
+    },
+    "states": {
+      "typical": 32,
+      "insufficient_baseline": 5,
+      "reduced": 2,
+      "elevated": 1
+    },
+    "date_range": [
+      "2024-02-26",
+      "2024-04-28"
+    ]
+  },
+  "57": {
+    "participant_id": 57,
+    "raw_beats": 1315568,
+    "clean_beats": 941857,
+    "monitored_days": 24,
+    "scored_days": 19,
+    "initial_baseline": {
+      "hr_mean": 70.57068505673114,
+      "rmssd_mean": 127.08785335361189,
+      "sdnn_mean": 165.1968045052118
+    },
+    "states": {
+      "typical": 16,
+      "insufficient_baseline": 5,
+      "reduced": 2,
+      "elevated": 1
+    },
+    "date_range": [
+      "2024-02-26",
+      "2024-04-27"
+    ]
+  },
+  "58": {
+    "participant_id": 58,
+    "raw_beats": 348508,
+    "clean_beats": 195446,
+    "monitored_days": 26,
+    "scored_days": 21,
+    "initial_baseline": {
+      "hr_mean": 75.07335754720029,
+      "rmssd_mean": 163.98746508406322,
+      "sdnn_mean": 186.53488333463514
+    },
+    "states": {
+      "typical": 18,
+      "insufficient_baseline": 5,
+      "reduced": 2,
+      "elevated": 1
+    },
+    "date_range": [
+      "2024-02-26",
+      "2024-04-26"
+    ]
+  },
+  "60": {
+    "participant_id": 60,
+    "raw_beats": 1433230,
+    "clean_beats": 953779,
+    "monitored_days": 38,
+    "scored_days": 33,
+    "initial_baseline": {
+      "hr_mean": 64.4022568047571,
+      "rmssd_mean": 76.62108016171881,
+      "sdnn_mean": 167.489580790653
+    },
+    "states": {
+      "typical": 22,
+      "elevated": 6,
+      "insufficient_baseline": 5,
+      "reduced": 5
+    },
+    "date_range": [
+      "2024-02-28",
+      "2024-04-28"
+    ]
+  }
+}

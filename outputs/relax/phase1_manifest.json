@@ -1,0 +1,17 @@
+{
+    "dataset": "RELAX",
+    "doi": "10.5281/zenodo.20701999",
+    "publication_doi": "10.1038/s41597-026-07711-4",
+    "selected_participant": "57",
+    "date_range": {
+        "start": "2024-02-26T08:48:03Z",
+        "end": "2024-04-27T20:00:40Z",
+        "days": 61
+    },
+    "extracted_files": [
+        "data/longitudinal/relax_demo/participant_57/ibi_data.parquet",
+        "data/longitudinal/relax_demo/questionnaire_responses.xlsx",
+        "data/longitudinal/relax_demo/questionnaires.xlsx"
+    ],
+    "notes": "ACC data was not extracted due to size constraints (16GB total dataset zip). The demonstration will proceed using IBI and self-reports only."
+}
