@@ -1,0 +1,33 @@
+{
+  "valid_days": 24,
+  "scored_days": 19,
+  "states": {
+    "typical": 16,
+    "insufficient_baseline": 5,
+    "reduced": 2,
+    "elevated": 1
+  },
+  "self_report_correlations": {
+    "ifb_feeling_mean": {
+      "n_days": 15,
+      "spearman_rho": -0.17164688588587051,
+      "p_value": 0.5407494066867551
+    },
+    "ifb_mood_mean": {
+      "n_days": 15,
+      "spearman_rho": -0.29068815577540597,
+      "p_value": 0.2932239726807316
+    },
+    "ifb_mental_effort_mean": {
+      "n_days": 15,
+      "spearman_rho": -0.3723520584569128,
+      "p_value": 0.17170040097726094
+    },
+    "ifb_physical_effort_mean": {
+      "n_days": 15,
+      "spearman_rho": 0.18773664246459462,
+      "p_value": 0.5028457402311741
+    }
+  },
+  "min_prior_days": 5
+}
