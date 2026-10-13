@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "total_files_scanned": 22,
+  "total_pattern_findings": 0,
+  "total_legacy_files": 0,
+  "details": {
+    "files_scanned": 22,
+    "pattern_findings": {
+      "simulated_model": [],
+      "strict_false": [],
+      "fake_signal": [],
+      "fake_labels": [],
+      "hardcoded_pred": []
+    },
+    "legacy_weight_files": []
+  }
+}

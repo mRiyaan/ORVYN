@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "forbidden_claims_detected": 0,
+  "violations_list": [],
+  "approved_terminology": {
+    "Downstream ML Output": "Physiological Stress-Response Estimate (Probability in [0, 1])",
+    "Personalized Index": "Personalized Physiological Strain Index (0 - 100, relative to resting baseline)",
+    "Condition Attribution": "Physiological Feature Deviation Decomposition (% contribution)",
+    "Recovery Trajectory": "Projected Autonomic Recovery Trajectory (heuristic exponential decay based on baseline HRV)",
+    "Dataset Labels": "Laboratory TSST Protocol Condition Labels (Experimental ground truth)"
+  },
+  "output_definitions": [
+    {
+      "output_name": "Physiological Stress-Response Estimate",
+      "symbol": "P(stress)",
+      "range": "[0.0, 1.0]",
+      "mathematical_definition": "Downstream calibrated probability output by XGBoost classifier from 788-D fused NormWear representation + 20-D explicit features.",
+      "ground_truth_status": "Supervised against WESAD laboratory Trier Social Stress Test (TSST) arithmetic/speech condition labels.",
+      "scientific_limitations": "Measures physiological autonomic reactivity elicited under experimental laboratory stress conditions; DOES NOT constitute a clinical psychological stress assessment.",
+      "disallowed_interpretation": "'User is clinically stressed' or 'User has an anxiety disorder'."
+    },
+    {
+      "output_name": "Personalized Physiological Strain Index",
+      "symbol": "Strain",
+      "range": "[0, 100]",
+      "mathematical_definition": "Blended score: clip(100 * (0.60 * P(stress) + 0.40 * dev_prob), 0, 100), where dev_prob is the sigmoid of multi-modal baseline Z-scores (HR, RMSSD, EDA, Temp, embedding distance).",
+      "ground_truth_status": "Heuristic composite score normalized relative to each individual's resting baseline setpoint.",
+      "scientific_limitations": "Relative personal indicator. Physiological strain can also be induced by physical exertion, caffeine, temperature shifts, or acute excitement.",
+      "disallowed_interpretation": "'Medical severity grade' or 'Diagnosis of cardiovascular distress'."
+    },
+    {
+      "output_name": "Physiological Cause Attribution Breakdown",
+      "symbol": "{share_sympathetic, share_cardiac, share_vagal, share_thermal, share_morph}",
+      "range": "Sum = 100.0%",
+      "mathematical_definition": "Proportional decomposition of standardized feature deviations (EDA Z-score, HR Z-score, RMSSD drop Z-score, vasoconstriction Z-score, embedding drift).",
+      "ground_truth_status": "Derived from autonomic physiological kinematics.",
+      "scientific_limitations": "Shows which physiological sensor channels departed most significantly from resting baseline; does NOT prove external real-world causality (e.g. 'work caused this').",
+      "disallowed_interpretation": "'Proven external cause of emotional state'."
+    },
+    {
+      "output_name": "Projected Autonomic Recovery Trajectory",
+      "symbol": "tau_recov(t)",
+      "range": "Minutes post-window [0, 30]",
+      "mathematical_definition": "Exponential decay model: Strain(t) = Strain_0 * exp(-t / (tau_0 / vagal_factor)), calibrated by personal resting RMSSD.",
+      "ground_truth_status": "Empirical physiological recovery model.",
+      "scientific_limitations": "Theoretical projection under quiet resting conditions. Ongoing cognitive or physical demands will alter real-world trajectory.",
+      "disallowed_interpretation": "'Guaranteed medical prognosis'."
+    }
+  ]
+}

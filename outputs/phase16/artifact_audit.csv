@@ -1,0 +1,9 @@
+file,purpose,provenance,used_in_current_pipeline,status,action,reason
+fine_tuned_head.pt,Legacy fine-tuned model head,Previous project phase,false,REJECTED,DELETED,Violation of foundation model immutability
+baseline_config.json,Legacy baseline configuration,Previous project phase,false,REJECTED,DELETED,Replaced by standardized yaml configs
+person_01_demo.csv,Legacy simulated demo data,Previous project phase,false,REJECTED,DELETED,Synthetic data violates project constraints
+person_02_demo.csv,Legacy simulated demo data,Previous project phase,false,REJECTED,DELETED,Synthetic data violates project constraints
+capstone.dataset.xlsx,Legacy manual tracking dataset,Previous project phase,false,REJECTED,DELETED,Replaced by parquet metadata and structured tracking
+outputs/phase5/extraction_log.txt,Record of feature extraction,Phase 5,true,APPROVED,RETAINED,Required for provenance
+models/downstream/stress_response_xgb.json,Final downstream classifier,Phase 6,true,APPROVED,RETAINED,Core prediction component
+checkpoints/normwear_pretrain_ckpt.pth,Frozen foundation model,Official,true,APPROVED,RETAINED,Immutable foundation
