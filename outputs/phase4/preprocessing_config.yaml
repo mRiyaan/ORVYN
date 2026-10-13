@@ -1,0 +1,14 @@
+baseline_code: 1
+channel_order:
+- wrist_BVP
+- wrist_EDA
+- wrist_TEMP
+label_purity_threshold: 0.8
+selected_channels:
+- wrist_BVP
+- wrist_EDA
+- wrist_TEMP
+stress_code: 2
+stride_seconds: 3.0
+target_sampling_rate_hz: 64
+window_seconds: 6.0

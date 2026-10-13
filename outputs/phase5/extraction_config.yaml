@@ -1,0 +1,9 @@
+batch_size: 32
+checkpoint_path: checkpoints/normwear_pretrain_ckpt.pth
+device_requested: mps
+embedding_representations:
+- channel_mean_768d
+- channel_wise_cls_3x768d
+- channel_concat_2304d
+target_sampling_rate_hz: 64
+target_subset: valid_for_training

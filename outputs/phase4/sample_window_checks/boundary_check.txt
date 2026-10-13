@@ -1,0 +1,24 @@
+============================================================
+NORMWEAR REAL WINDOW BOUNDARY VERIFICATION
+============================================================
+Input Window ID: S2_w00102 (Subject: S2)
+Condition: BASELINE (purity: 0.9088)
+Input Shape: [1, 3, 384]
+Input Dtype: torch.float32
+Input Finite: True
+
+NormWear Model Output Shape: [1, 3, 547, 768]
+CLS Token Representation: [1, 3, 768]
+Mean Pooled Representation: [1, 3, 768]
+
+Numeric Verification:
+- All Values Finite: True
+- NaN Count: 0
+- Inf Count: 0
+- Mean: -0.007122
+- Std:  0.507082
+- Min:  -9.434372
+- Max:  8.045513
+
+BOUNDARY VERIFICATION STATUS: PASS
+============================================================

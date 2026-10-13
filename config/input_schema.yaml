@@ -1,0 +1,19 @@
+input_schema:
+  required_channels:
+    - wrist_BVP
+    - wrist_EDA
+    - wrist_TEMP
+  optional_channels:
+    - wrist_ACC_x
+    - wrist_ACC_y
+    - wrist_ACC_z
+  sampling_rate_hz: 64
+  data_types:
+    timestamp: float64
+    wrist_BVP: float64
+    wrist_EDA: float64
+    wrist_TEMP: float64
+  units:
+    wrist_BVP: unitless
+    wrist_EDA: uS
+    wrist_TEMP: Celsius
