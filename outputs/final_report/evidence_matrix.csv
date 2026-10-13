@@ -1,0 +1,9 @@
+component,status,evidence_file
+NormWear Foundation,Verified,checkpoints/normwear_pretrain_ckpt.pth
+Data Processing,Verified,outputs/phase4/phase4_report.md
+Embedding Extraction,Verified,outputs/phase5/extraction_log.txt
+Training & Fusion,Verified,outputs/phase6/phase6_report.md
+Independent Eval,Verified,outputs/phase7/phase7_report.md
+Baseline Engine,Verified,outputs/phase8/phase8_report.md
+Mentor Demo,Verified,app.py
+Integrity Check,Verified,outputs/phase15/legacy_audit.md
