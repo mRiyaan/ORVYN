@@ -1,0 +1,18 @@
+{
+  "device": "mps",
+  "cold_start_initialization_ms": 812.1,
+  "total_test_windows": 100,
+  "window_duration_ms": 6000.0,
+  "latency_metrics_ms": {
+    "foundation_vit_median": 111.1,
+    "physio_feature_median": 0.69,
+    "xgb_inference_median": 0.22,
+    "baseline_deviation_median": 0.04,
+    "end_to_end_median": 112.14,
+    "end_to_end_p95": 130.35,
+    "end_to_end_max": 191.66
+  },
+  "throughput_windows_per_second": 8.9,
+  "latency_to_budget_ratio_percent": 1.87,
+  "real_time_pass": true
+}

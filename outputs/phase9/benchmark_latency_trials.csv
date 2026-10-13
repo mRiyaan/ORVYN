@@ -1,0 +1,101 @@
+subject_id,strain_score,strain_state,primary_cause,vit_ms,physio_ms,xgb_ms,deviation_ms,total_ms
+S15,32.9,Mild Activation,NormWear ViT Morphological Drift,109.46,0.68,0.16,0.03,110.34
+S17,10.5,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),108.81,0.56,0.14,0.03,109.55
+S15,48.4,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),109.12,0.78,0.19,0.03,110.13
+S16,11.0,Homeostatic Rest,NormWear ViT Morphological Drift,111.01,0.69,0.22,0.05,111.97
+S17,32.6,Mild Activation,NormWear ViT Morphological Drift,113.04,0.64,0.2,0.03,113.92
+S17,37.7,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),112.04,0.9,0.25,0.04,113.24
+S17,55.3,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),113.45,0.76,0.26,0.05,114.52
+S16,35.9,Mild Activation,NormWear ViT Morphological Drift,112.21,0.76,0.24,0.04,113.25
+S16,19.3,Homeostatic Rest,NormWear ViT Morphological Drift,113.13,0.71,0.22,0.03,114.09
+S16,73.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),115.83,0.64,0.2,0.03,116.71
+S16,86.5,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),113.15,0.62,0.21,0.04,114.01
+S16,57.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),113.06,0.67,0.2,0.03,113.97
+S17,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,113.53,0.92,0.24,0.04,114.74
+S15,51.6,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),113.6,0.74,0.23,0.03,114.61
+S16,14.7,Homeostatic Rest,NormWear ViT Morphological Drift,109.77,0.68,0.21,0.03,110.7
+S15,61.8,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),109.44,0.57,0.18,0.03,110.22
+S17,20.6,Homeostatic Rest,NormWear ViT Morphological Drift,111.1,0.67,0.22,0.03,112.02
+S15,23.8,Homeostatic Rest,NormWear ViT Morphological Drift,111.54,0.72,0.25,0.04,112.56
+S16,12.5,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),110.18,0.69,0.23,0.04,111.14
+S16,14.3,Homeostatic Rest,NormWear ViT Morphological Drift,109.49,0.53,0.16,0.03,110.21
+S16,12.8,Homeostatic Rest,NormWear ViT Morphological Drift,109.26,0.48,0.13,0.03,109.9
+S17,13.5,Homeostatic Rest,Cardiovascular Strain (Heart Rate Surge),109.05,0.68,0.2,0.04,109.96
+S15,23.3,Homeostatic Rest,NormWear ViT Morphological Drift,109.36,0.59,0.15,0.03,110.12
+S17,47.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),108.92,0.52,0.14,0.03,109.6
+S16,15.1,Homeostatic Rest,NormWear ViT Morphological Drift,113.34,0.7,0.22,0.03,114.29
+S17,10.4,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),111.93,0.69,0.22,0.04,112.88
+S15,23.7,Homeostatic Rest,NormWear ViT Morphological Drift,110.63,0.67,0.2,0.03,111.54
+S16,15.7,Homeostatic Rest,NormWear ViT Morphological Drift,109.87,0.56,0.17,0.03,110.63
+S16,26.8,Mild Activation,Cardiovascular Strain (Heart Rate Surge),109.45,0.56,0.15,0.03,110.19
+S16,16.3,Homeostatic Rest,NormWear ViT Morphological Drift,109.17,0.54,0.15,0.03,109.9
+S15,49.9,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),108.51,0.58,0.17,0.03,109.3
+S16,93.6,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),108.85,0.54,0.15,0.03,109.57
+S17,8.3,Homeostatic Rest,NormWear ViT Morphological Drift,109.08,0.55,0.14,0.03,109.79
+S17,11.3,Homeostatic Rest,NormWear ViT Morphological Drift,108.92,0.48,0.12,0.03,109.55
+S15,48.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),109.04,0.47,0.12,0.03,109.66
+S16,11.9,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),109.35,0.46,0.11,0.03,109.96
+S16,62.9,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),108.72,0.52,0.14,0.03,109.41
+S17,49.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),111.96,0.64,0.2,0.03,112.84
+S17,49.5,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),109.02,0.55,0.16,0.03,109.76
+S17,53.5,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),108.87,0.56,0.16,0.03,109.62
+S15,49.8,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),111.19,0.68,0.21,0.04,112.12
+S15,34.1,Mild Activation,NormWear ViT Morphological Drift,109.43,0.67,0.21,0.03,110.34
+S17,59.6,Moderate Autonomic Strain,Peripheral Vasomotor Reflex (Skin Temp),109.28,0.55,0.16,0.03,110.03
+S16,74.3,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),111.5,0.65,0.2,0.03,112.38
+S17,9.8,Homeostatic Rest,NormWear ViT Morphological Drift,109.78,0.69,0.22,0.03,110.72
+S16,12.9,Homeostatic Rest,NormWear ViT Morphological Drift,111.02,0.73,0.21,0.04,112.0
+S17,49.2,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),112.12,0.67,0.21,0.03,113.02
+S15,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,110.58,0.72,0.24,0.04,111.57
+S17,7.4,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),109.43,0.71,0.22,0.04,110.39
+S16,13.1,Homeostatic Rest,NormWear ViT Morphological Drift,109.6,0.59,0.19,0.03,110.41
+S16,21.9,Homeostatic Rest,NormWear ViT Morphological Drift,111.44,0.72,0.23,0.04,112.43
+S16,89.0,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),110.66,0.69,0.22,0.03,111.61
+S15,59.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),109.97,0.78,0.25,0.04,111.05
+S15,52.4,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),109.78,0.98,0.27,0.05,111.09
+S15,45.9,Mild Activation,NormWear ViT Morphological Drift,114.14,0.61,0.17,0.03,114.95
+S16,45.2,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),111.5,0.72,0.22,0.04,112.48
+S15,65.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),109.41,0.71,0.22,0.04,110.38
+S17,10.8,Homeostatic Rest,NormWear ViT Morphological Drift,112.42,0.67,0.21,0.03,113.35
+S16,16.4,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),110.75,0.8,0.26,0.04,111.85
+S15,31.5,Mild Activation,NormWear ViT Morphological Drift,190.68,0.73,0.22,0.04,191.66
+S17,42.6,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),109.42,0.55,0.17,0.03,110.17
+S17,11.2,Homeostatic Rest,NormWear ViT Morphological Drift,110.66,1.13,0.24,0.04,112.07
+S15,21.1,Homeostatic Rest,NormWear ViT Morphological Drift,115.42,0.81,0.23,0.04,116.49
+S16,10.9,Homeostatic Rest,NormWear ViT Morphological Drift,111.45,0.79,0.24,0.04,112.52
+S15,19.7,Homeostatic Rest,NormWear ViT Morphological Drift,110.56,1.07,0.42,0.1,112.16
+S15,21.2,Homeostatic Rest,NormWear ViT Morphological Drift,113.09,0.78,0.29,0.04,114.21
+S15,57.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),111.22,1.2,0.24,0.04,112.7
+S15,15.6,Homeostatic Rest,NormWear ViT Morphological Drift,112.22,1.11,0.28,0.04,113.66
+S15,37.2,Mild Activation,NormWear ViT Morphological Drift,134.83,2.97,0.74,0.07,138.62
+S15,54.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),134.46,1.45,0.31,0.13,136.5
+S16,16.3,Homeostatic Rest,Parasympathetic Withdrawal (Low HRV),133.21,1.46,0.71,0.2,135.59
+S16,89.1,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),135.34,0.78,0.24,0.04,136.4
+S15,43.1,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),118.07,0.76,0.22,0.04,119.09
+S17,27.8,Mild Activation,NormWear ViT Morphological Drift,118.23,0.87,0.25,0.04,119.39
+S15,19.9,Homeostatic Rest,NormWear ViT Morphological Drift,116.29,0.81,0.31,0.05,117.46
+S15,25.1,Mild Activation,NormWear ViT Morphological Drift,114.96,0.81,0.26,0.04,116.08
+S15,58.0,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),115.93,0.92,0.24,0.04,117.12
+S17,18.4,Homeostatic Rest,NormWear ViT Morphological Drift,110.1,0.7,0.21,0.03,111.04
+S16,17.7,Homeostatic Rest,NormWear ViT Morphological Drift,109.69,0.64,0.17,0.03,110.54
+S15,69.5,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),111.48,0.78,0.22,0.04,112.52
+S16,91.1,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),112.32,4.99,0.53,0.09,117.93
+S15,53.2,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),128.64,0.94,0.43,0.05,130.07
+S17,31.0,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),119.01,0.82,0.24,0.04,120.12
+S15,59.7,Moderate Autonomic Strain,Sympathetic Arousal (EDA/Skin Conductance),114.03,0.91,0.25,0.04,115.23
+S17,9.4,Homeostatic Rest,NormWear ViT Morphological Drift,111.1,1.12,0.37,0.04,112.63
+S15,44.6,Mild Activation,Sympathetic Arousal (EDA/Skin Conductance),119.43,0.84,0.25,0.04,120.57
+S15,29.6,Mild Activation,NormWear ViT Morphological Drift,112.7,0.89,0.23,0.04,113.87
+S17,11.8,Homeostatic Rest,Sympathetic Arousal (EDA/Skin Conductance),111.22,0.98,0.36,0.08,112.64
+S17,34.9,Mild Activation,Peripheral Vasomotor Reflex (Skin Temp),117.08,1.06,0.37,0.05,118.56
+S17,10.7,Homeostatic Rest,NormWear ViT Morphological Drift,115.74,0.84,0.25,0.04,116.87
+S16,15.5,Homeostatic Rest,NormWear ViT Morphological Drift,111.69,0.83,0.27,0.04,112.85
+S17,9.0,Homeostatic Rest,NormWear ViT Morphological Drift,118.05,1.07,0.3,0.05,119.48
+S17,10.3,Homeostatic Rest,NormWear ViT Morphological Drift,113.83,0.72,0.21,0.04,114.81
+S17,9.5,Homeostatic Rest,NormWear ViT Morphological Drift,110.25,0.56,0.16,0.03,111.0
+S17,9.2,Homeostatic Rest,Peripheral Vasomotor Reflex (Skin Temp),109.74,0.54,0.14,0.03,110.46
+S16,9.4,Homeostatic Rest,NormWear ViT Morphological Drift,110.02,0.56,0.14,0.03,110.74
+S15,19.3,Homeostatic Rest,NormWear ViT Morphological Drift,109.65,0.51,0.12,0.03,110.31
+S16,88.2,Acute Physiological Surge,Sympathetic Arousal (EDA/Skin Conductance),109.49,0.5,0.12,0.03,110.14
+S15,14.7,Homeostatic Rest,NormWear ViT Morphological Drift,109.14,0.6,0.17,0.03,109.94
+S15,48.0,Mild Activation,NormWear ViT Morphological Drift,109.7,0.6,0.18,0.03,110.52
