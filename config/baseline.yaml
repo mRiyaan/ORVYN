@@ -1,0 +1,9 @@
+baseline:
+  method: "median_mad" # median and Median Absolute Deviation for robustness
+  duration_minutes: 5
+  valid_fraction_required: 0.8
+  requested_statistics:
+    - median
+    - mad
+    - mean
+    - std
