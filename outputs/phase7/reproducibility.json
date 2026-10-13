@@ -1,0 +1,22 @@
+{
+  "commit_sha": "unknown",
+  "checkpoint_sha256": "36d0bca18356ccfc8e8916058bf838f26f1212a646f5780b487ad78581a92561",
+  "seeds": {
+    "random": 42,
+    "numpy": 42,
+    "xgboost": 42
+  },
+  "splits": {
+    "train_subjects": ["S2", "S3", "S4", "S5", "S6", "S7", "S8", "S9", "S10"],
+    "val_subjects": ["S11", "S13", "S14"],
+    "test_subjects": ["S15", "S16", "S17"]
+  },
+  "metrics_model_c": {
+    "accuracy": 0.7319,
+    "balanced_accuracy": 0.6437,
+    "precision": 0.9364,
+    "recall": 0.2994,
+    "macro_f1": 0.4537,
+    "roc_auc": 0.8708
+  }
+}
