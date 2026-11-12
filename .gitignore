@@ -4,11 +4,19 @@ __pycache__/
 *$py.class
 *.so
 
-# Virtual environment
+# Virtual environment & secrets
 .venv/
 env/
 venv/
 ENV/
+.env
+.env.*
+
+# Reports & local report build helpers (excluded from git push)
+reports/
+scripts/build_capstone_report.py
+scripts/pdf_tools.swift
+scripts/update_capstone_docx.py
 
 # Testing & Coverage
 .pytest_cache/

@@ -8,13 +8,13 @@ This document provides a comprehensive, end-to-end explanation of the machine le
 
 | Parameter | Specification |
 | :--- | :--- |
-| **Model Class** | Hybrid Foundation Model + Biomarker Fusion + Personal Baseline Engine |
+| **Model Class** | Frozen NormWear Foundation Classifier + Personal Baseline Strain Engine |
 | **Foundation Backbone** | **Vision Transformer (ViT-Base)** Masked Autoencoder (**NormWear**) |
 | **Pretrained Parameters** | **136,112,328 (~136.1 Million)** parameters |
 | **Backbone Training State** | **Frozen** (zero-shot feature extractor; no weight modification) |
-| **Downstream Classifier** | **XGBoost Classifier** (`binary:logistic`, 100 estimators, max depth 6) |
-| **Input Signals** | 3-Channel Wrist Physiological Time-Series (`wrist_BVP`, `wrist_EDA`, `wrist_TEMP`) |
-| **Input Window** | 6.0-second sliding windows @ 64 Hz $\rightarrow$ **Shape: `[3, 384]`** |
+| **Downstream Classifier** | **XGBoost Classifier** (`model_a_embeddings_only.json`, 768-D NormWear-only Experiment A, `binary:logistic`, 100 estimators, max depth 6; outputs `0` Baseline vs. `1` Stress; `0.9400` ROC-AUC / `0.8113` Macro-F1) |
+| **Input Signals & Modality Contract** | 3-Channel Wrist Physiological Time-Series (`wrist_BVP`, `wrist_EDA`, `wrist_TEMP`) @ 64 Hz (`overlap_seconds: 3.0`, stride 3.0 s); **RELAX IBI/ACC remains strictly isolated** in its separate daily-aggregation pathway |
+| **Input Window** | 6.0-second sliding windows @ 64 Hz $\rightarrow$ **Shape: `[B, 3, 384]`** |
 | **Core Outputs** | Strain Index (0–100), Strain State, Stress Probability, Cause Attribution (%), Recovery ETA (mins), and Recovery Curve |
 
 > [!NOTE]
@@ -28,7 +28,7 @@ This document provides a comprehensive, end-to-end explanation of the machine le
 The system employs a four-stage hierarchical architecture:
 
 ```
-[Raw Time-Series: BVP, EDA, TEMP] (3 × 384)
+[Raw Time-Series: wrist_BVP, wrist_EDA, wrist_TEMP] ([B, 3, 384] @ 64 Hz, overlap=3.0s)
             │
             ├───► [1. Continuous Wavelet Transform (CWT)]
             │            │ (Converts 1D signals to 2D time-frequency scalograms)
@@ -38,18 +38,14 @@ The system employs a four-stage hierarchical architecture:
             │            ▼
             │     [Deep Representation: 768-dim vector]
             │            │
-            ├───► [3. Domain Physiological Feature Extraction]
-            │            │ (Computes 20 explicit cardiac, EDA & thermal biomarkers)
-            │            ▼
-            │     [Standardized Bio-features: 20-dim vector]
+            │            ├───► [3a. Primary XGBoost Classifier (768-D Experiment A)]
+            │            │            └──► Binary Stress Probability (0=Baseline, 1=Stress)
             │            │
-            ▼            ▼
-   [Feature Fusion Layer] ──► 788-dimensional Fused Vector
-            │
-            ├───► [4. Downstream XGBoost Classifier] ──► Stress Probability (p_stress)
-            │
-            └───► [5. Personal Baseline & Recovery Engine]
-                         │ (Calculates Robust z-scores from individual resting baseline)
+            ├───► [3b. Domain Physiological Feature Extraction (20-dim)]
+            │            │ (Computes explicit cardiac, EDA & thermal biomarkers; RELAX IBI/ACC isolated)
+            │            ▼
+            └──────────► [4. Personal Baseline & Recovery Engine (StrainEngine)]
+                         │ (Computes Robust z-scores + 5-factor Cause Attribution)
                          ▼
         [Calibrated Strain Index (0–100) + Cause Attribution + Recovery Trajectory]
 ```
@@ -80,11 +76,10 @@ Deep transformer representations are complemented with 20 engineered physiologic
 
 These 20 features are scaled using a fitted `StandardScaler` to yield a standardized 20-dimensional vector.
 
-### 2.4. Downstream Classifier (XGBoost)
-The 768-dim deep ViT embedding and the 20-dim standardized physiological vector are concatenated into a **788-dimensional fused feature vector**:
-$$\mathbf{z}_{\text{fused}} = [\mathbf{e}_{\text{ViT}}^{(768)} \,\|\, \mathbf{x}_{\text{physio}}^{(20)}] \in \mathbb{R}^{788}$$
-An **XGBoost Classifier** evaluates this vector to produce an objective autonomic stress probability:
-$$p_{\text{stress}} = \text{XGBoost}(\mathbf{z}_{\text{fused}}) \in [0.0, 1.0]$$
+### 2.4. Downstream Classifier (Primary 768-D XGBoost — Experiment A)
+The primary production classifier (`models/downstream/model_a_embeddings_only.json`, **Experiment A**, **0.9400 ROC-AUC / 0.8113 Macro-F1**) takes the frozen **768-dimensional** NormWear ViT representation directly:
+$$p_{\text{stress}} = \text{XGBoost}(\mathbf{e}_{\text{ViT}}^{(768)}) \in [0.0, 1.0]$$
+predicting binary `0` (Baseline) vs. `1` (Stress). Meanwhile, the 20-D physiological features feed the `StrainEngine` for personal-baseline Z-scores and 5-factor cause attribution (while the RELAX IBI/ACC longitudinal pipeline remains strictly isolated). *(Legacy 788-D fused artifact `stress_response_xgb.json` is retained untouched on disk for audit compatibility.)*
 
 #### What does XGBoost do?
 **XGBoost (eXtreme Gradient Boosting)** is an ensemble machine learning algorithm based on Gradient Boosted Decision Trees (GBDT). In this architecture, it acts as the **supervised decision-making head**:
@@ -96,16 +91,15 @@ $$p_{\text{stress}} = \text{XGBoost}(\mathbf{z}_{\text{fused}}) \in [0.0, 1.0]$$
    yielding a calibrated probability between $0.0$ (relaxed/baseline) and $1.0$ (acute stress).
 
 #### Why is XGBoost used here?
-1. **Optimal for Heterogeneous Tabular Fusion**:
-   - The fused feature vector combines two fundamentally different representations: **768 continuous latent representations** from the Vision Transformer and **20 explicit physical biomarkers** (BPM, ms, $\mu\text{S}$, $^\circ\text{C}$).
-   - Neural network classifiers often struggle with tabular datasets with disparate feature distributions and scales. Gradient boosted trees are naturally scale-invariant and handle heterogeneous tabular data exceptionally well.
+1. **Clean Latent Separability & Zero-Shot Generalization**:
+   - In subject-independent validation (`0.9400` ROC-AUC / `0.8113` Macro-F1), the **768-D NormWear-only Experiment A** head outperforms both physiological-only features (`0.9163` ROC-AUC / `0.7859` Macro-F1) and concatenated 788-D fusion (`0.9355` ROC-AUC / `0.8104` Macro-F1). Keeping the 20-D biomarkers dedicated to `StrainEngine` personal-baseline Z-scores and 5-factor cause attribution preserves clean architectural separation without feature collinearity.
 2. **Prevents Overfitting on Small Cohorts**:
    - Physiological benchmark datasets (such as WESAD, with 15 subjects) have limited subject diversity. Fine-tuning the 136.1M parameter Vision Transformer directly would lead to severe overfitting and catastrophic forgetting.
    - Freezing the ViT backbone and training an XGBoost downstream classifier guarantees strong generalization across unseen subjects.
 3. **Captures Non-Linear Physiological Interactions**:
    - Stress responses are non-linear (e.g., an elevated heart rate alone might just be physical movement, but an elevated heart rate paired with an EDA spike and skin temperature drop indicates sympathetic fight-or-flight activation). Decision trees naturally identify these multi-condition threshold combinations without requiring manual feature cross-products.
-4. **Sub-Millisecond Inference Speed**:
-   - Tree traversal is computationally trivial compared to neural network forward passes. XGBoost evaluates the 788-dimensional vector in **$< 0.5 \text{ ms}$**, enabling real-time edge telemetry with zero GPU/Metal thread contention.
+4. **Sub-Millisecond Classifier Inference**:
+   - Tree traversal is computationally trivial compared to neural network forward passes. XGBoost evaluates the 768-dimensional vector in **0.22 ms median**, enabling real-time edge telemetry with zero GPU/Metal thread contention (`n_jobs=1`).
 5. **Effective Class Imbalance Handling**:
    - Physiological baseline periods far exceed stress episodes. XGBoost natively integrates training-only class weighting ($w_0 = 0.7773, w_1 = 1.4015$), preventing majority-class bias and maximizing balanced accuracy and ROC-AUC.
 
@@ -235,5 +229,6 @@ When calling `engine.process_window(subject_id, window)`, the engine produces a 
 - **Memory Footprint**:
   - Model weights on disk: ~545 MB.
   - Active runtime memory: ~1.2 GB RAM / Unified Memory.
-- **Inference Latency**:
-  - End-to-end per 6.0-second window: **~15 to 25 ms** (enabling >40x real-time processing speed).
+- **Inference Latency (100-window benchmark, Apple Silicon `mps`, `outputs/phase7/latency_benchmark.json`)**:
+  - End-to-end median per 6.0-second window: **112.86 ms** (`111.86 ms` NormWear ViT forward, `0.69 ms` 20-D physiological features, `0.22 ms` 768-D XGBoost inference, `0.03 ms` StrainEngine deviation).
+  - End-to-end p95 latency: **115.86 ms** (`8.9 windows/second`, `1.88%` of the 6,000 ms real-time window budget).
