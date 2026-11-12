@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0",
+  "adapter_id": "apple_watch_ios_json_v1",
+  "model_status": "apple_watch_domain_calibrated_v1",
+  "feature_names": [
+    "hr_mean_bpm",
+    "hr_baseline_delta_bpm",
+    "hr_robust_z",
+    "sdnn_ms",
+    "sdnn_robust_z",
+    "enmo_mean_g",
+    "enmo_p95_g",
+    "steps_ratio_to_baseline",
+    "active_energy_ratio_to_baseline",
+    "sleep_deficit_h",
+    "sleep_efficiency_pct",
+    "spo2_delta_pct",
+    "resp_rate_robust_z",
+    "normwear_acc_emb_norm"
+  ],
+  "missing_handling": "native_nan_no_zero_fill"
+}

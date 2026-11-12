@@ -1,0 +1,55 @@
+adapter:
+  adapter_id: "apple_watch_ios_json_v1"
+  schema_version: "1.0"
+  manufacturer: "Apple"
+  platform: "watchOS / iOS HealthKit + CoreMotion"
+  status: "pipeline_ready_ios_app_staged"
+
+capabilities:
+  raw_3axis_acc:
+    supported: true
+    api: "CoreMotion"
+    cadence_hz_range: [50, 100]
+    unit: "g"
+    gravity_included: true
+  continuous_hr:
+    supported: true
+    api: "HealthKit"
+    unit: "bpm"
+  nightly_hrv:
+    supported: true
+    api: "HealthKit"
+    metric: "SDNN"
+    unit: "ms"
+  sleep_stages:
+    supported: true
+    api: "HealthKit"
+    stages: ["awake", "rem", "core", "deep"]
+  activity_workouts:
+    supported: true
+    api: "HealthKit"
+    fields: ["steps", "active_energy_kcal", "workouts"]
+  optional_vitals:
+    supported: true
+    api: "HealthKit"
+    fields: ["spo2_pct", "respiratory_rate_bpm", "skin_temp_delta_c"]
+
+quality_bounds:
+  hr_bpm: [30.0, 220.0]
+  sdnn_ms: [5.0, 300.0]
+  spo2_pct: [70.0, 100.0]
+  respiratory_rate_bpm: [6.0, 45.0]
+  acc_axis_g: [-16.0, 16.0]
+
+baseline_policy:
+  min_prior_days_calibrated: 5
+  mad_consistency_factor: 1.4826
+  min_mad_fallbacks:
+    resting_hr_bpm: 2.5
+    sdnn_ms: 8.0
+    sleep_duration_h: 0.5
+    enmo_mean_g: 0.015
+    steps: 1000.0
+    active_energy_kcal: 80.0
+    spo2_pct: 0.5
+    respiratory_rate_bpm: 1.0
