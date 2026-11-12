@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "adapter_id": "apple_watch_ios_json_v1",
+  "participant_id": "AW_SYNTH_001",
+  "generated_at_utc": "2026-11-12T14:30:10+00:00",
+  "user_timezone": "Asia/Kolkata",
+  "device": {
+    "manufacturer": "Apple",
+    "model": "Apple Watch Series 9",
+    "watchos_version": "11.2",
+    "ios_companion_version": "18.2 (staged)",
+    "developer_access": "CoreMotion + HealthKit"
+  },
+  "stage_1_baseline_and_encoders": {
+    "baseline_status": "calibrated",
+    "eligible_prior_days": 9,
+    "enmo_mean_g": 0.0159,
+    "enmo_p95_g": 0.0575,
+    "normwear_acc_encoder_active": true,
+    "normwear_acc_emb_norm": 15.4068,
+    "temporal_trend_hook": {
+      "mode": "causal_rolling_trend_fallback",
+      "chronos_bolt_status": "optional_staged_not_required_for_v1",
+      "prior_resting_hr_slope_bpm_per_day": -0.227
+    }
+  },
+  "stage_2_fusion_xgboost": {
+    "model_artifact": "models/apple_watch/apple_watch_strain_xgb.json",
+    "model_status": "apple_watch_domain_calibrated_v1",
+    "physiological_deviation_score": 99.8,
+    "elevation_association_prob": 0.9982,
+    "co_occurring_states": [
+      "non_exertional_physiological_elevation",
+      "recovery_context_deviation",
+      "respiratory_or_oxygen_deviation"
+    ],
+    "treeshap_category_evidence": {
+      "activity_associated_elevation": 0.1184,
+      "non_exertional_physiological_elevation": 4.1054,
+      "recovery_context_deviation": 2.5915,
+      "respiratory_or_oxygen_deviation": 1.0694
+    },
+    "contributors": [
+      {
+        "category": "non_exertional_physiological_elevation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "hr_baseline_delta_bpm",
+        "observed_value": 23.2667,
+        "treeshap_log_odds": 3.0606,
+        "relative_share_of_positive_evidence_pct": 38.8,
+        "causal_claim": false
+      },
+      {
+        "category": "recovery_context_deviation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "sdnn_robust_z",
+        "observed_value": -2.1625,
+        "treeshap_log_odds": 1.4239,
+        "relative_share_of_positive_evidence_pct": 18.1,
+        "causal_claim": false
+      },
+      {
+        "category": "respiratory_or_oxygen_deviation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "resp_rate_robust_z",
+        "observed_value": 3.3,
+        "treeshap_log_odds": 1.0591,
+        "relative_share_of_positive_evidence_pct": 13.4,
+        "causal_claim": false
+      },
+      {
+        "category": "non_exertional_physiological_elevation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "hr_robust_z",
+        "observed_value": 6.0,
+        "treeshap_log_odds": 0.9835,
+        "relative_share_of_positive_evidence_pct": 12.5,
+        "causal_claim": false
+      },
+      {
+        "category": "recovery_context_deviation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "sleep_deficit_h",
+        "observed_value": 1.5533,
+        "treeshap_log_odds": 0.6438,
+        "relative_share_of_positive_evidence_pct": 8.2,
+        "causal_claim": false
+      },
+      {
+        "category": "recovery_context_deviation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "sdnn_ms",
+        "observed_value": 36.2,
+        "treeshap_log_odds": 0.5237,
+        "relative_share_of_positive_evidence_pct": 6.6,
+        "causal_claim": false
+      },
+      {
+        "category": "activity_associated_elevation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "enmo_mean_g",
+        "observed_value": 0.0159,
+        "treeshap_log_odds": -0.2738,
+        "relative_share_of_positive_evidence_pct": 0.0,
+        "causal_claim": false
+      },
+      {
+        "category": "activity_associated_elevation",
+        "evidence_type": "model_association_treeshap",
+        "feature_name": "active_energy_ratio_to_baseline",
+        "observed_value": 0.6426,
+        "treeshap_log_odds": -0.17,
+        "relative_share_of_positive_evidence_pct": 0.0,
+        "causal_claim": false
+      }
+    ]
+  },
+  "stage_3_recovery_and_guidance": {
+    "recovery_context": {
+      "status": "evaluated",
+      "sdnn_ms": 36.2,
+      "sdnn_robust_z": -2.162,
+      "sleep_deficit_h": 1.55,
+      "predicted_recovery_minutes": null,
+      "predicted_recovery_note": "Disabled until prospective recovery-endpoint validation (PDF Section 11.2)."
+    },
+    "recommendations": [
+      {
+        "policy_id": "POL_NON_EXERTIONAL_PAUSE",
+        "pattern": "non_exertional_physiological_elevation",
+        "guidance": "Take a brief rest or paced-breathing break, and re-check wearable fit and measurement quality.",
+        "guardrail": "Observed autonomic pattern during low movement; not psychological stress diagnosis or medical triage."
+      },
+      {
+        "policy_id": "POL_RECOVERY_REST",
+        "pattern": "recovery_context_deviation",
+        "guidance": "Prioritize sleep opportunity, light manageable activity, and monitor next-day HRV/resting-HR trends.",
+        "guardrail": "Descriptive recovery deviation vs. personal baseline; not a medical overtraining diagnosis."
+      },
+      {
+        "policy_id": "POL_VITAL_RECHECK",
+        "pattern": "respiratory_or_oxygen_deviation",
+        "guidance": "Verify band tightness/positioning and repeat measurement under rest; consult a professional if persistent.",
+        "guardrail": "Technical trend flag only; consumer watch SpO2/respiration is non-diagnostic."
+      }
+    ],
+    "llm_narration_bundle": {
+      "target_llm": "Gemini Flash-Lite (allow-listed read-only narrator hook)",
+      "can_modify_scores": false,
+      "grounded_summary": "Detected states: non_exertional_physiological_elevation, recovery_context_deviation, respiratory_or_oxygen_deviation. Baseline status: calibrated (9 prior days). Quarantined dead-letter records: 1."
+    }
+  },
+  "data_quality": {
+    "raw_acc_available": true,
+    "hr_valid_samples": 6,
+    "missing_signals": {},
+    "dead_letter_count": 1,
+    "dead_letters": [
+      {
+        "signal_name": "continuous_hr_bpm",
+        "reason": "out_of_bounds_hr",
+        "raw_value": 310.0,
+        "timestamp_utc": "2026-11-12T14:30:06Z",
+        "record_index": 6
+      }
+    ]
+  }
+}

@@ -1006,7 +1006,8 @@ selected_mode = st.sidebar.radio("View Mode", [
     "Single Subject Deep-Dive", 
     "Day-Wise Personalized Summary",
     "Two-Person Comparative Live Demo", 
-    "Upload Wearable CSV"
+    "Upload Wearable CSV",
+    "Apple Watch JSON Ingestion (iOS Stage)"
 ])
 
 if selected_mode == "Single Subject Deep-Dive":
@@ -1863,6 +1864,112 @@ elif selected_mode == "Upload Wearable CSV":
     )
     if uploaded_file is not None:
         render_uploaded_csv_analysis(uploaded_file, key_prefix="sidebar_upload")
+
+elif selected_mode == "Apple Watch JSON Ingestion (iOS Stage)":
+    from src.apple_watch_ingestion import AppleWatchJSONPipeline
+
+    st.title("⌚ Apple Watch / iOS JSON Ingestion Pipeline")
+    st.caption(
+        "Future watchOS (CoreMotion + HealthKit) -> iOS JSON Export -> Validation/QC Masks -> "
+        "Stage 1 (Personal Baseline + ENMO + NormWear ViT-Base ACC) -> Stage 2 (XGBoost + TreeSHAP) -> Stage 3 Guidance."
+    )
+    st.markdown(
+        '<span class="badge" style="background: #1e293b; color: #38bdf8; border: 1px solid #38bdf844;">'
+        'Status: Backend Ingestion Pipeline Ready • watchOS / iOS App Staged</span>',
+        unsafe_allow_html=True,
+    )
+    st.markdown("<br>", unsafe_allow_html=True)
+
+    @st.cache_resource
+    def load_apple_watch_pipeline():
+        return AppleWatchJSONPipeline(enable_normwear_acc=True)
+
+    sample_json_path = Path("data/samples/apple_watch_ios_payload_synthetic.json")
+    uploaded_json = st.file_uploader(
+        "Upload iOS/watchOS Exported JSON Payload (defaults to synthetic sample below)",
+        type=["json"],
+        key="apple_watch_json_uploader",
+    )
+
+    if uploaded_json is not None:
+        payload_data = json.load(uploaded_json)
+        payload_label = f"Uploaded JSON ({uploaded_json.name})"
+    elif sample_json_path.exists():
+        payload_data = json.loads(sample_json_path.read_text())
+        payload_label = "Synthetic iOS/watchOS Payload (`data/samples/apple_watch_ios_payload_synthetic.json`)"
+    else:
+        payload_data = None
+        payload_label = "Missing"
+
+    if payload_data is None:
+        st.error("Synthetic Apple Watch JSON payload not found. Run `python scripts/train_apple_watch_xgb.py`.")
+    else:
+        aw_pipeline = load_apple_watch_pipeline()
+        aw_result = aw_pipeline.ingest_payload(payload_data)
+
+        s1 = aw_result["stage_1_baseline_and_encoders"]
+        s2 = aw_result["stage_2_fusion_xgboost"]
+        s3 = aw_result["stage_3_recovery_and_guidance"]
+        dq = aw_result["data_quality"]
+
+        st.info(f"**Active Input Source:** {payload_label} • **Device:** `{aw_result['device'].get('model', 'Apple Watch')}` (`{aw_result['adapter_id']}`)")
+
+        k1, k2, k3, k4 = st.columns(4)
+        with k1:
+            score_val = s2["physiological_deviation_score"]
+            st.metric("XGBoost Deviation Index", f"{score_val:.1f} / 100" if score_val is not None else "Unavailable", f"Prob: {s2['elevation_association_prob']}")
+        with k2:
+            st.metric("Stage 1 Personal Baseline", s1["baseline_status"].title(), f"{s1['eligible_prior_days']} prior days")
+        with k3:
+            enmo_disp = f"{s1['enmo_mean_g']:.4f} g" if s1["enmo_mean_g"] is not None else "Missing"
+            acc_tag = "NormWear ACC: Active" if s1["normwear_acc_encoder_active"] else "NormWear ACC: Off"
+            st.metric("CoreMotion ENMO & ViT", enmo_disp, acc_tag)
+        with k4:
+            st.metric("QC & Dead Letters", f"{dq['hr_valid_samples']} valid HR", f"{dq['dead_letter_count']} quarantined")
+
+        st.subheader("Stage 2: Co-Occurring State Associations & TreeSHAP Contributor Evidence")
+        st.write("**Co-occurring states:** " + ", ".join(f"`{st_name}`" for st_name in s2["co_occurring_states"]))
+
+        contrib_df = pd.DataFrame(s2["contributors"])
+        if not contrib_df.empty:
+            c_left, c_right = st.columns([3, 2])
+            with c_left:
+                shap_chart = (
+                    alt.Chart(contrib_df)
+                    .mark_bar(cornerRadiusTopRight=4, cornerRadiusBottomRight=4)
+                    .encode(
+                        x=alt.X("treeshap_log_odds:Q", title="TreeSHAP Contribution (Log-Odds)"),
+                        y=alt.Y("feature_name:N", sort="-x", title="Apple Watch Feature"),
+                        color=alt.condition(
+                            alt.datum.treeshap_log_odds > 0,
+                            alt.value("#f97316"),
+                            alt.value("#38bdf8"),
+                        ),
+                        tooltip=["feature_name", "category", "observed_value", "treeshap_log_odds", "relative_share_of_positive_evidence_pct"],
+                    )
+                    .properties(height=270)
+                )
+                st.altair_chart(shap_chart, width="stretch")
+            with c_right:
+                cat_rows = [{"Category": k, "Positive TreeSHAP Sum": v} for k, v in s2["treeshap_category_evidence"].items()]
+                st.dataframe(pd.DataFrame(cat_rows), width="stretch", hide_index=True)
+                st.caption("Contributor shares represent model evidence under stated TreeSHAP normalization (`causal_claim: false`).")
+
+        st.subheader("Stage 3: Deterministic Wellness Policy & Dead-Letter QC Audit")
+        p_col, dl_col = st.columns(2)
+        with p_col:
+            for rec in s3["recommendations"]:
+                st.success(f"**{rec['policy_id']}** ({rec['pattern']}): {rec['guidance']}")
+            st.caption(f"Recovery Context: SDNN `{s3['recovery_context']['sdnn_ms']} ms` (z=`{s3['recovery_context']['sdnn_robust_z']}`) • Sleep Deficit `{s3['recovery_context']['sleep_deficit_h']} h` • Predicted minutes: `Disabled`")
+        with dl_col:
+            if dq["dead_letters"]:
+                st.warning(f"Dead-Letter Queue ({dq['dead_letter_count']} rejected record):")
+                st.dataframe(pd.DataFrame(dq["dead_letters"]), width="stretch", hide_index=True)
+            else:
+                st.info("Dead-Letter Queue: 0 rejected records.")
+
+        with st.expander("View Assessment API JSON Output (schema_version 1.0)"):
+            st.json(aw_result)
 
 st.markdown("---")
 st.markdown("""
