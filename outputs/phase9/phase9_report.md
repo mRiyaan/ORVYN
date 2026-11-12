@@ -3,7 +3,7 @@
 **Date**: 2026-10-07  
 **Status**: COMPLETE (PASS)  
 **Execution Device**: `MPS`  
-**Real-Time Status**: PASS (Uses **1.87%** of the 6.0s window time budget)  
+**Real-Time Status**: PASS (Uses **1.88%** of the 6.0s window time budget)  
 
 ---
 
@@ -21,17 +21,17 @@ Phase 9 unites all previous modules into a production-grade inference engine:
 
 | Component Pipeline Stage | Median Latency | Fraction of Pipeline | Real-Time Feasibility |
 | :--- | :--- | :--- | :--- |
-| **Foundation ViT Forward Pass** | **111.10 ms** | 99.1% | PASS |
+| **Foundation ViT Forward Pass** | **111.86 ms** | 99.1% | PASS |
 | **Physiological Feature Extraction** | **0.69 ms** | 0.6% | PASS |
 | **Downstream XGBoost Inference** | **0.22 ms** | 0.2% | PASS |
-| **Personal Baseline Deviation Engine** | **0.04 ms** | 0.0% | PASS |
-| **TOTAL END-TO-END PIPELINE** | **112.14 ms** | **100.0%** | **PASS (< 6000 ms)** |
+| **Personal Baseline Deviation Engine** | **0.03 ms** | 0.0% | PASS |
+| **TOTAL END-TO-END PIPELINE** | **112.86 ms** | **100.0%** | **PASS (< 6000 ms)** |
 
-- **Cold Start Initialization**: `812.1 ms`
-- **End-to-End p95 Latency**: `130.35 ms`
-- **End-to-End Max Latency**: `191.66 ms`
+- **Cold Start Initialization**: `831.9 ms`
+- **End-to-End p95 Latency**: `115.86 ms`
+- **End-to-End Max Latency**: `120.09 ms`
 - **Throughput**: `8.9 windows/second`
-- **Window Budget Utilization**: **`1.87%`** of the 6,000 ms real-time window budget.
+- **Window Budget Utilization**: **`1.88%`** of the 6,000 ms real-time window budget.
 
 ---
 
