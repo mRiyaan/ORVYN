@@ -1,7 +1,7 @@
 preprocessing:
   window_size_seconds: 6.0
   sampling_rate_hz: 64
-  overlap_seconds: 0.0
+  overlap_seconds: 3.0
   channels:
     - "wrist_BVP"
     - "wrist_EDA"

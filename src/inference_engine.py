@@ -29,13 +29,22 @@ class PhysiologicalInferenceEngine:
     """
     def __init__(
         self,
-        checkpoint_path: Union[str, Path],
-        xgb_model_path: Union[str, Path],
-        profiles_path: Union[str, Path],
+        checkpoint_path: Union[str, Path] = "checkpoints/normwear_pretrain_ckpt.pth",
+        xgb_model_path: Union[str, Path] = "models/downstream/model_a_embeddings_only.json",
+        profiles_path: Union[str, Path] = "models/personal_profiles/baseline_profiles.json",
         scaler_mean: Optional[np.ndarray] = None,
         scaler_scale: Optional[np.ndarray] = None,
         device: Optional[str] = None
     ):
+        """Initialize the NormWear encoder, primary 768-D XGBoost head, and StrainEngine.
+
+        Modality Contract:
+        - NormWear ViT-Base encodes `[B, 3, 384]` (`wrist_BVP`, `wrist_EDA`, `wrist_TEMP` @ 64 Hz).
+        - Primary XGBoost (`binary:logistic`, 768-D NormWear-only Experiment A) outputs
+          binary `0` (Baseline) vs. `1` (Stress) probability.
+        - The 20-D physiological feature vector drives `StrainEngine` personal-baseline Z-scores
+          and 5-factor cause attribution (isolated from RELAX IBI/ACC).
+        """
         if device is None:
             self.device = torch.device("mps" if torch.backends.mps.is_available() else "cpu")
         else:
@@ -110,10 +119,14 @@ class PhysiologicalInferenceEngine:
         phys_scaled = (phys_vec - self.scaler_mean) / np.maximum(self.scaler_scale, 1e-6)
         t_physio_ms = (time.perf_counter() - t_phys_start) * 1000.0
 
-        # 3. Downstream XGBoost Classification
+        # 3. Downstream XGBoost Classification (768-D primary Experiment A head; 788-D if legacy)
         t_xgb_start = time.perf_counter()
-        fused_vec = np.hstack([emb_768, phys_scaled])[np.newaxis, :] # [1, 788]
-        p_stress = float(self.classifier.predict_proba(fused_vec)[0, 1])
+        expected_dim = getattr(self.classifier, "n_features_in_", 768)
+        if expected_dim == 768:
+            clf_input = emb_768[np.newaxis, :]
+        else:
+            clf_input = np.hstack([emb_768, phys_scaled])[np.newaxis, :]
+        p_stress = float(self.classifier.predict_proba(clf_input)[0, 1])
         t_xgb_ms = (time.perf_counter() - t_xgb_start) * 1000.0
 
         # 4. Personal Baseline Deviation & Recovery Engine

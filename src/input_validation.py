@@ -18,15 +18,15 @@ class CSVValidator:
         else:
             if not pd.api.types.is_numeric_dtype(df["timestamp"]):
                 errors.append("Invalid timestamp format")
-            
-            if df["timestamp"].duplicated().any():
-                errors.append("Duplicate timestamps found")
-                
-            if df["timestamp"].diff().max() > 1.0:
-                errors.append("Large gap in timestamps")
-                
-            if df["timestamp"].max() - df["timestamp"].min() < self.min_duration_sec:
-                errors.append("Recording too short")
+            else:
+                if df["timestamp"].duplicated().any():
+                    errors.append("Duplicate timestamps found")
+
+                if df["timestamp"].diff().max() > 1.0:
+                    errors.append("Large gap in timestamps")
+
+                if df["timestamp"].max() - df["timestamp"].min() < self.min_duration_sec:
+                    errors.append("Recording too short")
                 
         for col in self.required_channels:
             if col in df.columns and not pd.api.types.is_numeric_dtype(df[col]):

@@ -1,5 +1,8 @@
 training:
   algorithm: "XGBoost"
+  primary_model: "models/downstream/model_a_embeddings_only.json"
+  primary_experiment: "Experiment A (NormWear Embeddings 768-D)"
+  feature_dim: 768
   random_seed: 42
   metrics:
     - "accuracy"

@@ -93,20 +93,21 @@ class PersonalBaselineProfile:
 
     @classmethod
     def from_dict(cls, data: Dict[str, Any]) -> "PersonalBaselineProfile":
+        # Support both median/MAD schema and legacy mean/std keys in persisted profiles.
         return cls(
             subject_id=data["subject_id"],
             embedding_centroid=np.array(data["embedding_centroid"], dtype=np.float32),
             embedding_radius_std=data["embedding_radius_std"],
-            hr_median=data["hr_median"],
-            hr_mad=data["hr_mad"],
-            rmssd_median=data["rmssd_median"],
-            rmssd_mad=data["rmssd_mad"],
-            eda_median=data["eda_median"],
-            eda_mad=data["eda_mad"],
-            scr_rate_median=data["scr_rate_median"],
-            scr_rate_mad=data["scr_rate_mad"],
-            temp_median=data["temp_median"],
-            temp_mad=data["temp_mad"],
+            hr_median=data.get("hr_median", data["hr_mean"]) if "hr_median" in data or "hr_mean" in data else 0.0,
+            hr_mad=data.get("hr_mad", data.get("hr_std", 1.0)),
+            rmssd_median=data.get("rmssd_median", data.get("rmssd_mean", 0.0)),
+            rmssd_mad=data.get("rmssd_mad", data.get("rmssd_std", 1.0)),
+            eda_median=data.get("eda_median", data.get("eda_mean", 0.0)),
+            eda_mad=data.get("eda_mad", data.get("eda_std", 1.0)),
+            scr_rate_median=data.get("scr_rate_median", data.get("scr_rate_mean", 0.0)),
+            scr_rate_mad=data.get("scr_rate_mad", data.get("scr_rate_std", 1.0)),
+            temp_median=data.get("temp_median", data.get("temp_mean", 0.0)),
+            temp_mad=data.get("temp_mad", data.get("temp_std", 1.0)),
             n_calibration_windows=data["n_calibration_windows"]
         )
 
